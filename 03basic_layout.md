@@ -80,6 +80,8 @@ anchors的位置被定义为父对象矩形的宽和高的分数（或者百分�
 
 UI element with left corners anchored to a point a certain percentage from the left side of the parent and right corners anchored to a point a certain percentage from the right side of the parent rectangle.
 UI element with left corners anchored to a point a certain percentage from the left side of the parent and right corners anchored to a point a certain percentage from the right side of the parent rectangle.
+
+UI元素，它的左边两角锚定到距父对象左边特定百分比的一点，且它的右边两点锚定到距父对象右边特定百分比的一点。
 You can drag each of the anchors individually, or if they are together, you can drag them together by clicking in the middle in between them and dragging. If you hold down Shift key while dragging an anchor, the corresponding corner of the rectangle will move together with the anchor.
 
 A useful feature of the anchor handles is that they automatically snap to the anchors of sibling rectangles to allow for precise positioning.
