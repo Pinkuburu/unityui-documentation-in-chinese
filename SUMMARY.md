@@ -11,4 +11,5 @@
 * [UI Reference](09ui_reference.md)
    * [Rect Transform](0901rect_transform.md)
    * [Canvas Components](0902canvas_components.md)
+       * Canvas
 
