@@ -6,7 +6,7 @@ Properties
 
 | Property: | Function:|
 | -- | -- |
-| Pos (X, Y, Z) | 1:2 |
+| Pos (X, Y, Z) | Position of the rectangle’s pivot point relative to the anchors. |
 | 0:3 | 1:3 |
 | 0:4 | 1:4 |
 | 0:5 | 1:5 |
