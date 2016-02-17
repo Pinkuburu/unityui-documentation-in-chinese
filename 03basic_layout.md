@@ -14,6 +14,8 @@ Toolbar buttons with Rect Tool selected
 Toolbar buttons with Rect Tool selected
 The Rect Tool can be used to move, resize and rotate UI elements. Once you have selected a UI element, you can move it by clicking anywhere inside the rectangle and dragging. You can resize it by clicking on the edges or corners and dragging. The element can be rotated by hovering the cursor slightly away from the corners until the mouse cursor looks like a rotation symbol. You can then click and drag in either direction to rotate.
 
+Rect Tool 可以被用作移动，改变大小和旋转UI对象。一旦你选择了一个UI对象，你可以通过点击矩形中的任一点并拖动来移动它。你可以通过点击边或角并拖动来改变它的大小。将鼠标指针悬停在略微远离角落直到鼠标指针看起来像旋转的标志，你可以点击并向任何一个方向拖动来旋转UI对象。
+
 Just like the other tools, the Rect Tool uses the current pivot mode and space, set in the toolbar. When working with UI it’s usually a good idea to keep those set to Pivot and Local.
 
 Toolbar buttons set to Pivot and Local
