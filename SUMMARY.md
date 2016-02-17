@@ -2,5 +2,5 @@
 
 * [介绍](README.md)
 * [Canvas](chapter1.md)
-* Basic Layout
+* [Basic Layout](basic_layout.md)
 
