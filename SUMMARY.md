@@ -44,5 +44,5 @@
        * [Horizontal Layout Group](090504horizontal_layout_group.md)
        * [Vertical Layout Group](090505vertical_layout_group.md)
        * [Grid Layout Group](090506grid_layout_group.md)
-* UI How Tos
+* [UI How Tos](0906ui_how_tos.md)
 
