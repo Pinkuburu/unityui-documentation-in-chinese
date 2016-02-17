@@ -19,4 +19,5 @@
        * [Text](090301text.md)
        * [Image](090302image.md)
        * [Raw Image](090303raw_image.md)
+       * Mask
 
