@@ -67,6 +67,8 @@ UI元素被锚定到父对象的右下角，元素相对与右下角保持了一
 
 The anchoring also allows the child to stretch together with the width or height of the parent. Each corner of the rectangle has a fixed offset to its corresponding anchor, i.e. the top left corner of the rectangle has a fixed offset to the top left anchor, etc. This way the different corners of the rectangle can be anchored to different points in the parent rectangle.
 
+锚定也允许子对象与父对象的宽高一起延展。矩形的每个角有一个相对其相应的锚的固定偏移。即，矩形的左上对锚的左上保持一个固定的偏移，诸如此类。这样矩形的不同角就能锚定到父矩形的不同点上。
+
 UI element with left corners anchored to lower left corner of the parent and right corners anchored to lower right. The corners of the element maintains fixed offsets to their respective anchors.
 UI element with left corners anchored to lower left corner of the parent and right corners anchored to lower right. The corners of the element maintains fixed offsets to their respective anchors.
 The positions of the anchors are defined in fractions (or percentages) of the parent rectangle width and height. 0.0 (0%) corresponds to the left or bottom side, 0.5 (50%) to the middle, and 1.0 (100%) to the right or top side. But anchors are not limited to the sides and middle; they can be anchored to any point within the parect rectangle.
