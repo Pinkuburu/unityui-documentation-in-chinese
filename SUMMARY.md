@@ -32,5 +32,5 @@
        * [Button](090402button.md)
        * [Toggle](090403toggle.md)
        * [Toggle Group](090404toggle_group.md)
-       * Slider
+       * [Slider](090405slider.md)
 
