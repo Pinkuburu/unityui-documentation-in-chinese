@@ -13,13 +13,15 @@ The Canvas area is shown as a rectangle in the Scene View. This makes it easy to
 
 在场景视图中canvas区域显示为一个矩形。这样就不需要一直看着Game视图，可以在Scene窗口里便捷的定位UI元素。
 
-#Draw order of elements
+##Draw order of elements（元素的绘制顺序）
 
 UI elements in the Canvas are drawn in the same order they appear in the Hierarchy. The first child is drawn first, the second child next, and so on. If two UI elements overlap, the later one will appear on top of the earlier one.
 
+Canvas里同一层次结构的UI元素会在同一绘制顺序里。第一个子对象会第一个绘制，接下来是第二个子对象，以此类推。如果两个UI元素重叠，则晚一些绘制的会出现在早先绘制的上面
+
 To change which element appear on top of other elements, simply reorder the elements in the Hierarchy by dragging them. The order can also be controlled from scripting by using these methods on the Transform component: SetAsFirstSibling, SetAsLastSibling, and SetSiblingIndex.
 
-#Render Modes
+##Render Modes
 
 The Canvas has a Render Mode setting which can be used to make it render in screen space or world space.
 
