@@ -1,4 +1,4 @@
-# Canvas（画布）
+# Canvas画布
 
 The Canvas is the area that all UI elements should be inside. The Canvas is a Game Object with a Canvas component on it, and all UI elements must be children of such a Canvas.
 
@@ -13,7 +13,7 @@ The Canvas area is shown as a rectangle in the Scene View. This makes it easy to
 
 在场景视图中canvas区域显示为一个矩形。这样就不需要一直看着Game视图，可以在Scene窗口里便捷的定位UI元素。
 
-##Draw order of elements（元素的绘制顺序）
+##Draw order of elements元素的绘制顺序
 
 UI elements in the Canvas are drawn in the same order they appear in the Hierarchy. The first child is drawn first, the second child next, and so on. If two UI elements overlap, the later one will appear on top of the earlier one.
 
