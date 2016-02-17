@@ -46,4 +46,5 @@
        * [Grid Layout Group](090506grid_layout_group.md)
 * [UI How Tos](0906ui_how_tos.md)
    * [Designing UI for Multiple Resolutions](090601designing_ui_for_multiple_resolutions.md)
+   * Making UI elements fit the size of their content
 
