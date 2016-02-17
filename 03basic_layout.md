@@ -76,6 +76,8 @@ UI element with left corners anchored to lower left corner of the parent and rig
 
 The positions of the anchors are defined in fractions (or percentages) of the parent rectangle width and height. 0.0 (0%) corresponds to the left or bottom side, 0.5 (50%) to the middle, and 1.0 (100%) to the right or top side. But anchors are not limited to the sides and middle; they can be anchored to any point within the parect rectangle.
 
+anchors的位置被定义为父对象矩形的宽和高的分数（或者百分比）。0.0（0%）相当于左边或者底边，0.5（50%）相当于中心，而1.0（100%）相当于右边或者顶边。但是锚点不限于边或者中心；它们可以被锚定到父矩阵内部的任意一点。
+
 UI element with left corners anchored to a point a certain percentage from the left side of the parent and right corners anchored to a point a certain percentage from the right side of the parent rectangle.
 UI element with left corners anchored to a point a certain percentage from the left side of the parent and right corners anchored to a point a certain percentage from the right side of the parent rectangle.
 You can drag each of the anchors individually, or if they are together, you can drag them together by clicking in the middle in between them and dragging. If you hold down Shift key while dragging an anchor, the corresponding corner of the rectangle will move together with the anchor.
