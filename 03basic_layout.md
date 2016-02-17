@@ -85,6 +85,8 @@ UI元素，它的左边两角锚定到距父对象左边特定百分比的一点
 
 You can drag each of the anchors individually, or if they are together, you can drag them together by clicking in the middle in between them and dragging. If you hold down Shift key while dragging an anchor, the corresponding corner of the rectangle will move together with the anchor.
 
+你可以单独拖动任意一个锚点，或者如果它们在一起，你可以一起拖动他们，通过点击它们的中心然后拖动。如果你在拖动锚点的同时按住Shift键，矩形相应的角将会和锚点一起移动。
+
 A useful feature of the anchor handles is that they automatically snap to the anchors of sibling rectangles to allow for precise positioning.
 
 Anchor presets
