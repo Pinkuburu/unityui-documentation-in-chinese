@@ -14,4 +14,5 @@
        * [Canvas](090201canvas.md)
        * [Canvas Scaler](090202canvas_scaler.md)
        * [Canvas Group](090203canvas_group.md)
+       * 090204Canvas Renderer
 
