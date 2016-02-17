@@ -26,6 +26,7 @@ To change which element appear on top of other elements, simply reorder the elem
 ##Render Modes 渲染模式
 
 The Canvas has a Render Mode setting which can be used to make it render in screen space or world space.
+
 画布拥有一种渲染模式用来决定它是在屏幕空间还是世界空间上渲染。
 
 ###Screen Space - Overlay
