@@ -100,6 +100,8 @@ In the Inspector, the Anchor Preset button can be found in the upper left corner
 
 The Anchor Presets buttons displays the currently selected preset option if there is one. If the anchors on either the horizontal or vertical axis are set to different positions than any of the presets, the custom options is shown.
 
+如果有选择预设的话，锚点预设按钮展示当前选择的预设选项。如果横纵轴的任意锚点被设置为与预设不同，那就会显示定制这个选项的图标。
+
 Anchor and position fields in the Inspector
 
 You can click the Anchors expansion arrow to reveal the anchor number fields if they are not already visible. Anchor Min corresponds to the lower left anchor handle in the Scene View, and Anchor Max corresponds to the upper right handle.
