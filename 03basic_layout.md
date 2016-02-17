@@ -123,4 +123,6 @@ When the anchors are separated the fields can change partially or completely to 
 
 Note that changing the values in the anchor or pivot fields will normally counter-adjust the positioning values in order to make the rectangle stay in place. If cases where this is not desired, the Raw Mode can be enabled using a small button in the Inspector. This causes the anchor and pivot value to be able to be changed without any other values changing as a result. This will likely cause the rectangle to be visually moved or resized, since its position and size is dependent on the anchor and pivot values.
 
+注意，改变anchor或pivot域中的值通常会逆向调整位置值来使得矩形归位。如果在不尽人意的情况下，可以通过点击Inspector界面的一个小按钮来使用Raw模式。这会导致锚点和枢轴能够被改变而不会因此改变任何其他值。这将大概导致矩形可视化的移动或改变大小，及时它的位置和大小取决于锚点和枢轴值。
+
 Canvas
