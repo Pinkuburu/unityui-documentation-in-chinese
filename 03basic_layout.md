@@ -57,6 +57,9 @@ If the parent of a Rect Transform is also a Rect Transform, the child Rect Trans
 
 UI element anchored to the center of the parent. The element maintains a fixed offset to the center.
 UI element anchored to the center of the parent. The element maintains a fixed offset to the center.
+
+UI元素被锚定到父对象的中心，这个元素相对中心保持了一个固定的偏移
+
 UI element anchored to the lower right corner of the parent. The element maintains a fixed offset to the lower right corner.
 UI element anchored to the lower right corner of the parent. The element maintains a fixed offset to the lower right corner.
 The anchoring also allows the child to stretch together with the width or height of the parent. Each corner of the rectangle has a fixed offset to its corresponding anchor, i.e. the top left corner of the rectangle has a fixed offset to the top left anchor, etc. This way the different corners of the rectangle can be anchored to different points in the parent rectangle.
