@@ -16,5 +16,5 @@
        * [Canvas Group](090203canvas_group.md)
        * [Canvas Renderer](090204canvas_renderer.md)
    * [Visual Components](0903visual_components.md)
-       * Text
+       * [Text](090301text.md)
 
