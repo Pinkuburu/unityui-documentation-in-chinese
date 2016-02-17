@@ -21,7 +21,7 @@ Canvas中的UI 元素以它们在Hierarchy模块中出现的相同顺序进行�
 
 To change which element appear on top of other elements, simply reorder the elements in the Hierarchy by dragging them. The order can also be controlled from scripting by using these methods on the Transform component: SetAsFirstSibling, SetAsLastSibling, and SetSiblingIndex.
 
-哪个元素需要显示在其他的元素之上，只要简单的去拖动元素即可重新排列他们在Hierarchy中的顺序。这顺序也可以使用代码控制，通过调用Transform中的这些函数：SetAsFirstSibling，SetAsLastSibling，和 SetSiblingIndex。
+哪个元素需要显示在其他的元素之上，只要简单地去拖动元素即可重新排列他们在Hierarchy中的顺序。这顺序也可以使用代码控制，通过调用Transform中的这些函数：SetAsFirstSibling，SetAsLastSibling，和 SetSiblingIndex。
 
 ##Render Modes
 
