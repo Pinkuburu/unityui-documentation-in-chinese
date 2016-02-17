@@ -95,6 +95,8 @@ Anchor presets
 
 In the Inspector, the Anchor Preset button can be found in the upper left corner of the Rect Transform component. Clicking the button brings up the Anchor Presets dropdown. From here you can quickly select from some of the most common anchoring options. You can anchor the UI element to the sides or middle of the parent, or stretch together with the parent size. The horizontal and vertical anchoring is independent.
 
+在Inspector视图中，锚点预设按钮可以在Rect Transform组件的左上角被找到。点击这个按钮你可以调出锚点预设下拉菜单。在这里你可以快速地从一些通常锚点选项中选择。你可以设置UI元素的锚点到父对象的边缘或者中心，或者随父对象的大小一起延展。横竖锚定是独立的。
+
 
 The Anchor Presets buttons displays the currently selected preset option if there is one. If the anchors on either the horizontal or vertical axis are set to different positions than any of the presets, the custom options is shown.
 
