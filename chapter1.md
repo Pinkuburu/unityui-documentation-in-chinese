@@ -23,7 +23,7 @@ To change which element appear on top of other elements, simply reorder the elem
 
 哪个元素需要显示在其他的元素之上，只要简单地去拖动元素即可重新排列他们在Hierarchy中的顺序。顺序也可以使用代码控制，通过调用Transform组件中的这些方法：SetAsFirstSibling，SetAsLastSibling，和 SetSiblingIndex。
 
-##Render Modes
+##Render Modes渲染模式
 
 The Canvas has a Render Mode setting which can be used to make it render in screen space or world space.
 
