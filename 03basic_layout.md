@@ -110,6 +110,8 @@ You can click the Anchors expansion arrow to reveal the anchor number fields if 
 
 The position fields of rectangle are shown differently depending on whether the anchors are together (which produces a fixed width and height) or separated (which causes the rectangle to stretch together with the parent rectangle).
 
+矩形位置域的展示取决于锚点是否在一起，当锚点在一起时会导致固定的宽高，当锚点分离时就会导致矩形会和父矩形一起延展。
+
 
 When all the anchor handles are together the fields displayed are Pos X, Pos Y, Width and Height. The Pos X and Pos Y values indicate the position of the pivot relative to the anchors.
 
