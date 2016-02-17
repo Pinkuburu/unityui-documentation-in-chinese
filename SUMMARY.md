@@ -55,4 +55,5 @@
    * [Controls](1102controls.md)
    * [Customization](1103customization.md)
    * [IMGUI Layout Modes](1104imgui_layout_modes.md)
+   * Extending IMGUI
 
