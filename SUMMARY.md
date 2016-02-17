@@ -8,7 +8,6 @@
 * [Animation Integration](06animation_integration.md)
 * [Auto Layout](07auto_layout.md)
 * [Rich Text](08rich_text.md)
-   * Canvas Components
 * [UI Reference](09ui_reference.md)
    * [Rect Transform](0901rect_transform.md)
 
