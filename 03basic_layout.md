@@ -8,6 +8,8 @@ The Rect Tool
 
 Every UI element is represented as a rectangle for layout purposes. This rectangle can be manipulated in the Scene View using the Rect Tool in the toolbar. The Rect Tool is used both for Unity’s 2D features and for UI, and in fact can be used even for 3D objects as well.
 
+为了布局的目的，每一个UI元素都被展示为一个矩形。这个矩形可以在场景视图（Scene View）中使用工具条中的矩形工具（Rect Tool）来操纵。矩形工具既可以在Unity 2D功能中使用，也可以在UI中使用，事实上甚至也可以运用于3D对象。
+
 Toolbar buttons with Rect Tool selected
 Toolbar buttons with Rect Tool selected
 The Rect Tool can be used to move, resize and rotate UI elements. Once you have selected a UI element, you can move it by clicking anywhere inside the rectangle and dragging. You can resize it by clicking on the edges or corners and dragging. The element can be rotated by hovering the cursor slightly away from the corners until the mouse cursor looks like a rotation symbol. You can then click and drag in either direction to rotate.
