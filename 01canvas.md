@@ -44,7 +44,7 @@ This is similar to Screen Space - Overlay, but in this render mode, the Canvas i
 
 这种模式和"屏幕空间-覆盖"模式差不多，但是在这种渲染模式中，Canvas以一个给定的距离摆放在一个特定的相机前方。UI元素由这个相机进行渲染，这就意味着这个相机的设置将会影响到UI的外观。如果相机被设定为符合透视法的。那么UI元素将会以符合透视法的方式渲染，并且透视变形的量可以通过改变相机视域来控制。如果屏幕大小改变了或者分辨率改变或者相机视锥体改变，Canvas也会自动改变大小来适应这种变化。
 
-![UI in screen space camera canvas](GUI_Canvas_Screenspace_Camera.png)
+![UI in screen space camera canvas](Main/GUI_Canvas_Screenspace_Camera.png)
 
 ######UI in screen space camera canvas
 #World Space
