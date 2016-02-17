@@ -4,7 +4,7 @@ The Rect Transform component is the 2D layout counterpart of the Transform compo
 
 Properties
 
-| 0:0 | 1:0 |
+| Property: | 1:0 |
 | -- | -- |
 | 0:2 | 1:2 |
 | 0:3 | 1:3 |
