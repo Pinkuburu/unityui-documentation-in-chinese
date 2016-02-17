@@ -30,4 +30,4 @@ The Canvas has a Render Mode setting which can be used to make it render in scre
 
 
 This render mode places UI elements on the screen rendered on top of the scene. If the screen is resized or changes resolution, the Canvas will automatically change size to match this.
-![](Main/GUI_Canvas_Screenspace_Overlay.png)
+![](Main/ GUI_Canvas_Screenspace_Overlay.png)
