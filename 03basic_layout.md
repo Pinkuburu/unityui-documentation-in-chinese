@@ -115,6 +115,8 @@ The position fields of rectangle are shown differently depending on whether the 
 
 When all the anchor handles are together the fields displayed are Pos X, Pos Y, Width and Height. The Pos X and Pos Y values indicate the position of the pivot relative to the anchors.
 
+当所有锚点柄在一起时数字域显示Pos X（X位置坐标）, Pos Y（Y位置坐标）, Width（宽）和Height（高）。Pos X和Pos Y的值指明了pivot（枢轴）相对与anchors（锚点）的位置。
+
 When the anchors are separated the fields can change partially or completely to Left, Right, Top and Bottom. These fields define the padding inside the rectangle defined by the anchors. The Left and Right fields are used if the anchors are separated horizontally and the Top and Bottom fields are used if they are separated vertically.
 
 Note that changing the values in the anchor or pivot fields will normally counter-adjust the positioning values in order to make the rectangle stay in place. If cases where this is not desired, the Raw Mode can be enabled using a small button in the Inspector. This causes the anchor and pivot value to be able to be changed without any other values changing as a result. This will likely cause the rectangle to be visually moved or resized, since its position and size is dependent on the anchor and pivot values.
