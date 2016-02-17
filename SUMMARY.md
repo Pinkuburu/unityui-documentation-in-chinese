@@ -5,4 +5,5 @@
 * [Basic Layout](03basic_layout.md)
 * [Visual Components](04visual_components.md)
 * [Interaction Components](05interaction_components.md)
+* Animation Integration
 
