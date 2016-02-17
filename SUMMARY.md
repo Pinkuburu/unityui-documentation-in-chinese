@@ -45,5 +45,5 @@
        * [Vertical Layout Group](090505vertical_layout_group.md)
        * [Grid Layout Group](090506grid_layout_group.md)
 * [UI How Tos](0906ui_how_tos.md)
-   * Designing UI for Multiple Resolutions
+   * [Designing UI for Multiple Resolutions](090601designing_ui_for_multiple_resolutions.md)
 
