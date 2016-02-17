@@ -45,7 +45,7 @@
        * [Vertical Layout Group](090505vertical_layout_group.md)
        * [Grid Layout Group](090506grid_layout_group.md)
 * [UI How Tos](10ui_how_tos.md)
-   * [Designing UI for Multiple Resolutions](090601designing_ui_for_multiple_resolutions.md)
+   * [Designing UI for Multiple Resolutions](1001designing_ui_for_multiple_resolutions.md)
    * [Making UI elements fit the size of their content](090602making_ui_elements_fit_the_size_of_their_content.md)
    * [Creating a World Space UI](090603creating_a_world_space_ui.md)
    * [Creating UI elements from scripting](090604creating_ui_elements_from_scripting.md)
