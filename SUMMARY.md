@@ -7,4 +7,5 @@
 * [Interaction Components](05interaction_components.md)
 * [Animation Integration](06animation_integration.md)
 * [Auto Layout](07auto_layout.md)
+* Rich Text
 
