@@ -106,6 +106,9 @@ Anchor and position fields in the Inspector
 
 You can click the Anchors expansion arrow to reveal the anchor number fields if they are not already visible. Anchor Min corresponds to the lower left anchor handle in the Scene View, and Anchor Max corresponds to the upper right handle.
 
+你可以单击锚点扩展箭头来显示锚点的数字域如果它们并不可见的话。Anchor Min对应Scene视图中的左下锚点柄，Anchor Max对应右上锚点柄。
+
+
 The position fields of rectangle are shown differently depending on whether the anchors are together (which produces a fixed width and height) or separated (which causes the rectangle to stretch together with the parent rectangle).
 
 
