@@ -10,7 +10,8 @@ Creating a new UI element, such as an Image using the menu GameObject > UI > Ima
 创建一个新的UI元素，例如从菜单“ GameObject > UI > Image”创建一个image，如果当前场景中不存在一个canvas，则会自动的创建一个canvas。该UI元素会作为子对象创建在这个画布里。
 
 The Canvas area is shown as a rectangle in the Scene View. This makes it easy to position UI elements without needing to have the Game View visible at all times.
-在场景视图中canvas区域显示为一个矩形。这样就不需要一直看着game视图，可以在Scene窗口里便捷的定位UI元素。
+
+在场景视图中canvas区域显示为一个矩形。这样就不需要一直看着Game视图，可以在Scene窗口里便捷的定位UI元素。
 
 #Draw order of elements
 
