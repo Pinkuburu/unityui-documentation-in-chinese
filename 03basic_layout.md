@@ -119,6 +119,8 @@ When all the anchor handles are together the fields displayed are Pos X, Pos Y, 
 
 When the anchors are separated the fields can change partially or completely to Left, Right, Top and Bottom. These fields define the padding inside the rectangle defined by the anchors. The Left and Right fields are used if the anchors are separated horizontally and the Top and Bottom fields are used if they are separated vertically.
 
+当锚点分离，数字域将部分或者全部变为Left（左），Right（右），Top（顶），Bottom（底）。这些域定义了锚点所定义的矩形中的边距。如果横向的锚点分离，Left和Right域会被使用。如果纵向的锚点分离，Top和Button域会被使用。
+
 Note that changing the values in the anchor or pivot fields will normally counter-adjust the positioning values in order to make the rectangle stay in place. If cases where this is not desired, the Raw Mode can be enabled using a small button in the Inspector. This causes the anchor and pivot value to be able to be changed without any other values changing as a result. This will likely cause the rectangle to be visually moved or resized, since its position and size is dependent on the anchor and pivot values.
 
 Canvas
