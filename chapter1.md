@@ -35,7 +35,6 @@ The Canvas has a Render Mode setting which can be used to make it render in scre
 This render mode places UI elements on the screen rendered on top of the scene. If the screen is resized or changes resolution, the Canvas will automatically change size to match this.
 这种渲染模式将UI元素放置在屏幕上并在场景的最前方渲染。如果更换了屏幕或者改变了分辨率，Canvas将自动改变大小来适配它。
 ![](Main/GUI_Canvas_Screenspace_Overlay.png)
-
 ######UI in screen space overlay canvas
 #Screen Space - Camera
 
