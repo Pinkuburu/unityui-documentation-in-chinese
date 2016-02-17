@@ -49,6 +49,8 @@ Anchors
 
 Rect Transforms include a layout concept called anchors. Anchors are shown as four small triangular handles in the Scene View and anchor information is also shown in the Inspector.
 
+Rect Transform 包括一种布局概念被称作anchors（锚点）。Anchors在Scene视图中被展现为4个小三角形的柄，并且anchor的信息也被展现在Inspector视图中。
+
 If the parent of a Rect Transform is also a Rect Transform, the child Rect Transform can be anchored to the parent Rect Transform in various ways. For example, the child can be anchored to the center of the parent, or to one of the corners.
 
 UI element anchored to the center of the parent. The element maintains a fixed offset to the center.
