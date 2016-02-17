@@ -15,4 +15,5 @@
        * [Canvas Scaler](090202canvas_scaler.md)
        * [Canvas Group](090203canvas_group.md)
        * [Canvas Renderer](090204canvas_renderer.md)
+   * Visual Components
 
