@@ -13,4 +13,5 @@
    * [Canvas Components](0902canvas_components.md)
        * [Canvas](090201canvas.md)
        * [Canvas Scaler](090202canvas_scaler.md)
+       * Canvas Group
 
