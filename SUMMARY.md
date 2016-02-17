@@ -24,5 +24,5 @@
        * [UI Effect Components](090306ui_effect_components.md)
            * [Shadow](09030601shadow.md)
            * [Outline](09030602outline.md)
-           * Position as UV1
+           * [Position as UV1](09030603position_as_uv1.md)
 
