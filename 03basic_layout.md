@@ -18,6 +18,8 @@ Rect Tool 可以被用作移动，改变大小和旋转UI对象。一旦你选�
 
 Just like the other tools, the Rect Tool uses the current pivot mode and space, set in the toolbar. When working with UI it’s usually a good idea to keep those set to Pivot and Local.
 
+就像其他工具一样，Rect Tool 使用在工具条中设置的当前枢轴模式（pivot mode）和空间。当你做有关UI的工作时，保持那些设置为Pivot和Local通常是一个好主意。
+
 Toolbar buttons set to Pivot and Local
 Toolbar buttons set to Pivot and Local
 Rect Transform
