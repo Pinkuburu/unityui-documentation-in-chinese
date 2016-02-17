@@ -2,7 +2,7 @@
 
 The Canvas is the area that all UI elements should be inside. The Canvas is a Game Object with a Canvas component on it, and all UI elements must be children of such a Canvas.
 
-所有的UI元素都应该包含在画布里（译者注：即挂载在canvas的节点下）。canvas实际上是一个有canvas组件的gameobject，
+所有的UI元素都应该包含在画布里（译者注：即挂载在canvas的节点下）。canvas实际上是一个有canvas组件的Game Object（游戏对象），
 
 
 Creating a new UI element, such as an Image using the menu GameObject > UI > Image, automatically creates a Canvas, if there isn’t already a Canvas in the scene. The UI element is created as a child to this Canvas.
