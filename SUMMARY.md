@@ -6,4 +6,5 @@
 * [Visual Components](04visual_components.md)
 * [Interaction Components](05interaction_components.md)
 * [Animation Integration](06animation_integration.md)
+* Auto Layout
 
