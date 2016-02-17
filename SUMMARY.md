@@ -23,4 +23,5 @@
        * [RectMask2D](090305rectmask2d.md)
        * [UI Effect Components](090306ui_effect_components.md)
            * [Shadow](09030601shadow.md)
+           * Outline
 
