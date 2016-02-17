@@ -10,4 +10,5 @@
 * [Rich Text](08rich_text.md)
 * [UI Reference](09ui_reference.md)
    * [Rect Transform](0901rect_transform.md)
+   * Canvas Components
 
