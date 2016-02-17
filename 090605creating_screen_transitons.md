@@ -28,7 +28,7 @@ Managing the Screens
 
 With all the above set up, the only thing missing is for us to set the parameter Open to true on the screens Animator we want to transition to and Open to false on the currently open screens Animator. To do that we will create a small Script that will take care of that for us.
 
-using UnityEngine;
+```using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using System.Collections;
@@ -163,7 +163,7 @@ public class ScreenManager : MonoBehaviour {
         //So here we set the current Selected to null, so the provided gameObject becomes the Last Selected in the EventSystem.
         EventSystem.current.SetSelectedGameObject(null);
     }
-}
+}```
 Let’s hook up this script, we do this by creating a new GameObject, we can rename it “ScreenManager” for instance, and add the component above to it. You can assign an initial screen to it, this screen will be open at the start of your scene.
 
 Now for the final part, let’s make the UI buttons work. Select the button that should trigger the screen transition and add a new action under the On Click () list in the Inspector. Drag the ScreenManager GameObject we just created to the ObjectField, on the dropdown select ScreenManager->OpenPanel (Animator) and drag and drop the panel you want to open when the user clicks the button to the las ObjectField.
