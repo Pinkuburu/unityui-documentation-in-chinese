@@ -53,6 +53,8 @@ Rect Transform 包括一种布局概念被称作anchors（锚点）。Anchors在
 
 If the parent of a Rect Transform is also a Rect Transform, the child Rect Transform can be anchored to the parent Rect Transform in various ways. For example, the child can be anchored to the center of the parent, or to one of the corners.
 
+如果Rect Transform的父对象也是一个Rect Transform，那么子Rect Transform可以被可视化地锚定到父Rect Transform上。举个例子，子对象可以被锚定到父对象的中心，或者一个角落。
+
 UI element anchored to the center of the parent. The element maintains a fixed offset to the center.
 UI element anchored to the center of the parent. The element maintains a fixed offset to the center.
 UI element anchored to the lower right corner of the parent. The element maintains a fixed offset to the lower right corner.
