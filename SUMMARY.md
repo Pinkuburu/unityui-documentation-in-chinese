@@ -42,4 +42,5 @@
        * [Content Size Fitter](090502content_size_fitter.md)
        * [Aspect Ratio Fitter](090503aspect_ratio_fitter.md)
        * [Horizontal Layout Group](090504horizontal_layout_group.md)
+       * Vertical Layout Group
 
