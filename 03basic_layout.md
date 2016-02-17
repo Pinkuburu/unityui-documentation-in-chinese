@@ -73,6 +73,7 @@ UI element with left corners anchored to lower left corner of the parent and rig
 UI element with left corners anchored to lower left corner of the parent and right corners anchored to lower right. The corners of the element maintains fixed offsets to their respective anchors.
 
 左边两角锚定到父对象左下角且右边两角锚定到父对象右下角的UI元素。元素的四角和它们各自的锚点保持一个固定的偏移。
+
 The positions of the anchors are defined in fractions (or percentages) of the parent rectangle width and height. 0.0 (0%) corresponds to the left or bottom side, 0.5 (50%) to the middle, and 1.0 (100%) to the right or top side. But anchors are not limited to the sides and middle; they can be anchored to any point within the parect rectangle.
 
 UI element with left corners anchored to a point a certain percentage from the left side of the parent and right corners anchored to a point a certain percentage from the right side of the parent rectangle.
