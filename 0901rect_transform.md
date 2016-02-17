@@ -6,7 +6,7 @@ Properties
 
 | Property: | Function:|
 | -- | -- |
-| 0:2 | 1:2 |
+| Pos (X, Y, Z) | 1:2 |
 | 0:3 | 1:3 |
 | 0:4 | 1:4 |
 | 0:5 | 1:5 |
