@@ -57,4 +57,5 @@
    * [IMGUI Layout Modes](1104imgui_layout_modes.md)
    * [Extending IMGUI](1105extending_imgui.md)
    * [GUI Skin (IMGUI System)](1106gui_skin_imgui_system.md)
+   * GUI Style (IMGUI System)
 
