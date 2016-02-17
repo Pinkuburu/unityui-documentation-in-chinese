@@ -17,4 +17,5 @@
        * [Canvas Renderer](090204canvas_renderer.md)
    * [Visual Components](0903visual_components.md)
        * [Text](090301text.md)
+       * Image
 
