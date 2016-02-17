@@ -89,6 +89,8 @@ You can drag each of the anchors individually, or if they are together, you can 
 
 A useful feature of the anchor handles is that they automatically snap to the anchors of sibling rectangles to allow for precise positioning.
 
+锚点柄的一个有用的特点是它们自动地对齐到兄弟矩形的锚点来顾及精确的定位。
+
 Anchor presets
 
 In the Inspector, the Anchor Preset button can be found in the upper left corner of the Rect Transform component. Clicking the button brings up the Anchor Presets dropdown. From here you can quickly select from some of the most common anchoring options. You can anchor the UI element to the sides or middle of the parent, or stretch together with the parent size. The horizontal and vertical anchoring is independent.
