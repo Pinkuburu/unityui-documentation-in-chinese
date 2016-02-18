@@ -82,7 +82,7 @@ The positions of the anchors are defined in fractions (or percentages) of the pa
 
 anchors的位置被定义为父对象矩形的宽和高的分数（或者百分比）。0.0（0%）相当于左边或者底边，0.5（50%）相当于中心，而1.0（100%）相当于右边或者顶边。但是锚点不限于边或者中心；它们可以被锚定到父矩阵内部的任意一点。
 
-UI element with left corners anchored to a point a certain percentage from the left side of the parent and right corners anchored to a point a certain percentage from the right side of the parent rectangle.
+![](Main/UI_Anchored4.gif)
 UI element with left corners anchored to a point a certain percentage from the left side of the parent and right corners anchored to a point a certain percentage from the right side of the parent rectangle.
 
 UI元素，它的左边两角锚定到距父对象左边特定百分比的一点，且它的右边两点锚定到距父对象右边特定百分比的一点。
