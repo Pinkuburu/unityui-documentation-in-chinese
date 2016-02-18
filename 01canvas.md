@@ -44,9 +44,7 @@ This render mode places UI elements on the screen rendered on top of the scene. 
 
 This is similar to Screen Space - Overlay, but in this render mode, the Canvas is placed a given distance in front of a specified Camera. The UI elements are rendered by this camera, which means that the Camera settings affect the appearance of the UI. If the Camera is set to Perspective, the UI elements will be rendered with perspective, and the amount of perspective distortion can be controlled by the Camera Field of View. If the screen is resized or changes resolution, or the camera frustrum changes, the Canvas will automatically change size to match as well.
 
-这种模式和"Screen Space - Overlay"模式差不多，但在这种渲染模式中，Canvas以一个指定的距离放置在=一个特殊摄像机的前面。由这个摄像机来渲染UI元素，这就意味着这个摄像机的设置将会影响UI的显示。如果相机被设置为透视相机，那么UI元素则以透视的方法渲染，且透视变形的程度可以通过改变相机的视线范围来控制。
-
-如果相机被设定为符合透视法的。那么UI元素将会以符合透视法的方式渲染，并且透视变形的量可以通过改变相机视域来控制。如果屏幕大小改变了或者分辨率改变或者相机视锥体改变，Canvas也会自动改变大小来适应这种变化。
+这种模式和"Screen Space - Overlay"模式差不多，但在这种渲染模式中，Canvas以一个指定的距离放置在=一个特殊摄像机的前面。由这个摄像机来渲染UI元素，这就意味着这个摄像机的设置将会影响UI的显示。如果相机被设置为透视相机，那么UI元素则以透视的方法渲染，且透视变形的程度可以通过改变相机的视线范围来控制。如果屏幕大小变化或者改变了分辨率，或者改变了相机的锥形视线范围，Canvas也会自动改变大小来适配。
 
 ![UI in screen space camera canvas](Main/GUI_Canvas_Screenspace_Camera.png)
 
