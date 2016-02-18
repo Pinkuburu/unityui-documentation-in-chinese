@@ -59,7 +59,7 @@ If the parent of a Rect Transform is also a Rect Transform, the child Rect Trans
 
 如果Rect Transform的父对象也是一个Rect Transform，那么子Rect Transform可以被可视化地锚定到父Rect Transform上。举个例子，子对象可以被锚定到父对象的中心，或者一个角落。
 
-![](Main/UI_PivotRotate.png)
+![](Main/UI_Anchored1.gif)
 ######UI element anchored to the center of the parent. The element maintains a fixed offset to the center.
 
 UI元素被锚定到父对象的中心，这个元素相对中心保持了一个固定的偏移
