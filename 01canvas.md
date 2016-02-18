@@ -29,7 +29,7 @@ The Canvas has a Render Mode setting which can be used to make it render in scre
 
 Canvas有一个渲染模式的设置，用来决定它以屏幕空间渲染还是世界空间渲染。
 
-###Screen Space - Overlay
+###Screen Space - Overlay 覆盖屏幕
 
 
 This render mode places UI elements on the screen rendered on top of the scene. If the screen is resized or changes resolution, the Canvas will automatically change size to match this.
