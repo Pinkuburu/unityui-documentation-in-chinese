@@ -73,8 +73,8 @@ The anchoring also allows the child to stretch together with the width or height
 
 锚定也允许子对象与父对象的宽高一起延展。矩形的每个角有一个相对其相应的锚的固定偏移。即，矩形的左上对锚的左上保持一个固定的偏移，诸如此类。这样矩形的不同角就能锚定到父矩形的不同点上。
 
-UI element with left corners anchored to lower left corner of the parent and right corners anchored to lower right. The corners of the element maintains fixed offsets to their respective anchors.
-UI element with left corners anchored to lower left corner of the parent and right corners anchored to lower right. The corners of the element maintains fixed offsets to their respective anchors.
+![](Main/UI_Anchored3.gif)
+######UI element with left corners anchored to lower left corner of the parent and right corners anchored to lower right. The corners of the element maintains fixed offsets to their respective anchors.
 
 左边两角锚定到父对象左下角且右边两角锚定到父对象右下角的UI元素。元素的四角和它们各自的锚点保持一个固定的偏移。
 
