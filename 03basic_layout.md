@@ -27,7 +27,7 @@ Just like the other tools, the Rect Tool uses the current pivot mode and space, 
 ##Rect Transform
 The Rect Transform is a new transform component that is used for all UI elements instead of the regular Transform component.
 
-Rect Transform是一种新的transform组件用于所有UI元素，来代替通常的Transform的组件。
+UI元素使用的Rect Transform是一种新的Transform组件而不是普通的Transform组件
 ![](Main/UI_RectTransform.png)
 
 Rect Transforms have position, rotation, and scale just like regular Transforms, but it also has a width and height, used to specify the dimensions of the rectangle.
