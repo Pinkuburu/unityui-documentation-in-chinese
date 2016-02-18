@@ -31,7 +31,6 @@ UI元素使用的Rect Transform是一种新的Transform组件而不是普通的T
 ![](Main/UI_RectTransform.png)
 
 Rect Transforms have position, rotation, and scale just like regular Transforms, but it also has a width and height, used to specify the dimensions of the rectangle.
-
 Rect Transform和普通的Transform一样，有位置，旋转和大小，但是它还具有宽度和高度，用来指定矩形的大小。
 
 ###Resizing Versus Scaling
