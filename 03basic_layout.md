@@ -23,7 +23,7 @@ Just like the other tools, the Rect Tool uses the current pivot mode and space, 
 
 ![](Main/GUI_Pivot_Local_Buttons.png)
 ######Toolbar buttons set to Pivot and Local
-Rect Transform
+##Rect Transform
 
 The Rect Transform is a new transform component that is used for all UI elements instead of the regular Transform component.
 
