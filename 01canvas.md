@@ -36,8 +36,6 @@ This render mode places UI elements on the screen rendered on top of the scene. 
 
 这种渲染模式会将UI元素渲染在场景前端来显示在屏幕上。如果屏幕更改了大小或者改变了分辨率，Canvas将自动更改尺寸去适配它。
 
-这种渲染模式将UI元素放置在屏幕上并在场景的最前方渲染。如果更换了屏幕或者改变了分辨率，Canvas将自动改变大小来适配它。
-
 ![](Main/GUI_Canvas_Screenspace_Overlay.png)
 
 ######UI in screen space overlay canvas
