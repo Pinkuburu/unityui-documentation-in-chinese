@@ -57,3 +57,7 @@ In this render mode, the Canvas will behave as any other object in the scene. Th
 
 ![](Main/GUI_Canvas_Worldspace.png)
 ######UI in world space canvas
+
+
+---
+
