@@ -4,8 +4,6 @@ In this section we’ll look at how you can position UI elements relative to the
 
 在这一部分我们将看看如何相对Canvas和其他来定位UI元素。如果你想在阅读时进行试验，你可以通过菜单“GameObject -> UI -> Image”来创建一个image。
 
-在这一部分我们将会看看你如何能够相对于Canvas摆放UI元素以及其他。如果你想要在阅读时自行进行测试，你可以用菜单栏中的GameObject -> UI -> Image 创建一个Image（图片）对象。
-
 ##The Rect Tool
 
 Every UI element is represented as a rectangle for layout purposes. This rectangle can be manipulated in the Scene View using the Rect Tool in the toolbar. The Rect Tool is used both for Unity’s 2D features and for UI, and in fact can be used even for 3D objects as well.
