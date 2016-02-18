@@ -17,8 +17,6 @@ The Rect Tool can be used to move, resize and rotate UI elements. Once you have 
 
 矩形工具可以对UI元素进行缩放，改变大小和移动。一旦你选择了一个UI元素,你可以通过点击矩形内的任何地方移动和拖动。你可以通过点击边缘或角落进行拖动来改变它的大小。将鼠标悬浮在稍微原理矩形的角的位置直到鼠标指针看起来像旋转的标志。你可以点击并拖动进行旋转。
 
-Rect Tool 可以被用作移动，改变大小和旋转UI对象。一旦你选择了一个UI对象，你可以通过点击矩形中的任一点并拖动来移动它。你可以通过点击边或角并拖动来改变它的大小。将鼠标指针悬停在略微远离角落直到鼠标指针看起来像旋转的标志，你可以点击并向任何一个方向拖动来旋转UI对象。
-
 Just like the other tools, the Rect Tool uses the current pivot mode and space, set in the toolbar. When working with UI it’s usually a good idea to keep those set to Pivot and Local.
 
 就像其他工具一样，Rect Tool 使用在工具条中设置的当前枢轴模式（pivot mode）和空间。当你做有关UI的工作时，保持那些设置为Pivot和Local通常是一个好主意。
