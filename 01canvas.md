@@ -53,6 +53,8 @@ This is similar to Screen Space - Overlay, but in this render mode, the Canvas i
 
 In this render mode, the Canvas will behave as any other object in the scene. The size of the Canvas can be set manually using its Rect Transform, and UI elements will render in front of or behind other objects in the scene based on 3D placement. This is useful for UIs that are meant to be a part of the world. This is also known as a “diegetic interface”.
 
+在这个渲染模式下，Canvas的表现形式
+
 在这种渲染模式中，Canvas在场景中的表现将和其他对象一样。Canvas的大小可以用它的Rect Transform 手工设置，并且UI对象将会依据它在三维空间中的位置在其他对象之前或者之后进行渲染。这对那些被视为游戏世界一部分的UI们很有用。这也被称作“剧情的界面”。
 
 ![](Main/GUI_Canvas_Worldspace.png)
