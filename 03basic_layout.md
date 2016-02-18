@@ -34,7 +34,7 @@ Rect Transforms have position, rotation, and scale just like regular Transforms,
 
 Rect Transform 有如同通常的Transform一样的位置，旋转，和尺寸。但是它还具有宽度和高度，用来指定矩形的尺寸。
 
-Resizing Versus Scaling
+###Resizing Versus Scaling
 
 When the Rect Tool is used to change the size of an object, normally for Sprites in the 2D system and for 3D objects it will change the local scale of the object. However, when it’s used on an object with a Rect Transform on it, it will instead change the width and the height, keeping the local scale unchanged. This resizing will not affect font sizes, border on sliced images, and so on.
 
