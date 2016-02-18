@@ -38,7 +38,7 @@ Rect Transform和普通的Transform一样，有位置，旋转和大小，但是
 
 When the Rect Tool is used to change the size of an object, normally for Sprites in the 2D system and for 3D objects it will change the local scale of the object. However, when it’s used on an object with a Rect Transform on it, it will instead change the width and the height, keeping the local scale unchanged. This resizing will not affect font sizes, border on sliced images, and so on.
 
-当使用矩形工具来改变对象的大小，通常用来改变2D系统中的精灵和3D对象会改变对象的本地缩放。但是，
+当使用矩形工具来改变对象的大小，通常用来改变2D系统中的精灵和3D对象会改变对象的本地缩放。但是，当作用于一个有Rect Transform的对象时，他将改变宽度和高度，保持本地缩放不变。
 
 当Rect Tool被用来改变一个对象的大小，通常是改变2D系统的精灵和3D对象时，它会改变对象的本体大小。但是，当它被用于一个包含Rect Transform组件的对象上时，它会转而改变宽度和高度，保持自身缩放不变。这个大小调整的动作将不会影响字体大小，切片图形的边框等等。
 
