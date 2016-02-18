@@ -1,4 +1,4 @@
-# Basic Layout
+# Basic Layout 基本布局
 
 In this section we’ll look at how you can position UI elements relative to the Canvas and each other. If you want to test yourself while reading, you can create an Image using the menu GameObject -> UI -> Image.
 
