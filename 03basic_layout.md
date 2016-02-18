@@ -10,8 +10,6 @@ Every UI element is represented as a rectangle for layout purposes. This rectang
 
 为了布局目的，每一个UI元素都被展示为一个矩形。这个矩形在场景视图（Scene View）中可以被工具栏中的矩形工具（Rect Tool）来操纵。矩形工具可以在2D功能中使用，也可以在UI中使用，实际上也可以作用于3D对象。
 
-为了布局的目的，每一个UI元素都被展示为一个矩形。这个矩形可以在场景视图（Scene View）中使用工具条中的矩形工具（Rect Tool）来操纵。矩形工具既可以在Unity 2D功能中使用，也可以在UI中使用，事实上甚至也可以运用于3D对象。
-
 ![](Main/GUI_Rect_Tool_Button.png)
 ######Toolbar buttons with Rect Tool selected
 
