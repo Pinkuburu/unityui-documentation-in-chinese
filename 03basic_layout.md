@@ -1,6 +1,6 @@
 # Basic Layout
 
-n this section we’ll look at how you can position UI elements relative to the Canvas and each other. If you want to test yourself while reading, you can create an Image using the menu GameObject -> UI -> Image.
+In this section we’ll look at how you can position UI elements relative to the Canvas and each other. If you want to test yourself while reading, you can create an Image using the menu GameObject -> UI -> Image.
 
 在这一部分我们将会看看你如何能够相对于Canvas摆放UI元素以及其他。如果你想要在阅读时自行进行测试，你可以用菜单栏中的GameObject -> UI -> Image 创建一个Image（图片）对象。
 
