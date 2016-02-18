@@ -55,7 +55,5 @@ In this render mode, the Canvas will behave as any other object in the scene. Th
 
 在这个渲染模式下，Canvas的表现形式和场景里其他的游戏对象一样。Canvas大小可以手动的使用Rect Transform去调节，基于3D位置UI元素将渲染在场景中其他对象的前面或后面。这就相当于UI是游戏世界有用的一部分。例如“剧情界面”。
 
-在这种渲染模式中，Canvas在场景中的表现将和其他对象一样。Canvas的大小可以用它的Rect Transform 手工设置，并且UI对象将会依据它在三维空间中的位置在其他对象之前或者之后进行渲染。这对那些被视为游戏世界一部分的UI们很有用。这也被称作“剧情的界面”。
-
 ![](Main/GUI_Canvas_Worldspace.png)
 ######UI in world space canvas
