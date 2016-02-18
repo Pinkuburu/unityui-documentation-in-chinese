@@ -47,7 +47,7 @@ Rotations, size, and scale modifications occur around the pivot so the position 
 旋转，大小和缩放修改在Pivot周围发生，所以Pivot的位置影响到旋转、跳转大小或者缩放的效果。当工具条的Pivot按钮被设定为Pivot模式，Rect Transform的pivot可以在Scene视图中移动。
 
 
-Anchors
+###Anchors
 
 Rect Transforms include a layout concept called anchors. Anchors are shown as four small triangular handles in the Scene View and anchor information is also shown in the Inspector.
 
@@ -93,7 +93,7 @@ A useful feature of the anchor handles is that they automatically snap to the an
 
 锚点柄的一个有用的特点是它们自动地对齐到兄弟矩形的锚点来顾及精确的定位。
 
-Anchor presets
+###Anchor presets
 
 In the Inspector, the Anchor Preset button can be found in the upper left corner of the Rect Transform component. Clicking the button brings up the Anchor Presets dropdown. From here you can quickly select from some of the most common anchoring options. You can anchor the UI element to the sides or middle of the parent, or stretch together with the parent size. The horizontal and vertical anchoring is independent.
 
@@ -104,7 +104,7 @@ The Anchor Presets buttons displays the currently selected preset option if ther
 
 如果有选择预设的话，锚点预设按钮展示当前选择的预设选项。如果横纵轴的任意锚点被设置为与预设不同，那就会显示定制这个选项的图标。
 
-Anchor and position fields in the Inspector
+###Anchor and position fields in the Inspector
 
 You can click the Anchors expansion arrow to reveal the anchor number fields if they are not already visible. Anchor Min corresponds to the lower left anchor handle in the Scene View, and Anchor Max corresponds to the upper right handle.
 
