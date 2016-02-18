@@ -49,7 +49,7 @@ This is similar to Screen Space - Overlay, but in this render mode, the Canvas i
 ![UI in screen space camera canvas](Main/GUI_Canvas_Screenspace_Camera.png)
 
 ######UI in screen space camera canvas
-###World Space
+###World Space 世界空间
 
 In this render mode, the Canvas will behave as any other object in the scene. The size of the Canvas can be set manually using its Rect Transform, and UI elements will render in front of or behind other objects in the scene based on 3D placement. This is useful for UIs that are meant to be a part of the world. This is also known as a “diegetic interface”.
 
