@@ -25,7 +25,6 @@ Just like the other tools, the Rect Tool uses the current pivot mode and space, 
 ######Toolbar buttons set to Pivot and Local
 
 ##Rect Transform
-
 The Rect Transform is a new transform component that is used for all UI elements instead of the regular Transform component.
 
 Rect Transform是一种新的transform组件用于所有UI元素，来代替通常的Transform的组件。
