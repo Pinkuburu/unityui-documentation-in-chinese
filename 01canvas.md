@@ -38,8 +38,7 @@ This render mode places UI elements on the screen rendered on top of the scene. 
 
 ![](Main/GUI_Canvas_Screenspace_Overlay.png)
 
-######UI in screen space overlay canvas
-#Screen Space - Camera
+######UI in screen space overlay canvas#Screen Space - Camera
 
 This is similar to Screen Space - Overlay, but in this render mode, the Canvas is placed a given distance in front of a specified Camera. The UI elements are rendered by this camera, which means that the Camera settings affect the appearance of the UI. If the Camera is set to Perspective, the UI elements will be rendered with perspective, and the amount of perspective distortion can be controlled by the Camera Field of View. If the screen is resized or changes resolution, or the camera frustrum changes, the Canvas will automatically change size to match as well.
 
