@@ -13,7 +13,7 @@ Every UI element is represented as a rectangle for layout purposes. This rectang
 ![](Main/GUI_Rect_Tool_Button.png)
 ######Toolbar buttons with Rect Tool selected
 
-Toolbar buttons with Rect Tool selected
+
 
 The Rect Tool can be used to move, resize and rotate UI elements. Once you have selected a UI element, you can move it by clicking anywhere inside the rectangle and dragging. You can resize it by clicking on the edges or corners and dragging. The element can be rotated by hovering the cursor slightly away from the corners until the mouse cursor looks like a rotation symbol. You can then click and drag in either direction to rotate.
 
