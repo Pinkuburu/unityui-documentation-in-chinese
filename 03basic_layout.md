@@ -40,7 +40,7 @@ When the Rect Tool is used to change the size of an object, normally for Sprites
 
 当Rect Tool被用来改变一个对象的大小，通常是改变2D系统的精灵和3D对象时，它会改变对象的本体大小。但是，当它被用于一个包含Rect Transform组件的对象上时，它会转而改变宽度和高度，保持自身缩放不变。这个大小调整的动作将不会影响字体大小，切片图形的边框等等。
 
-Pivot
+###Pivot
 
 Rotations, size, and scale modifications occur around the pivot so the position of the pivot affects the outcome of a rotation, resizing, or scaling. When the toolbar Pivot button is set to Pivot mode, the pivot of a Rect Transform can be moved in the Scene View.
 
