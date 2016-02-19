@@ -2,6 +2,8 @@
 
 An Input Field is a way to make the text of a Text Control editable. Like the other interaction controls, it’s not a visible UI element in itself and must be combined with one or more visual UI elements in order to be visible.
 
+Input Field 输入字段不是一个可见的 UI 控件而是在以使 Text Control 控件的文本可编辑。
+
 ![](Main/UI_InputFieldExample.png)
 ######An empty Input Field.
 ![](Main/UI_InputFieldExample2.png)
