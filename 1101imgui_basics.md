@@ -146,6 +146,8 @@ The Position is the first argument in any GUI Control function. The argument its
 
 The coordinate system is top-left based. Rect(10, 20, 300, 100) defines a Rectangle that starts at coordinates: 10,20 and ends at coordinates 310,120. It is worth repeating that the second pair of values in Rect() are total width and height, not the coordinates where the controls end. This is why the example mentioned above ends at 310,120 and not 300,100.
 
+坐标系统以左上角为基点。Rect(10, 20, 300, 100) 定义矩形 (Rectangle)，该矩形始于坐标：10,20，结束于坐标 310,120。还要重复一下，Rect() 中的第二对值是总宽度和高度，而非控件的结束坐标。这就是为什么上文提及示例的结束坐标是 310,120 而不是 300,100。
+
 You can use the Screen.width and Screen.height properties to get the total dimensions of the screen space available in the player. The following example may help clarify how this is done:
 
 ```
