@@ -12,6 +12,8 @@ To create a GUISkin, select Assets->Create->GUI Skin from the menubar.
 
 **Please Note: **This page refers to part of the IMGUI system, which is a scripting-only UI system. Unity has a full GameObject-based UI system which you may prefer to use. It allows you to design and edit user interface elements as visible objects in the scene view. See the UI System Manual for more information.
 
+GUISkin 是 UnityGUI 系统的一部分。有关 UnityGUI 的更多详细信息，请参阅 GUI 脚本指南.
+
 ##Properties
 
 All of the properties within a GUI Skin are an individual GUIStyle. Please read the GUIStyle page for more information about how to use Styles.
