@@ -2,7 +2,7 @@
 
 Within a selectable component there are several transition options depending on what state the selectable is currently in. The different states are: normal, highlighted, pressed and disabled.
 
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_SelectableTransition.png)
+![](Main/UI_SelectableTransition.png)
 
 | Transition Options:	 | Function: |
 | -- | -- |
@@ -13,7 +13,7 @@ Within a selectable component there are several transition options depending on 
 Each Transition option (except None) provides additional options for controlling the transitions. We’ll go into details with those in each of the sections below.
 
 ##Color Tint
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_SelectableColorTint.png)
+![](Main/UI_SelectableColorTint.png)
 
 | Property:	 | Function: |
 | -- | -- |
@@ -25,7 +25,7 @@ Each Transition option (except None) provides additional options for controlling
 | Color Multiplier	 | This multiplies the tint color for each transition by its value. With this you can create colors greater than 1 to brighten the colors (or alpha channel) on graphic elements whose base color is less than white (or less then full alpha). |
 | Fade Duration	 | The time taken, in seconds, to fade from one state to another |
 ##Sprite Swap
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_SelectableSpriteSwap.png)
+![](Main/UI_SelectableSpriteSwap.png)
 
 | Property:	 | Function: |
 | -- | -- |
@@ -34,7 +34,7 @@ Each Transition option (except None) provides additional options for controlling
 | Pressed Sprite	 | Sprite to use when the control is pressed |
 | Disabled Sprite	 | Sprite to use when the control is disabled |
 ##Animation
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_SelectableAnimation.png)
+![](Main/UI_SelectableAnimation.png)
 
 | Property:	 | Function: |
 | -- | -- |

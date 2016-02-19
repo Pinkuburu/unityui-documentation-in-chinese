@@ -1,7 +1,7 @@
 # Aspect Ratio Fitter
 
 ##Properties
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_AspectRatioFitterInspector.png)
+![](Main/UI_AspectRatioFitterInspector.png)
 
 | Property:	 | Function: |
 | -- | -- |

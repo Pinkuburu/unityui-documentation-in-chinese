@@ -2,7 +2,7 @@
 
 The Canvas Scaler component is used for controlling the overall scale and pixel density of UI elements in the Canvas. This scaling affects everything under the Canvas, including font sizes and image borders.
 
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_CanvasScalerInspector.png)
+![](Main/UI_CanvasScalerInspector.png)
 
 ##Properties
 

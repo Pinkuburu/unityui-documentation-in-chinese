@@ -2,7 +2,7 @@
 
 The Canvas Group can be used to control certain aspects of a whole group of UI elements from one place without needing to handle them each individually. The properties of the Canvas Group affect the GameObject it is on as well as all children.
 
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_CanvasGroupInspector.png)
+![](Main/UI_CanvasGroupInspector.png)
 
 ##Properties
 

@@ -20,7 +20,7 @@ As stated earlier, GUISkins are a collection of GUIStyles. Styles define the app
 
 ![A single GUIStyle shown in the Inspector](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/GuiStyleInspector.png)
 ######A single GUIStyle shown in the Inspector
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/Inspector-GUISkin.png)
+![](Main/Inspector-GUISkin.png)
 ######A single GUISkin shown in the Inspector - observe that it contains multiple GUIStyles
 
 ##Working with Styles

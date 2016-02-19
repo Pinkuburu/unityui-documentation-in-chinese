@@ -4,11 +4,11 @@ The Dropdown can be used to let the user choose a single option from a list of o
 
 The control shows the currently chosen option. Once clicked, it opens up the list of options so a new option can be chosen. Upon choosing a new option, the list of closed again, and the control shows the new selected option. The list is also closed if the user clicks on the control itself, or anywhere else inside the Canvas.
 
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_DropdownExample.png)
+![](Main/UI_DropdownExample.png)
 ######A Dropdown.
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_DropdownExampleOpen.png)
+![](Main/UI_DropdownExampleOpen.png)
 ######A Dropdown with its list of options open.
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_DropdownInspector.png)
+![](Main/UI_DropdownInspector.png)
 ##Properties
 
 | Property:	 | Function: |
@@ -40,9 +40,9 @@ The Dropdown control is designed to have a child GameObject which serves as a te
 
 The template must have a single item in it with a Toggle component on. When the actual dropdown list is created upon clicking the dropdown control, this item is duplicated multiple times, with one copy used for each option in the list. The parent of the item is automatically resized so it can fit all the items inside.
 
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_DropdownHierarchySimple.png)
+![](Main/UI_DropdownHierarchySimple.png)
 ######A simple dropdown setup where the item is an immediate child of the template.
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_DropdownHierarchyScrolling.png)
+![](Main/UI_DropdownHierarchyScrolling.png)
 ######A more advanced dropdown setup that includes a scrollview that enables scrolling when there are many options in the list.
 The template can be setup in many different ways. The setup used by the GameObject > UI > Dropdown menu item includes a scroll view, such that if there are too many options to show at once, a scrollbar will appear and the user can scroll through the options. This is however not a mandatory part of the template setup.
 

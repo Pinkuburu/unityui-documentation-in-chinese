@@ -55,7 +55,7 @@ public class GUITest : MonoBehaviour {
 
 This example is a complete, functional level loader. If you copy/paste this script and attach it a GameObject, you’ll see the following menu appear in when you enter Play Mode:
 
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/guiScripting-BasicsLoaderMenuExample.png)
+![](Main/guiScripting-BasicsLoaderMenuExample.png)
 ######The Loader Menu created by the example code
 Let’s take a look at the details of the example code:
 
@@ -149,7 +149,7 @@ public class GUITest : MonoBehaviour {
 }
 ```
 
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/gsg-ScreenWidthHeight.png)
+![](Main/gsg-ScreenWidthHeight.png)
 ######The Boxes positioned by the above example
 ###Content
 
@@ -245,7 +245,7 @@ public class GUITest : MonoBehaviour {
 ```
 
 
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/gsg-IconStringContent.png)
+![](Main/gsg-IconStringContent.png)
 ######The Buttons created by the above example
 There is a third option which allows you to display images and text together in a GUI Control. You can provide a GUIContent object as the Content argument, and define the string and image to be displayed within the GUIContent.
 

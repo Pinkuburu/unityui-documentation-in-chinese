@@ -1,7 +1,7 @@
 # Content Size Fitter
 
 ##Properties
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_ContentSizeFitterInspector.png)
+![](Main/UI_ContentSizeFitterInspector.png)
 
 | **Property:**	 | **Function:** |
 | -- | -- |

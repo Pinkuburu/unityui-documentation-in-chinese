@@ -1,7 +1,7 @@
 # Horizontal Layout Group
 
 ##Properties
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_HorizontalLayoutGroupInspector.png)
+![](Main/UI_HorizontalLayoutGroupInspector.png)
 
 | Property:	 | Function: |
 | -- | -- |

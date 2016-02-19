@@ -1,7 +1,7 @@
 # Grid Layout Group
 
 The Grid Layout Group component places its child layout elements in a grid.
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_GridLayoutGroupInspector.png)
+![](Main/UI_GridLayoutGroupInspector.png)
 
 ##Properties
 

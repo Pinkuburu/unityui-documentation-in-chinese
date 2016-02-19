@@ -4,9 +4,9 @@ A Scroll Rect can be used when content that takes up a lot of space needs to be 
 
 Usually a Scroll Rect is combined with a Mask in order to create a scroll view, where only the scrollable content inside the Scroll Rect is visible. It can also additionally be combined with one or two Scrollbars that can be dragged to scroll horizontally or vertically.
 
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_ScrollRectExample.png)
+![](Main/UI_ScrollRectExample.png)
 ######A Scroll Rect.
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_ScrollRectInspector.png)
+![](Main/UI_ScrollRectInspector.png)
 ##Properties
 
 | **Property:	** | **Function:** |
@@ -42,7 +42,7 @@ The important elements in a scroll view are the viewport, the scrolling content,
 
 This image shows a setup where the viewport is a child to the scroll view root. This is the default used when using the GameObject > UI > Scroll View menu option.
 
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_ScrollRectHierarchy.png)
+![](Main/UI_ScrollRectHierarchy.png)
 
 To scroll content, the input must be received from inside the bounds of the ScrollRect, not on the content itself.
 

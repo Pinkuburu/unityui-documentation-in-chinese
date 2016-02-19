@@ -14,15 +14,15 @@ If you plan to support controller/keyboard navigation of UI elements, then it’
 
 Let’s take a look at the most common and minimal setup for the Animation Controller to do a Screen transition. The controller will need a boolean parameter (Open) and two states (Open and Closed), each state should have an animation with only one keyframe, this way we let the State Machine do the transition blending for us.
 
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_ScreenTransitionAnimatorOpen.png)
+![](Main/UI_ScreenTransitionAnimatorOpen.png)
 ######The Open state and animation
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_ScreenTransitionAnimatorClosed.png)
+![](Main/UI_ScreenTransitionAnimatorClosed.png)
 ######The Closed state and animation
 Now we need to create the transition between both states, let’s start with the transition from Open to Closed and let’s set the condition properly, we want to go from Open to Closed when the parameter Open is set to false. Now we create the transition from Closed to Open and set the condition to go from Closed to Open when the parameter Open is true.
 
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_ScreenTransitionAnimatorTransitionToOpen.png)
+![](Main/UI_ScreenTransitionAnimatorTransitionToOpen.png)
 ######The Transition from Closed to Open
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_ScreenTransitionAnimatorTransitionToClosed.png)
+![](Main/UI_ScreenTransitionAnimatorTransitionToClosed.png)
 ######The Transition from Open to Closed
 ##Managing the Screens
 
@@ -172,7 +172,7 @@ Let’s hook up this script, we do this by creating a new GameObject, we can ren
 
 Now for the final part, let’s make the UI buttons work. Select the button that should trigger the screen transition and add a new action under the On Click () list in the Inspector. Drag the ScreenManager GameObject we just created to the ObjectField, on the dropdown select ScreenManager->OpenPanel (Animator) and drag and drop the panel you want to open when the user clicks the button to the las ObjectField.
 
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_ScreenTransitionButtonInspector.png)
+![](Main/UI_ScreenTransitionButtonInspector.png)
 ######Button Inspector
 ##Notes
 

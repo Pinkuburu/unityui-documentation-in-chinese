@@ -30,7 +30,7 @@ public class GUITest : MonoBehaviour {
 
 }
 ```
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/gsg-LabelExample.png)
+![](Main/gsg-LabelExample.png)
 
 ######The Label created by the example code
 
@@ -70,7 +70,7 @@ public class GUITest : MonoBehaviour {
 ```
 
 
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/gsg-ButtonExample.png)
+![](Main/gsg-ButtonExample.png)
 ######The Button created by the example code
 
 ###RepeatButton
@@ -108,7 +108,7 @@ public class GUITest : MonoBehaviour {
 }
 ```
 
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/gsg-RepeatButtonExample.png)
+![](Main/gsg-RepeatButtonExample.png)
 ######The Repeat Button created by the example code
 ###TextField
 
@@ -146,7 +146,7 @@ public class GUITest : MonoBehaviour {
 ```
 
 
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/gsg-TextFieldExample.png)
+![](Main/gsg-TextFieldExample.png)
 ######The TextField created by the example code
 ###TextArea
 
@@ -184,7 +184,7 @@ public class GUITest : MonoBehaviour {
 
 ```
 
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/gsg-TextAreaExample.png)
+![](Main/gsg-TextAreaExample.png)
 ######The TextArea created by the example code
 ###Toggle
 
@@ -222,7 +222,7 @@ public class GUITest : MonoBehaviour {
 ```
 
 
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/gsg-ToggleExample.png)
+![](Main/gsg-ToggleExample.png)
 ######The Toggle created by the example code
 ###Toolbar
 

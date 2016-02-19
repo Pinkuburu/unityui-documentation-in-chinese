@@ -10,7 +10,7 @@ The “Immediate Mode” GUI system (also known as IMGUI) is an entirely separat
 
 Would result in a button displayed like so:
 
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/GUIScriptingGuideHelloExample.png)
+![](Main/GUIScriptingGuideHelloExample.png)
 ######The result of the above code example
 The Immediate Mode GUI system is commonly used for:
 

@@ -2,7 +2,7 @@
 
 The Raw Image control displays a non-interactive image to the user. This can be used for decoration, icons, etc, and the image can also be changed from a script to reflect changes in other controls. The control is similar to the Image control but does not have the same set of options for animating the image and accurately filing the control rectangle. However, the Raw Image can display any texture whilst the Image can only show a Sprite texture.
 
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/RawImageCtrlExample.png)
+![](Main/RawImageCtrlExample.png)
 ######A Raw Image control
 ##Properties
 

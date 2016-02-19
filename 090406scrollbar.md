@@ -2,9 +2,9 @@
 
 The Scrollbar control allows the user to scroll an image or other view that is too large to see completely. Note that the similar Slider control is used for selecting numeric values rather than scrolling. Familiar examples include the vertical Scrollbar at the side of a text editor and the vertical and horizontal pair of bars for viewing a section of a large image or map.
 
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_ScrollbarExample.png)
+![](Main/UI_ScrollbarExample.png)
 ######A Scrollbar.
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_ScrollBarInspector.png)
+![](Main/UI_ScrollBarInspector.png)
 ##Properties
 
 | Property:	 | Function: |

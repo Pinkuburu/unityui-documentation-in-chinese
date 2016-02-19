@@ -1,7 +1,7 @@
 # Vertical Layout Group
 
 ##Properties
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_VerticalLayoutGroupInspector.png)
+![](Main/UI_VerticalLayoutGroupInspector.png)
 
 | Property:	 | Function: |
 | -- | -- |

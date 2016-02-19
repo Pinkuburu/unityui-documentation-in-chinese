@@ -1,7 +1,7 @@
 # Layout Element
 
 ##Properties
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_LayoutElementInspector.png)
+![](Main/UI_LayoutElementInspector.png)
 
 | Property:	 | Function: |
 | -- | -- |

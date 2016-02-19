@@ -2,11 +2,11 @@
 
 An Input Field is a way to make the text of a Text Control editable. Like the other interaction controls, it’s not a visible UI element in itself and must be combined with one or more visual UI elements in order to be visible.
 
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_InputFieldExample.png)
+![](Main/UI_InputFieldExample.png)
 ######An empty Input Field.
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_InputFieldExample2.png)
+![](Main/UI_InputFieldExample2.png)
 ######Text entered into the Input Field.
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_InputFieldInspector.png)
+![](Main/UI_InputFieldInspector.png)
 
 ##Properties
 

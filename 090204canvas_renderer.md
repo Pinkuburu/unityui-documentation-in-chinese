@@ -2,7 +2,7 @@
 
 The Canvas Renderer component renders a graphical UI object contained within a Canvas.
 
-![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_CanvasRendererInspector.png)
+![](Main/UI_CanvasRendererInspector.png)
 ##Properties
 
 The Canvas Renderer has no properties exposed in the inspector.
