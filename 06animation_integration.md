@@ -22,6 +22,8 @@ For example, if a Button element with an Animator controller attached is selecte
 
 There is an Animation Clip pop-up menu to select the desired clip. Choose from “Normal”, “Highlighted”, “Pressed” and “Disabled”.
 
+还有动画剪辑 Clip 的弹出式菜单。从"正常"Normal，"突出显示"Highlighted，选择"按 下"Pressed 和"禁用"Disabled 中选择所需的剪辑
+
 ![](Main/GUI_ButtonAnimationWindow.png)
 
 The Normal State is set by the values on button element itself and can be left empty. On all other states, the most common configuration is a single keyframe at the start of the timeline. The transition animation between states will be handled by the Animator.
