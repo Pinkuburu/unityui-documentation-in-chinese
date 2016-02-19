@@ -124,6 +124,8 @@ This selects the material at position in the renderer’s material array and set
 
 Rich text is disabled by default in the editor GUI system but it can be enabled explicitly using a custom GUIStyle. The richText property should be set to true and the style passed to the GUI function in question:-
 
+Rich text 默认是不显示在 editor GUI system，但可以启用显式使用自定义的 GUIStyle。 richText 属性应设置为 true 和传递到 GUI 函数的风格：-
+
 ```
 GUIStyle style = new GUIStyle ();
 style.richText = true;
