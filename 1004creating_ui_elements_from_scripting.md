@@ -12,9 +12,11 @@ In order to be able to easily instantiate UI elements dynamically, the first ste
 
 For example, a prefab for a button could be a Game Object with a Image component and a Button component, and a child Game Object with a Text component. Your setup might be different depending on your needs.
 
-例如，一个按钮的预置体可能是一个游戏对象与 Image 图像组件和一个 Button 按钮组 件和一个子游戏对象具有 Text 组件。您可以设置不同的根据您的需求。 你
+例如，一个按钮的预置体可能是一个游戏对象与 Image 图像组件和一个 Button 按钮组 件和一个子游戏对象具有 Text 组件。您可以设置不同的根据您的需求。
 
 You might wonder why we don’t have a API methods to create the various types of controls, including visuals and everything. The reason is that there are an infinite number of way e.g. a button could be setup. Does it use an image, text, or both? Maybe even multiple images? What is the text font, color, font size, and alignment? What sprite or sprites should the image use? By letting you make a prefab and instantiate that, you can set it up exactly the way you want. And if you later want to change the look and feel of your UI you can just change the prefab and then it will be reflected in your UI, including the dynamically created UI.
+
+你可能想知道为什么我们没有 API 方法来创建各种类型的控件，包括视觉效果和一切。 原因是这个方式有无限多的。如一个按钮可以 setup。它 可能是一个图像、 文本或两者都有？ 也许甚至是多个图像？文本的字体、 颜色、 字体大小和对齐方式是什么？图像应使用什么 精灵？通过让你创建一个预置和实例化的您可以设置它正是你想要的方式。如果您以后想要 更改您的用户界面的外观和感觉您只可以更改预置，然后，它将会反映在您的 UI，包括动 态创建用户界面。 
 
 ##Instantiating the UI element
 
