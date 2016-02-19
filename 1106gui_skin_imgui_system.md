@@ -8,6 +8,8 @@ GUISkins 是一组可以应用到 GUI 的 GUIStyles 。每个控件 (Control) �
 ######A GUI Skin as seen in the Inspector
 To create a GUISkin, select Assets->Create->GUI Skin from the menubar.
 
+如需创建 GUISkin，请在菜单栏上选择资源 (Assets) -> 创建 (Create) -> GUI 皮肤 (GUI Skin) 。
+
 **Please Note: **This page refers to part of the IMGUI system, which is a scripting-only UI system. Unity has a full GameObject-based UI system which you may prefer to use. It allows you to design and edit user interface elements as visible objects in the scene view. See the UI System Manual for more information.
 
 ##Properties
