@@ -113,6 +113,8 @@ public class GUITest : MonoBehaviour {
 
 When you have declared a GUIStyle, you can modify that style in the Inspector. There are a great number of States you can define, and apply to any type of Control.
 
+当您已声明了 GUIStyle，就可以在“检视器” (Inspector) 中修改此样式。您可以有大量的状态 (State) 进行定义，并将其应用到任何类型的控件中。
+
 ![Styles are modified on a per-script, per-GameObject basis](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/ModifyingStyleInInspector.png)
 ######Styles are modified on a per-script, per-GameObject basis
 Any Control State must be assigned a Background Color before the specified Text Color will be applied.
