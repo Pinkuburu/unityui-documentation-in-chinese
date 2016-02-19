@@ -2,6 +2,8 @@
 
 If you are creating a dynamic UI where UI elements appear, disappear, or change based on user actions or other actions in the game, you may need to make a script that instantiates new UI elements based on custom logic.
 
+如果您正在创建动态 UI,  在游戏中 UI 元素在哪里出现、 消失，或更改基于用户操作 或其他操作，你可能需要做一个脚本，实例化新 ui 元素基于自定义的逻辑。 
+
 ##Creating a prefab of the UI element
 
 In order to be able to easily instantiate UI elements dynamically, the first step is to create a prefab for the type of UI element that you want to be able to instantiate. Set up the UI element the way you want it to look in the Scene, and then drag the element into the Project View to make it into a prefab.
