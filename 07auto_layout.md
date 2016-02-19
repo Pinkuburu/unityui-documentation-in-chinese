@@ -59,6 +59,7 @@ See the reference page for Content Size Fitter for more information.
 
 The Aspect Ratio Fitter functions as a layout controller that controls the size of its own layout element.
 
+![](Main/UI_AspectRatioFitterInspector.png)
 
 It can adjust the height to fit the width or vice versa, or it can make the element fit inside its parent or envelope its parent. The Aspect Ratio Fitter does not take layout information into account such as minimum size and preferred size.
 
