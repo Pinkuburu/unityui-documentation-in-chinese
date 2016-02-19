@@ -55,6 +55,8 @@ public class GUITest : MonoBehaviour {
 
 Depending on which Layout Mode you’re using, there are different hooks for controlling where your Controls are positioned and how they are grouped together. In Fixed Layout, you can put different Controls into Groups. In Automatic Layout, you can put different Controls into Areas, Horizontal Groups, and Vertical Groups
 
+随您所使用的布局模式而定，可采用不同的挂钩来控制控件 (Controls) 的位置以及这些控件的集合方式。在固定布局 (Fixed Layout) 中，您可以将不同的控件 (Controls) 放入 群组 (Groups) 。在自动布局 (Fixed Layout) 中，您可以将不同的控件 (Controls) 放入 区域 (Areas)、水平群组 (Horizontal Groups) 和垂直群组 (Vertical Groups)。
+
 ###Fixed Layout - Groups
 
 Groups are a convention available in Fixed Layout Mode. They allow you to define areas of the screen that contain multiple Controls. You define which Controls are inside a Group by using the GUI.BeginGroup() and GUI.EndGroup() functions. All Controls inside a Group will be positioned based on the Group’s top-left corner instead of the screen’s top-left corner. This way, if you reposition the group at runtime, the relative positions of all Controls in the group will be maintained.
