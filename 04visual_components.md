@@ -36,6 +36,7 @@ The option to Set Native Size, which is shown when Simple or Filled is selected,
 Set Native Size 这个选项(不用吧)要设置图像的原始大小为原始的精灵 size.c 值
 
 Images can be imported as **UI sprites** by selecting Sprite( 2D / UI) from the ‘Texture Type’ settings. Sprites have extra import settings compared to the old GUI sprites, the biggest difference is the addition of the sprite editor. The sprite editor provides the option of **9-slicing** the image, this splits the image into 9 areas so that if the sprite is resized the corners are not stretched or distorted.
+
 Images 可以作为 uGUI 精灵导入，通过从 Texture Type 选择设置 Sprite (2D / uGUI）。 与 旧的 GUI 精灵相比 Sprites 有了扩展，最大的区别是增加了 sprite editor。sprite editor 为图 像提供的 9 切片选项，这将图像分成 9 个地区所以，为了是调整精灵大小时角落不拉伸或 扭曲。  
 ![](Main/UI_SpriteEditor.png)
 
