@@ -4,7 +4,7 @@ This section covers components in the UI system that handles interaction, such a
 
 The interaction components are not visible on their own, and must be combined with one or more visual elements in order to work correctly.
 
-Common Functionality
+##Common Functionality
 
 Most of the interaction components have some things in common. They are selectables, which means they have shared built-in functionality for visualising transitions between states (normal, highlighted, pressed, disabled), and for navigation to other selectables using keyboard or controller. This shared functionality is described on the Selectable page.
 
