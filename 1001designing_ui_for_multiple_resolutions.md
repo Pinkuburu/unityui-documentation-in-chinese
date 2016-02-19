@@ -2,6 +2,8 @@
 
 Modern games and applications often need to support a wide variety of different screen resolutions and particularly UI layouts need to be able to adapt to that. The UI System in Unity includes a variety of tools for this purpose that can be combined in various ways.
 
+现代的游戏和应用程序经常需要支持各种各样的不同的屏幕分辨率，特别是 UI 布局需 要能够适应这一点。unity 的 UI 系统包括各种工具为了这个目的，它可以和各种方式结合。
+
 In this how-to we’re going to use a simple case study and look at and compare the different tools in the context of that. In our case study we have three buttons in the corners of the screen as shown below, and the goal is to adapt this layout to various resolutions.
 
 ![](Main/UI_MultiResBase.png)
