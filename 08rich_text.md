@@ -35,6 +35,8 @@ It is possible to apply more than one style to a section of text by “nesting�
 
 The i tag applies italic style, so this would be presented onscreen as
 
+这个 i 标记 tag 是斜体样式，因此这将会在屏幕上显示： 
+
    We are **_definitely not_** amused
 
 Note the ordering of the ending tags, which is in reverse to that of the starting tags. The reason for this is perhaps clearer when you consider that the inner tags need not span the whole text of the outermost element
