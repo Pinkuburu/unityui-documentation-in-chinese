@@ -472,6 +472,8 @@ The VerticalScrollbar Control is similar to a Slider Control, but visually simil
 ####Basic Usage
 
 Vertical Scrollbars are implemented identically to Vertical Sliders with one exception: There is an additional argument which controls the height of the Scrollbar knob itself.
+
+“垂直滚动条”(Vertical Scrollbar) 的执行与“垂直滑动条”(Vertical Slider) 相同，但有一个例外之处：另有一个参数控制“滚动条”(Scrollbar) 钮自身的高度。
 ```
 
 /* Vertical Scrollbar example */
