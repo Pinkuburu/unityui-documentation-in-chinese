@@ -359,3 +359,5 @@ public class GUITest : MonoBehaviour {
 ```
 
 For a full list of possible GUILayoutOptions, please read the GUILayoutOption Scripting Reference page.
+
+有关可能的 GUILayoutOptions 的完整列表，请参阅 GUILayoutOption 脚本参考页面。
