@@ -58,6 +58,8 @@ In the Canvas Scaler component, you can set its UI Scale Mode to Scale With Scre
 
 In our case, we set the Reference Resolution to be the Phone HD landscape resolution of 640 x 960. Now, when setting the screen resolution to the Phone SD portrait resolution of 320 x 480, the entire layout is scaled down so it appears proportionally the same as in full resolution. Everything is scaled down: The button sizes, their distances to the edges of the screen, the button graphics, and the text elements. This means that the layout will appear the same in the Phone SD portrait resolution as in Phone HD portrait; only with a lower pixel density.
 
+在我们的例子中，我们设置参考分辨率是 Phone HD landscape 的 640 × 960。现在， 当将屏幕分辨率设置为 Phone SD portrait 的 320 x 480，整个布局是按比例缩小并按比例显 示与全分辨率相同。一切都按比例缩小： 按钮大小，它们的屏幕、 按钮图形和文本元素的 边缘之间的距离。这意味着布局在 Phone SD portrait 和 Phone HD portrait 上是相同的； 只 是用较低的像素密度了。
+
 ![](Main/UI_MultiResReferenceResolution.png)
 
 One thing to be aware of: After adding a Canvas Scaler component, it’s important to also check how the layout looks at other aspect ratios. By setting the resolution back to Phone HD landscape, we can see that the buttons now appear bigger than they should (and used to).
