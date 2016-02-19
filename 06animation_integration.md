@@ -44,6 +44,8 @@ As an example, the width of the button in the Highlighted State could be changed
 
 Change to play mode to see how the button grows when highlighted.
 
+单击 Play 按钮，当按钮处于高亮时观察大小的变化。 
+
 Any number of properties can have their parameters set in this one keyframe.
 
 Several buttons can share the same behaviour by sharing Animator Controllers.
