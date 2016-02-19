@@ -36,6 +36,8 @@ When positioning a Rect Transform it’s useful to first determine it has or sho
 
 For a non-stretching Rect Transform, the position is set most easily by setting the anchoredPosition and the sizeDelta properties. The anchoredPosition specifies the position of the pivot relative to the anchors. The sizeDelta is just the same as the size when there’s no stretching.
 
+对于非拉伸的  Rect Transform，将该位置设置最容易通过设置 anchoredPosition 和 sizeDelta 属性。AnchoredPosition 指定的 pivot 与 anchors 的位置。SizeDelta 同样的大小是 有的时候不拉伸的情况。
+
 For a stretching Rect Transform, it can be simpler to set the position using the offsetMin and offsetMax properties. The offsetMin property specifies the corner of the lower left corner of the rect relative to the lower left anchor. The offsetMax property specifies the corner of the upper right corner of the rect relative to the upper right anchor.
 
 ##Customizing the UI Element
