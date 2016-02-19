@@ -33,6 +33,7 @@ The Image and Text components are two examples of components that provide layout
 
 If you want to override the minimum, preferred, or flexible size, you can do that by adding a Layout Element component to the Game Object.
 
+![](Main/UI_LayoutElementInspector.png)
 
 The Layout Element component lets you override the values for one or more of the layout properties. Enable the checkbox for a property you want to override and then specify the value you want to override with.
 
