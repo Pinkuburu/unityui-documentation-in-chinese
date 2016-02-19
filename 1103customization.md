@@ -20,7 +20,7 @@ Where the Control defines the content, the Style defines the appearance. This al
 
 其中，控件 (Control) 定义内容，而样式 (Style) 定义外观。这样您就可以创建组合，比如看起来像常规 按钮 (Button) 的功能切换键 (Toggle)。
 
-![Two Toggle Controls styled differently](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/gsg-ToggleStyles.png)
+![Two Toggle Controls styled differently](Main/gsg-ToggleStyles.png)
 ######Two Toggle Controls styled differently
 ###The difference between Skins and Styles
 
@@ -28,7 +28,7 @@ As stated earlier, GUISkins are a collection of GUIStyles. Styles define the app
 
 如上文所述，GUISkins 为 GUIStyles 的集合。样式 (Style) 定义 GUI 控件 (GUI Control) 的外观。如果您要使用样式 (Style)，则可不必使用皮肤 (Skin)。
 
-![A single GUIStyle shown in the Inspector](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/GuiStyleInspector.png)
+![A single GUIStyle shown in the Inspector](Main/GuiStyleInspector.png)
 ######A single GUIStyle shown in the Inspector
 ![](Main/Inspector-GUISkin.png)
 ######A single GUISkin shown in the Inspector - observe that it contains multiple GUIStyles
@@ -71,7 +71,7 @@ public class GUITest : MonoBehaviour {
 ```
 
 
-![The controls created by the code example above](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/gsg-DifferentDefaultStyles.png)
+![The controls created by the code example above](Main/gsg-DifferentDefaultStyles.png)
 ######The controls created by the code example above
 ##Making a public variable GUIStyle
 
@@ -115,7 +115,7 @@ When you have declared a GUIStyle, you can modify that style in the Inspector. T
 
 当您已声明了 GUIStyle，就可以在“检视器” (Inspector) 中修改此样式。您可以有大量的状态 (State) 进行定义，并将其应用到任何类型的控件中。
 
-![Styles are modified on a per-script, per-GameObject basis](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/ModifyingStyleInInspector.png)
+![Styles are modified on a per-script, per-GameObject basis](Main/ModifyingStyleInInspector.png)
 ######Styles are modified on a per-script, per-GameObject basis
 Any Control State must be assigned a Background Color before the specified Text Color will be applied.
 
