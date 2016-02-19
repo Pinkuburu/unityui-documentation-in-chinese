@@ -52,6 +52,9 @@ Content Size Fitter 听由任何布局元素相同的游戏对象提供的布局
 
 Once the size of the Rect Transform has been set, the Horizontal (or Vertical) Layout Group makes sure to position and size its children according to the available space. See the page about the Horizontal Layout Group for more information about how it controls the positions and sizes of its children.
 
+一旦设置 Rect Transform 的大小，Horizontal (or Vertical) Layout Group 水平（或垂直）布
+局组可确保在位置和大小，其子对象根据可用空间。看到的水平布局组的有关如何控制位置 和它的孩子大小的详细信息的页面。 
+
 ##Make children of a Layout Group fit their respective sizes
 
 If you have a Layout Group (horizontal or vertical) and want each of the UI elements in the group to fit their respective content, what do you do?
