@@ -44,6 +44,8 @@ Why use a Horizontal Layout Group? Well, it could have been a Vertical Layout Gr
 
 The Horizontal (or Vertical) Layout Group functions both as a Layout Controller and as a Layout Element. First it listens to the layout information provided by the children in the group - in this case the child Text. Then it determines how large the group must be (at minimum, and preferrably) in order to be able to contain all the children, and it functions as a Layout Element that provides this information about its minimum and preferred size.
 
+Horizontal (or Vertical) Layout Group 水平 （或垂直） 布局组功能作为一种 Layout Controller 布局控制器和 Layout Element 布局元素。它第一次听由组中的子对象提供的布局 信息-在这种情况下子对象文本。然后，它确定如何大组必须为了能包含所有的孩子，和一 个 Layout Element 布局元素，提供有关其最小值和首选的大小这信息作为它的功能。
+
 The Content Size Fitter listens to layout information provided by any Layout Element on the same Game Object - in this case provided by the Horizontal (or Vertical) Layout Group. Depending on its settings, it then controls the size of the Rect Transform based on this information.
 
 Once the size of the Rect Transform has been set, the Horizontal (or Vertical) Layout Group makes sure to position and size its children according to the available space. See the page about the Horizontal Layout Group for more information about how it controls the positions and sizes of its children.
