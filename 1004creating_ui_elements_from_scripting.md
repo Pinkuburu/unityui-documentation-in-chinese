@@ -28,6 +28,8 @@ UI 元素的预置体都作为正常使用 Instantiate 方法来进行实例化�
 
 A UI Element is normally positioned using its Rect Transform. If the UI Element is a child of a Layout Group it will be automatically positioned and the positioning step can be skipped.
 
+通常使用 Rect Transform 定位 UI 元素。如果 UI 元素是 Layout Group 布局组的子对象 它将自动定位和定位步骤可以跳过
+
 When positioning a Rect Transform it’s useful to first determine it has or should have any stretching behavior or not. Stretching behavior happens when the anchorMin and anchorMax properties are not identical.
 
 For a non-stretching Rect Transform, the position is set most easily by setting the anchoredPosition and the sizeDelta properties. The anchoredPosition specifies the position of the pivot relative to the anchors. The sizeDelta is just the same as the size when there’s no stretching.
