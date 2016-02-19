@@ -102,6 +102,8 @@ The following list describes all the styling tags supported by Unity.
 
 This is only useful for text meshes and renders a section of text with a material specified by the parameter. The value is an index into the text mesh’s array of materials as shown by the inspector.
 
+这只是使用 text meshes 呈现一段文本，这个材料通过所指定的参数设定。值是索引在 text meshes 数组中的材料，检查器 inspector 中的。 
+
 We are <material=2>texturally</material> amused
 
 **quad**
