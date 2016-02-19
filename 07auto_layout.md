@@ -10,6 +10,8 @@ The auto layout system provides ways to place elements in nested layout groups s
 
 The auto layout system is a system built on top of the basic Rect Transform layout system. It can optionally be used on some or all elements.
 
+自动布局系统是建立在基本的 Rect Transform 布局系统之上的系统。它可以 （可选） 可用于某些或所有元素
+
 ##Understanding Layout Elements
 
 The auto layout system is based on a concept of layout elements and layout controllers. A layout element is an Game Object with a Rect Transform and optionally other components as well. The layout element has certain knowledge about which size it should have. Layout elements don’t directly set their own size, but other components that function as layout controllers can use the information they provide in order to calculate a size to use for them.
