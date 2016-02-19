@@ -8,6 +8,8 @@ Although Unity’s IMGUI system is mainly intended for creating developer tools 
 
 When you have a large number of different GUIStyles to work with, you can define them all within a single GUISkin. A GUISkin is no more than a collection of GUIStyles.
 
+如果您要处理大量不同的 GUIStyles，您可以在单个 GUISkin 中定义所有 GUIStyles。GUISkin 不仅仅只是 GUIStyles 的集合。
+
 ###How Styles change the look of your GUI Controls
 
 GUIStyles are designed to mimic Cascading Style Sheets (CSS) for web browsers. Many different CSS methodologies have been adapted, including differentiation of individual state properties for styling, and separation between the content and the appearance.
