@@ -44,6 +44,8 @@ Images 可以作为 uGUI 精灵导入，通过从 Texture Type 选择设置 Spri
 
 The Image component takes a sprite but **Raw Image** takes a texture (no borders etc). Raw Image should only be used if necessary otherwise Image will be suitable in the majority of cases.
 
+Image 组件需要一个精灵，但 Raw Image 需要的是纹理 (无边界等)。使用 Raw Image 是 有必要，除非为图像会在大多数情况下适用。 
+
 ##Mask
 
 A Mask is not a visible UI control but rather a way to modify the appearance of a control’s child elements. The mask restricts (ie, “masks”) the child elements to the shape of the parent. So, if the child is larger than the parent then only the part of the child that fits within the parent will be visible.
