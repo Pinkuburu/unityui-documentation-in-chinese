@@ -257,6 +257,8 @@ The Toolbar Control is essentially a row of Buttons. Only one of the Buttons on 
 
 The active Button in the Toolbar is tracked through an integer. You must provide the integer as an argument in the function. To make the Toolbar interactive, you must assign the integer to the return value of the function. The number of elements in the content array that you provide will determine the number of Buttons that are shown in the Toolbar.
 
+通过一个整数可跟踪“工具栏”(Toolbar) 中激活的“按钮”(Button)。您必须提供 该整数作为此函数的参数。要使“工具栏”(Toolbar) 变为互动式的，则必须将该整数指定为函数的返回值。您提供 的内容数组中的元素数目将决定“工具栏” (Toolbar) 中显示的“按钮” (Button) 的数目。
+
 ```
 /* GUI.Toolbar example */
 
