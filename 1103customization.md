@@ -26,6 +26,8 @@ Where the Control defines the content, the Style defines the appearance. This al
 
 As stated earlier, GUISkins are a collection of GUIStyles. Styles define the appearance of a GUI Control. You do not have to use a Skin if you want to use a Style.
 
+如上文所述，GUISkins 为 GUIStyles 的集合。样式 (Style) 定义 GUI 控件 (GUI Control) 的外观。如果您要使用样式 (Style)，则可不必使用皮肤 (Skin)。
+
 ![A single GUIStyle shown in the Inspector](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/GuiStyleInspector.png)
 ######A single GUIStyle shown in the Inspector
 ![](Main/Inspector-GUISkin.png)
