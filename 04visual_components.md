@@ -32,7 +32,7 @@ The option to Set Native Size, which is shown when Simple or Filled is selected,
 Images can be imported as UI sprites by selecting Sprite( 2D / UI) from the ‘Texture Type’ settings. Sprites have extra import settings compared to the old GUI sprites, the biggest difference is the addition of the sprite editor. The sprite editor provides the option of 9-slicing the image, this splits the image into 9 areas so that if the sprite is resized the corners are not stretched or distorted.
 ![](Main/UI_SpriteEditor.png)
 
-Raw Image
+##Raw Image
 
 The Image component takes a sprite but Raw Image takes a texture (no borders etc). Raw Image should only be used if necessary otherwise Image will be suitable in the majority of cases.
 
