@@ -59,7 +59,7 @@ In this example, calling LabelSlider() and passing the correct arguments will pr
 
 在这个示例中，调用 LabelSlider() 并传递正确的参数将使标签 (Label) 与水平滑动条 (Horizontal Slider) 配对。编写复合控件 (Compound Controls) 时，请务必记住在函数结束时返回正确的值以使其交互
 
-![The above Compound Control always creates this pair of Controls](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/gsg-LabelSlider.png)
+![The above Compound Control always creates this pair of Controls](Main/gsg-LabelSlider.png)
 ######The above Compound Control always creates this pair of Controls
 ###Static Compound Controls
 
@@ -160,7 +160,7 @@ public class GUITest : MonoBehaviour {
 
 ```
 
-![The RGB Slider created by the example above](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/gsg-RGBSlider.png)
+![The RGB Slider created by the example above](Main/gsg-RGBSlider.png)
 ######The RGB Slider created by the example above
 Now let’s build Compound Controls on top of each other, in order to demonstrate how Compound Controls can be used within other Compound Controls. To do this, we will create a new RGB Slider like the one above, but we will use the LabelSlider to do so. This way we’ll always have a Label telling us which slider corresponds to which color.
 
@@ -217,5 +217,5 @@ public class GUITest : MonoBehaviour {
 ```
 
 
-![The Compound RGB Label Slider created by the above code](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/gsg-RGBLabelSlider.png)
+![The Compound RGB Label Slider created by the above code](Main/gsg-RGBLabelSlider.png)
 ######The Compound RGB Label Slider created by the above code
