@@ -36,10 +36,10 @@ Images can be imported as UI sprites by selecting Sprite( 2D / UI) from the ‘T
 
 The Image component takes a sprite but Raw Image takes a texture (no borders etc). Raw Image should only be used if necessary otherwise Image will be suitable in the majority of cases.
 
-Mask
+##Mask
 
 A Mask is not a visible UI control but rather a way to modify the appearance of a control’s child elements. The mask restricts (ie, “masks”) the child elements to the shape of the parent. So, if the child is larger than the parent then only the part of the child that fits within the parent will be visible.
 
-Effects
+##Effects
 
 Visual components can also have various simple effects applied, such as a simple drop shadow or outline. See the Effects reference page for more information.
