@@ -36,6 +36,8 @@ If you want it to have a specific width in meters, you can can calculate the nee
 
 Another way to think of it is that you are controlling the size of one pixel in the Canvas. If the Canvas is scaled by 0.0025, then that is also the size in the world of each pixel in the Canvas.
 
+另一种方式去想它是你正在控制在画布上的一个像素的大小。如果由 0.0025 缩放画布， 这也是在世界的每个像素在画布的大小。 
+
 ##Position the Canvas
 
 Unlike a Canvas set to Screen Space, a World Space Canvas can be freely positioned and rotated in the Scene. You can put a Canvas on any wall, floor, ceiling, or slanted surface (or hanging freely in the air of course). Just use the normal Translate and Rotate tools in the toolbar.
