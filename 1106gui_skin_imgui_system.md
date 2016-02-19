@@ -78,6 +78,8 @@ After you have created a GUISkin, you can edit all of the Styles it contains in 
 ######Editing the Text Field Style in a GUISkin
 No matter how many Text Fields you create in your script, they will all use this Style. Of course, you have control over changing the styles of one Text Field over the other if you wish. We’ll discuss how that is done next.
 
+无论脚本中创建了多少个文本框 (Text Field)，它们都将使用此样式。当然，如果您愿意，您可以更改某个文本框 (Text Field) 的样式。接下来我们将讨论如何进行以上操作。that is done next.
+
 ###Applying GUISkins
 
 To apply a GUISkin to your GUI, you must use a simple script to read and apply the Skin to your Controls.
