@@ -18,6 +18,8 @@ The new Animator controller is ready to use straight away. Unlike most Animator 
 
 For example, if a Button element with an Animator controller attached is selected, the animations for each of the button’s states can be edited by opening the Animation window (Window>Animation).
 
+例如，如果选择了带有附加动画控制器按钮对象，我们可以通过打开动画编辑器，为按 钮的每个状态的编辑动画，(Window>Animation).。 
+
 There is an Animation Clip pop-up menu to select the desired clip. Choose from “Normal”, “Highlighted”, “Pressed” and “Disabled”.
 
 ![](Main/GUI_ButtonAnimationWindow.png)
