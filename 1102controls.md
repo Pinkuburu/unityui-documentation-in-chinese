@@ -617,6 +617,8 @@ public class GUITest : MonoBehaviour {
 
 To detect if the user did any action in the GUI (clicked a button, dragged a slider, etc), read the GUI.changed value from your script. This gets set to true when the user has done something, making it easy to validate the user input.
 
+要检测用户是否对 GUI 进行过操作（如点击“按钮”(Button)、拖动滑动条等等），请从脚本读取 GUI.changed 值。用户进行过操作的情况下，该值设定为 true，因此很容易证实用户的输入。
+
 A common scenario would be for a Toolbar, where you want to change a specific value based on which Button in the Toolbar was clicked. You don’t want to assign the value in every call to OnGUI(), only when one of the Buttons has been clicked.
 
 ```
