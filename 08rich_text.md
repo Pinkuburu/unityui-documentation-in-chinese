@@ -109,7 +109,7 @@ The following list describes all the styling tags supported by Unity.
 <tr>
 	<td style="text-align:left;">aqua (same as cyan)</td>
 	<td style="text-align:left;">`#00ffffff`</td>
-	<td>![](../uploads/Main/CyanSwatch.png)</td>
+	<td style="text-align:left;">![](../uploads/Main/CyanSwatch.png)</td>
 </tr>
 <tr>
 	<td style="text-align:left;">black</td>
