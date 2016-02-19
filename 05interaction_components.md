@@ -11,7 +11,6 @@ Most of the interaction components have some things in common. They are selectab
 ##Button
 
 A Button has an **OnClick** UnityEvent to define what it will do when clicked.
-
 ![](Main/UI_ButtonExample.png)
 
 See the Button page for details on using the Button component.
