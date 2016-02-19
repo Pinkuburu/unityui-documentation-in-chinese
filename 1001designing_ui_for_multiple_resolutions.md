@@ -48,6 +48,8 @@ In this how-to, we know that the smaller resolutions of Phone SD Portrait and La
 
 This means that the buttons should become smaller by the same percentage as the screen is smaller. In other words, the scale of the buttons should follow the screen size. This is where the Canvas Scaler component can help.
 
+这意味着相同百分比由于屏幕较小那么按钮应较小。换句话说，按钮的规模应遵循的屏 幕大小。这是 Reference Resolution component 组件可以帮助的地方。 
+
 ##Scaling with Screen Size
 
 The Canvas Scaler component can be added to a root Canvas - a Game Object with a Canvas component on it, which all the UI elements are children of. It is also added by default when creating a new Canvas through the GameObject menu.
