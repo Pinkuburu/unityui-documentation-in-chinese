@@ -126,7 +126,11 @@ There are three key pieces of information required when declaring a GUI Control:
 
 Type (Position, Content)
 
+类型 （位置、内容） 
+
 Observe that this structure is a function with two arguments. We’ll explore the details of this structure now.
+
+观察到此结构是一个有两个参数的函数。现在我们来探究此结构的详细信息。
 
 ###Type
 
