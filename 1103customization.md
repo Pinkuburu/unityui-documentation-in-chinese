@@ -129,6 +129,8 @@ For more information about individual GUIStyles, please read the GUIStyle Compon
 
 For more complicated GUI systems, it makes sense to keep a collection of styles in one place. This is what a GUISkin does. A GUISkin contains multiple different Styles, essentially providing a complete face-lift to all GUI Controls.
 
+对于更复杂的 GUI 系统，将样式集安置于一处是有利的。这可由 GUISkin 来完成。GUISkin 含有多种不同的样式 (Styles)，基本上可完全更新所有 GUI 控件 (GUI Control) 外观。
+
 ###Creating a new GUISkin
 
 To create a GUISkin, select Assets->Create->GUI Skin from the menu bar. This will create a GUI Skin in your Project Folder. Select it to see all GUIStyles defined by the Skin in the Inspector.
