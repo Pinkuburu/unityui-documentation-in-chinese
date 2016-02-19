@@ -56,6 +56,8 @@ The Canvas Scaler component can be added to a root Canvas - a Game Object with a
 
 In the Canvas Scaler component, you can set its UI Scale Mode to Scale With Screen Size. With this scale mode you can specify a resolution to use as reference. If the current screen resolution is smaller or larger than this reference resolution, the scale factor of the Canvas is set accordingly, so all the UI elements are scaled up or down together with the screen resolution.
 
+Reference Resolution 组件中您可以指定一个分辨率作为参考。如果当前的屏幕分辨率 小于或大于此 reference resolution，画布上的 scale 因子设置 accordingly 相应地，所以所有 的 UI 元素与屏幕分辨率一起缩放。 
+
 In our case, we set the Reference Resolution to be the Phone HD landscape resolution of 640 x 960. Now, when setting the screen resolution to the Phone SD portrait resolution of 320 x 480, the entire layout is scaled down so it appears proportionally the same as in full resolution. Everything is scaled down: The button sizes, their distances to the edges of the screen, the button graphics, and the text elements. This means that the layout will appear the same in the Phone SD portrait resolution as in Phone HD portrait; only with a lower pixel density.
 
 在我们的例子中，我们设置参考分辨率是 Phone HD landscape 的 640 × 960。现在， 当将屏幕分辨率设置为 Phone SD portrait 的 320 x 480，整个布局是按比例缩小并按比例显 示与全分辨率相同。一切都按比例缩小： 按钮大小，它们的屏幕、 按钮图形和文本元素的 边缘之间的距离。这意味着布局在 Phone SD portrait 和 Phone HD portrait 上是相同的； 只 是用较低的像素密度了。
