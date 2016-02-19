@@ -2,6 +2,8 @@
 
 There are a number of ways to leverage and extend the IMGUI system to meet your needs. Controls can be mixed and created, and you have a lot of leverage in dictating how user input into the GUI is processed.
 
+有很多种方法可以补充和扩展 UnityGUI 以满足您的需求。您可以混合和创建控件，并且可以有多种方法来规定用户 GUI 输入的处理方法。
+
 ##Compound Controls
 
 There might be situations in your GUI where two types of Controls always appear together. For example, maybe you are creating a Character Creation screen, with several Horizontal Sliders. All of those Sliders need a Label to identify them, so the player knows what they are adjusting. In this case, you could partner every call to GUI.Label() with a call to GUI.HorizontalSlider(), or you could create a Compound Control which includes both a Label and a Slider together.
