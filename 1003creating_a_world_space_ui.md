@@ -6,6 +6,8 @@ UI 系统很容易地创建 UI 用户界面，被定位在其他 2D 或 3D 场�
 
 Start by creating a UI element (such as an Image) if you don’t already have one in your scene by using GameObject > UI > Image. This will also create a Canvas for you.
 
+开始通过创建一个 UI 元素 （如 Image 图像），如果在你的场景中还没有，可以通过使 用：GameObject > UI > Image。这也将为您创建一个画布。 
+
 ##Set the Canvas to World Space
 
 Select your Canvas and change the Render Mode to World Space.
