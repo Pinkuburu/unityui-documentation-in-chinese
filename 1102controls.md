@@ -295,6 +295,8 @@ public class GUITest : MonoBehaviour {
 
 The SelectionGrid Control is a multi-row Toolbar. You can determine the number of columns and rows in the grid. Only one Button can be active at time.
 
+栅格选择 (SelectionGrid) 控件是多排工具栏 (Toolbar)。您可以决定栅格中的列数和行数。一次仅可激活一个“按钮”(Button)。
+
 ####Basic Usage
 
 The active Button in the SelectionGrid is tracked through an integer. You must provide the integer as an argument in the function. To make the SelectionGrid interactive, you must assign the integer to the return value of the function. The number of elements in the content array that you provide will determine the number of Buttons that are shown in the SelectionGrid. You also can dictate the number of columns through the function arguments.
