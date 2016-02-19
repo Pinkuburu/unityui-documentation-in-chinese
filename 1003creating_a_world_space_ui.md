@@ -28,6 +28,8 @@ First you need to decide what the resolution of the Canvas should be. If it was 
 
 Now you should consider how big the Canvas should be in the world. You can use the Scale tool to simply scale it down until it has a size that looks good, or you can decide how big it should be in meters.
 
+现在，您应该考虑在世界空间中大的画布应该怎样。您可以使用 Scale 缩放工具，只是 scale 减小，直到它的大小看起来很好，或者你可以决定它应该有多少米大小。 
+
 If you want it to have a specific width in meters, you can can calculate the needed scale by using meter_size / canvas_width. For example, if you want it to be 2 meters wide and the Canvas width is 800, you would have 2 / 800 = 0.0025. You then set the Scale property of the Rect Transform on the Canvas to 0.0025 for both X, Y, and Z in order to ensure that it’s uniformly scaled.
 
 Another way to think of it is that you are controlling the size of one pixel in the Canvas. If the Canvas is scaled by 0.0025, then that is also the size in the world of each pixel in the Canvas.
