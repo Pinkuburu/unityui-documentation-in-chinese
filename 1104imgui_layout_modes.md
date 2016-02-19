@@ -8,6 +8,8 @@ There are two different modes you can use to arrange and organize your UI when u
 
 Fixed Layout makes sense to use when you have a pre-designed interface to work from. Automatic Layout makes sense to use when you don’t know how many elements you need up front, or don’t want to worry about hand-positioning each Control. For example, if you are creating a number of different buttons based on Save Game files, you don’t know exactly how many buttons will be drawn. In this case Automatic Layout might make more sense. It is really dependent on the design of your game and how you want to present your interface.
 
+当您已经有了一个预先设计好界面可以用来工作时,就可以使用固定布局 (Fixed Layout)。当您之前不知道需要多少元素，或者不想手动安置每个控件时，则可以使用自动布局 (Automatic Layout)。比如，当您要根据保存游戏文件来创建若干不同按钮时，您可能不知道要绘制按钮的确切数目。在这种情况下使用自动布局 (Automatic Layout) 会更方便。这实际上取决于游戏的设计以及您想要如何呈现界面。
+
 There are two key differences when using Automatic Layout:
 
 * GUILayout is used instead of GUI
