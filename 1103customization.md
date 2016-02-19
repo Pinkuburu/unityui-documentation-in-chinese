@@ -181,6 +181,8 @@ public class GUITest : MonoBehaviour {
 
 You can switch skins as much as you like throughout a single OnGUI() call.
 
+通过一次 OnGUI() 调用就可随意切换皮肤。.
+
 ```
 /* Example of switching skins in the same OnGUI() call */
 
