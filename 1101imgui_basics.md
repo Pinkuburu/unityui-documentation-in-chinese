@@ -8,6 +8,8 @@ Unity’s IMGUI controls make use of a special function called OnGUI(). The OnGU
 
 IMGUI controls themselves are very simple in structure. This structure is evident in the following example.
 
+GUI 控件本身结构很简单。此结构在以下示例中较为清楚。
+
 ```
 /* Example level loader */
 
