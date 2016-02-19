@@ -68,6 +68,8 @@ The reason for the larger buttons in landscape aspect ratio comes down to how th
 
 The component has a property called Match which can be 0 (Width), 1 (Height) or a value in between. By default it’s set to 0, which compares the current screen width with the reference resolution width as described.
 
+reference resolution 参考分辨率具有一个属性称为 Match Width Or Height 值可以是 0 （宽度）、 1 （高度） 或在这两者之间的一个值。默认情况下它是设置为 0，将当前的屏 幕宽度参考分辨率宽度进行比较，如前所述。 
+
 If the Match property is set to 0.5 instead, it will compare both the current width to the reference width and the current height to the reference height, and choose a scale factor that’s in between the two. Since in this case the landscape resolution is 1.5 times wider but also 1.5 times shorter, those two factor even out and produce a final scale factor of 1, which means the buttons keep their original size.
 
 如果 Match Width Or Height 属性设置为 0.5 ，它将比较 reference 分辨率宽度与 current 分辨率宽度和 current 当前分辨率高度与 reference 引用分辨率高度两个，并在两个之间选 择 scale 因子。因为在这种情况下的 landscape resolution 是宽出 1.5 倍，但也短了 1.5 倍， 那这两个因子综合起来出来，最终产生 scale factor 为 1，这意味着这些按钮保持其原始大 小。 
