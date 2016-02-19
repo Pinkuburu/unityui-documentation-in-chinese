@@ -22,6 +22,8 @@ Now your Canvas is already positioned in the World and can be seen by all camera
 
 First you need to decide what the resolution of the Canvas should be. If it was an image, what should the pixel resolution of the image be? Something like 800x600 might be a good starting point. You enter the resolution in the Width and Height values of the Rect Transform of the Canvas. It’s probably a good idea to set the position to 0,0 at the same time.
 
+首先你需要决定的画布分辨率应该是什么。如果它是一个图像，该图像的像素分辨率应 该是什么？像 800 x 600 可能是一个很好的起点。您在画布的 Rect Transform 上输入该分辨 率的宽度和高度值。它可能是一个好主意，在同一时间将位置设置为 0，0。 
+
 ##Specify the size of the Canvas in the world
 
 Now you should consider how big the Canvas should be in the world. You can use the Scale tool to simply scale it down until it has a size that looks good, or you can decide how big it should be in meters.
