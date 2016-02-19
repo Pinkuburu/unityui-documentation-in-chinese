@@ -38,6 +38,10 @@ As an example, the width of the button in the Highlighted State could be changed
 * Change the width of the Button in the inspector
 * Exit the record mode.
 
+* Select record 记录按钮 
+* Change 在 inspector 中按钮的宽度 inspector 
+* Exit 记录模式。
+
 Change to play mode to see how the button grows when highlighted.
 
 Any number of properties can have their parameters set in this one keyframe.
