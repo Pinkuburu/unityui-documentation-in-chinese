@@ -48,6 +48,7 @@ Change to play mode to see how the button grows when highlighted.
 
 Any number of properties can have their parameters set in this one keyframe.
 
+任意数量的属性可以有在这一关键帧中设置其参数
 Several buttons can share the same behaviour by sharing Animator Controllers.
 
 The UI Animation transition mode is not compatible with Unity’s legacy animation system. You should only use the Animator Component.
