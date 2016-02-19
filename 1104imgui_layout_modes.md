@@ -191,6 +191,8 @@ public class GUITest : MonoBehaviour {
 
 Areas are used in Automatic Layout mode only. They are similar to Fixed Layout Groups in functionality, as they define a finite portion of the screen to contain GUILayout Controls. Because of the nature of Automatic Layout, you will nearly always use Areas.
 
+区域 (Areas) 只在自动布局 (Automatic Layout) 模式中使用。区域在功能上与固定布局群组类似，因为它们定义了屏幕中有限的一部分来容纳 GUILayout 控件。由于自动布局 (Automatic Layout) 特性的原因，您几乎会总是用到区域 (Area)。
+
 In Automatic Layout mode, you do not define the area of the screen where the Control will be drawn at the Control level. The Control will automatically be placed at the upper-leftmost point of its containing area. This might be the screen. You can also create manually-positioned Areas. GUILayout Controls inside an area will be placed at the upper-leftmost point of that area.
 
 ```
