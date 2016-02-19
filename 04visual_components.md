@@ -29,9 +29,10 @@ An Image has a Rect Transform component and an **Image** component. A sprite can
 * **Tiled** - Similar to Sliced, but tiles (repeats) the center part rather than stretching it. For sprites with no borders at all, the entire sprite is tiled.
 * **Tiled 平铺** - 重复的精灵游戏物体的边界内。 
 * **Filled** - Shows the sprite in the same way as Simple does except that it fills in the sprite from an origin in a defined direction, method and amount.
-* **Filled 填充** - 显示精灵和简单 Simple 的方式相同，它除了定义从原点开始填补的方向、 方法和数量。Set Native Size 这个选项(不用吧)要设置图像的原始大小为原始的精灵 size.c 值
+* **Filled 填充** - 显示精灵和简单 Simple 的方式相同，它除了定义从原点开始填补的方向、 方法和数量。
 
 The option to Set Native Size, which is shown when Simple or Filled is selected, resets the image to the original sprite size.
+Set Native Size 这个选项(不用吧)要设置图像的原始大小为原始的精灵 size.c 值
 
 Images can be imported as **UI sprites** by selecting Sprite( 2D / UI) from the ‘Texture Type’ settings. Sprites have extra import settings compared to the old GUI sprites, the biggest difference is the addition of the sprite editor. The sprite editor provides the option of **9-slicing** the image, this splits the image into 9 areas so that if the sprite is resized the corners are not stretched or distorted.
 ![](Main/UI_SpriteEditor.png)
