@@ -322,6 +322,8 @@ public class GUITest : MonoBehaviour {
 
 You can use GUILayoutOptions to override some of the Automatic Layout parameters. You do this by providing the options as the final parameters of the GUILayout Control.
 
+您可以使用 GUILayoutOptions 覆盖自动布局 (Automatic Layout) 的某些参数。通过提供 选项作为 GUILayout 控件 (GUILayout Control) 的最终参数可实现此功能。
+
 Remember in the Areas example above, where the button stretches its width to 100% of the Area width? We can override that if we want to.
 
 ```
