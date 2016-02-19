@@ -18,7 +18,7 @@ See the Button page for details on using the Button component.
 ##Toggle
 
 A Toggle has an Is On checkbox that determines whether the Toggle is currently on or off. This value is flipped when the user clicks the Toggle, and a visual checkmark can be turned on or off accordingly. It also has an OnValueCHanged UnityEvent to define what it will do when the value is changed.
-
+![](Main/Main/UI_ToggleExample.png)
 
 See the Toggle page for details on using the Toggle component.
 
