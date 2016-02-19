@@ -32,6 +32,8 @@ One way to keep the buttons inside the screen is to change the layout such that 
 
 Once the buttons have been anchored to their respective corners, they stick to them when changing the resolution to a different aspect ratio.
 
+一旦按钮已被锚定到其各自的角落，当更改屏幕分辨率不同的纵横比时他们依然坚持他 们自己位置。 
+
 ![](Main/UI_MultiResCorners.png)
 
 When the screen size is changed to a larger or smaller resolution, the buttons will also remain anchored to their respective corners. However, since they keep their original size as specified in pixels, they may take up a larger or smaller proportion of the screen. This may or may not be desirable, depending on how you would like your layout to behave on screens of different resolutions.
