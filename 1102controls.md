@@ -425,6 +425,8 @@ public class GUITest : MonoBehaviour {
 
 The HorizontalScrollbar Control is similar to a Slider Control, but visually similar to Scrolling elements for web browsers or word processors. This control is used to navigate the ScrollView Control.
 
+水平滚动条 (HorizontalScrollbar) 控件与滑动条 (Slider) 控件类似，但视觉上更像是网页浏览器或文字处理器的滚动元素。此控件用于导航滚动视图 (ScrollView) 控件。
+
 ####Basic Usage
 
 Horizontal Scrollbars are implemented identically to Horizontal Sliders with one exception: There is an additional argument which controls the width of the Scrollbar knob itself.
