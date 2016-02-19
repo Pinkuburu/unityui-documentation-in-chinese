@@ -251,6 +251,8 @@ public class GUITest : MonoBehaviour {
 
 The Toolbar Control is essentially a row of Buttons. Only one of the Buttons on the Toolbar can be active at a time, and it will remain active until a different Button is clicked. This behavior emulates the behavior of a typical Toolbar. You can define an arbitrary number of Buttons on the Toolbar.
 
+工具栏 (Toolbar) 控件实际上就是一排按钮 (Button)。一次只可激活“工具栏”(Toolbar) 上的一个“按钮”(Button)，且在单击另一个“按钮”(Button) 之前，该按钮将保持激活状态。这种行为是效仿经典“工具栏”(Toolbar) 的行为。您可以在“工具栏”(Toolbar) 上定义任意数目的“按钮”(Button)。
+
 ####Basic Usage
 
 The active Button in the Toolbar is tracked through an integer. You must provide the integer as an argument in the function. To make the Toolbar interactive, you must assign the integer to the return value of the function. The number of elements in the content array that you provide will determine the number of Buttons that are shown in the Toolbar.
