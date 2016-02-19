@@ -38,6 +38,8 @@ In order to do this, first add a Horizontal Layout Group to the UI element, then
 
 Why use a Horizontal Layout Group? Well, it could have been a Vertical Layout Group as well - as long as there is only a single child, they produce the same result.
 
+为什么要使用一个 Horizontal Layout Group 水平布局组？嗯，可能是一个垂直的布局组 以及-只要还有只有一个孩子，他们产生相同的结果
+
 ###How does it work?
 
 The Horizontal (or Vertical) Layout Group functions both as a Layout Controller and as a Layout Element. First it listens to the layout information provided by the children in the group - in this case the child Text. Then it determines how large the group must be (at minimum, and preferrably) in order to be able to contain all the children, and it functions as a Layout Element that provides this information about its minimum and preferred size.
