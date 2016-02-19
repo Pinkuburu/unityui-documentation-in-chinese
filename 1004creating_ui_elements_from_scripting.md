@@ -12,6 +12,8 @@ In order to be able to easily instantiate UI elements dynamically, the first ste
 
 For example, a prefab for a button could be a Game Object with a Image component and a Button component, and a child Game Object with a Text component. Your setup might be different depending on your needs.
 
+例如，一个按钮的预置体可能是一个游戏对象与 Image 图像组件和一个 Button 按钮组 件和一个子游戏对象具有 Text 组件。您可以设置不同的根据您的需求。 你
+
 You might wonder why we don’t have a API methods to create the various types of controls, including visuals and everything. The reason is that there are an infinite number of way e.g. a button could be setup. Does it use an image, text, or both? Maybe even multiple images? What is the text font, color, font size, and alignment? What sprite or sprites should the image use? By letting you make a prefab and instantiate that, you can set it up exactly the way you want. And if you later want to change the look and feel of your UI you can just change the prefab and then it will be reflected in your UI, including the dynamically created UI.
 
 ##Instantiating the UI element
