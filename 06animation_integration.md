@@ -8,6 +8,8 @@ Animation allows for each transition between control states to be fully animated
 
 To use the Animation transition mode, an Animator Component needs to be attached to the controller element. This can be done automatically by clicking “Auto Generate Animation”. This also generates an Animator Controller with states already set up, which will need to be saved.
 
+要使用动画转换模式，动画组件需要连接到该控制器的元素。这可以通过单击“Auto Generate Animation”.自动完成。这个动画控制器的所有状态已经被设置完成了，会弹出对话 框需要保存动画控制器。  那么组件就被添加了。  同时还有保存的动画控制器。 
+
 The new Animator controller is ready to use straight away. Unlike most Animator Controllers, this controller also stores the animations for the controller’s transitions and these can be customised, if desired.
 
 ![](Main/GUI_ButtonAnimator.png)
