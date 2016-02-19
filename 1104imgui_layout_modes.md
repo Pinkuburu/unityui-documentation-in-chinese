@@ -12,6 +12,8 @@ Fixed Layout makes sense to use when you have a pre-designed interface to work f
 
 There are two key differences when using Automatic Layout:
 
+使用自动布局 (Automatic Layout) 时，存在两个关键的不同之处：
+
 * GUILayout is used instead of GUI
 * No Rect() function is required for Automatic Layout Controls
 
