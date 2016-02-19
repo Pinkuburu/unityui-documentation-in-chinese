@@ -23,7 +23,7 @@ An Image has a Rect Transform component and an **Image** component. A sprite can
 切换到一个有  Rect Transform 组件和 Image 组件的对象上。一个精灵 sprite 可以应用于 Image 组件下 Source Image 字段，Color 字段中设置主颜色。一种材料还可以用于 Image 组 件。图像类型字段定义了如何显示应用的精灵，选项有： 
 
 * **Simple** - Scales the whole sprite equally.
-* ·Simple 简单 - 同样大小显示整个雪碧。
+* **Simple 简单** - 同样大小显示整个雪碧。
 * **Sliced** - Utilises the 3x3 sprite division so that resizing does not distort corners and only the center part is stretched.
 * **Tiled** - Similar to Sliced, but tiles (repeats) the center part rather than stretching it. For sprites with no borders at all, the entire sprite is tiled.
 * **Filled** - Shows the sprite in the same way as Simple does except that it fills in the sprite from an origin in a defined direction, method and amount.
