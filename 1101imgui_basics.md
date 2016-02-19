@@ -122,6 +122,8 @@ As you can see, you can use any desired logic to control when GUI Controls are d
 
 There are three key pieces of information required when declaring a GUI Control:
 
+声明 GUI 控件 (Control) 时必需有三条关键信息：
+
 Type (Position, Content)
 
 Observe that this structure is a function with two arguments. We’ll explore the details of this structure now.
