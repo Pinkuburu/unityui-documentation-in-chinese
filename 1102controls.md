@@ -84,6 +84,8 @@ public class GUITest : MonoBehaviour {
 
 RepeatButton is a variation of the regular Button. The difference is, RepeatButton will respond every frame that the mouse button remains depressed. This allows you to create click-and-hold functionality.
 
+重复按钮 (RepeatButton) 是常规按钮 (Button) 的变型。不同之处在于，重复按钮 (RepeatButton) 将在每帧按压鼠标按钮期间作出响应。这使您可以创建“单击并按住” (click-and-hold) 功能。
+
 ####Basic Usage
 
 In UnityGUI, RepeatButtons will return true for every frame that they are clicked. To execute some code while the Button is being clicked, you wrap the the GUI.RepeatButton function in an if statement. Inside the if statement is the code that will be executed while the RepeatButton remains clicked.
