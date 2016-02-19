@@ -32,6 +32,8 @@ Normal 状态是就是按钮元素本身的值，可以留空。在所有其他�
 
 As an example, the width of the button in the Highlighted State could be changed by selecting the Highlighted state from the Animation Clip pop up menu and with the playhead at the start of the time line:
 
+作为一个例子，可以通过从动画剪辑 Clip 弹出式菜单中选择高亮显示状态并与 playhead 设置置在时间线的开始处改变按钮高亮状态的宽度： 
+
 * Select the record Button
 * Change the width of the Button in the inspector
 * Exit the record mode.
