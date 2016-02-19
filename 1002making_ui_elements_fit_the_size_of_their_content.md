@@ -71,6 +71,8 @@ However, it isn’t necessary either. The parent Layout Group can already make e
 
 Once the children no longer expand with flexible width, their alignment can be specified in the Layout Group using the Child Alignment setting.
 
+你看，在默认情况下布局元素将扩大以填充额外的可用空间。为了防止他们的这，布局 元素组件可以被添加，在哪里可以重写的设置 Flexible Width and Height。 
+
 What if you want some of the children to expand to fill additional available space, but not the other children? You can easily control this by adding a Layout Element component to the children you want to expand and enabling the Flexible Width or Flexible Height properties on those Layout Elements. The parent Layout Group should still have the Child Force Expand toggles disabled, otherwise all the children will expand flexibly.
 
 ###How does it work?
