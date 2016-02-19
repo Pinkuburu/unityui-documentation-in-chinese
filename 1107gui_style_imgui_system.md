@@ -63,6 +63,8 @@ var customGuiStyle : GUIStyle;
 
 When you attach this script to a GameObject, you will see the custom Style available to modify in the Inspector.
 
+当该脚本附加到游戏对象时，您会发现在检视器 (Inspector) 中可修改自定义样式。
+
 ![A Style declared in a script can be modified in each instance of the script](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/ModifyingStyleInInspector.png)
 ######A Style declared in a script can be modified in each instance of the script
 Now, when you want to tell a particular Control to use this Style, you provide the name of the Style as the last argument in the Control function.
