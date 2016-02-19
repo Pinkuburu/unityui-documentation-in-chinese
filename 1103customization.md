@@ -141,6 +141,8 @@ To create a GUISkin, select Assets->Create->GUI Skin from the menu bar. This wil
 
 To use a skin you’ve created, assign it to GUI.skin in your OnGUI() function.
 
+要使用创建的皮肤，请将其分配到 OnGUI() 函数中的 GUI.skin。
+
 ```
 /* Make a property containing a reference to the skin you want to use */
 
