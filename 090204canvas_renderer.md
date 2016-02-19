@@ -2,6 +2,8 @@
 
 The Canvas Renderer component renders a graphical UI object contained within a Canvas.
 
+Canvas Renderer component 画布上的渲染器组件将呈现包含在一个画布内的图形用户界 面对象。 
+
 ![](Main/UI_CanvasRendererInspector.png)
 ##Properties
 
