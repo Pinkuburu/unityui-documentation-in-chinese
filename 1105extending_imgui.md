@@ -107,6 +107,8 @@ By saving the above example in a script called CompoundControls, you can call th
 ###Elaborate Compound Controls
 
 You can get very creative with Compound Controls. They can be arranged and grouped in any way you like. The following example creates a re-usable RGB Slider.
+
+您可以利用复合控件 (Compound Controls) 变得更具创造力。它们可以按照您喜欢的方式排列和分组。以下示例将创建一个能够重复使用的 RGB 滑块。
 ```
 
 /* RGB Slider Compound Control */
