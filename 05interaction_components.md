@@ -56,6 +56,7 @@ See the Scrollbar page for details on using the Scrollbar component.
 
 A Dropdown has a list of options to choose from. A text string and optionally an image can be specified for each option, and can be set either in the Inspector or dynamically from code. It has a OnValueChanged UnityEvent to define what it will do when the currently chosen option is changed.
 
+![](Main/UI_DropdownExample.png)
 
 See the Dropdown page for details on using the Dropdown component.
 
