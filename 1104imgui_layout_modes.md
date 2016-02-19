@@ -238,6 +238,8 @@ When using Automatic Layout, Controls will by default appear one after another f
 
 Like the other layout Controls, you call separate functions to start or end these groups. The specific functions are GUILayout.BeginHoriztontal(), GUILayout.EndHorizontal(), GUILayout.BeginVertical(), and GUILayout.EndVertical().
 
+像其他的布局控件 (Control) 一样，您可以调用不同的函数来开始或结束群组。函数具体为 GUILayout.BeginHoriztontal()、 GUILayout.EndHorizontal()、 GUILayout.BeginVertical() 和 GUILayout.EndVertical()。
+
 Any Controls inside a Horizontal Group will always be laid out horizontally. Any Controls inside a Vertical Group will always be laid out vertically. This sounds plain until you start nesting groups inside each other. This allows you to arrange any number of controls in any imaginable configuration.
 
 ```
