@@ -173,6 +173,8 @@ The TextArea Control is an interactive, editable multi-line area containing a te
 
 The TextArea will always display a string. You must provide the string to be displayed in the TextArea. When edits are made to the string, the TextArea function will return the edited string.
 
+“文本区” (TextArea) 始终显示字符串。您必须在“文本区” (TextArea) 中提供 待显示的字符串。在编辑字符串时，“文本区” (TextArea) 函数将返回已编辑的字符串。
+
 ```
 /* GUI.TextArea example */
 
