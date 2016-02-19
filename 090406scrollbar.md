@@ -29,6 +29,8 @@ The Scrollbar control allows the user to scroll an image or other view that is t
 
 The value of a Scrollbar is determined by the position of the handle along its length with the value being reported as a fraction between the extreme ends. For example, the default left-to-right bar has a value of 0.0 at the left end, 1.0 at the right end and 0.5 indicates the halfway point. A scrollbar can be oriented vertically by choosing Top To Bottom or Bottom To Top for the Direction property.
 
+滚动条的值是由句柄的位置决定，与正在报告作为极端的两端之间的比例的值。例如， 默认从左到右的栏有一个值为 0.0 最左端，最右端 1.0 和 0.5 中间点。一个滚动条可以通 过选择垂直导向顶部到底部或顶部到底部的方向属性。 
+
 A significant difference between the Scrollbar and the similar Slider control is that the Scrollbar’s handle can change in size to represent the distance of scrolling available; when the view can scroll only a short way, the handle will fill up most of the bar and only allow a slight shift either direction.
 
 The Scrollbar has a single event called On Value Changed that responds as the user drags the handle. The current value is passed to the even function as a float parameter. Typical use cases for a scrollbar include:
