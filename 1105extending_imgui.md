@@ -164,6 +164,7 @@ public class GUITest : MonoBehaviour {
 ######The RGB Slider created by the example above
 Now let’s build Compound Controls on top of each other, in order to demonstrate how Compound Controls can be used within other Compound Controls. To do this, we will create a new RGB Slider like the one above, but we will use the LabelSlider to do so. This way we’ll always have a Label telling us which slider corresponds to which color.
 
+为了展示复合控件如何在其他复合控件中使用，现在让我们在它们各自上方创建复合控件。为此，我们将像上面那样创建一个新的 RGB 滑块，但是我们是使用“标签滑块”(LabelSlider) 来实现。这样就总有一个标签使我们可以分辨出哪个滑块对应哪种颜色。
 ```
 /* RGB Label Slider Compound Control */
 
