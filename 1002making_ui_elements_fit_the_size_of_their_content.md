@@ -85,6 +85,8 @@ A Game Object can have multiple components that each provide layout information 
 
 When the Layout Group listens to the layout information provided by the children, it will take the overridden flexible sizes into account. Then, when controlling the sizes of the children, it will not make them any bigger than their preferred sizes. However, if the Layout Group has the Child Force Expand option enabled, it will always make the flexible sizes of all the children be at least 1.
 
+当布局组听子对象所提供的布局信息时，它将会考虑重写的 flexible 灵活大小 （它已设 置为 0）。然后，当控制孩子的大小，它不会他们任何大于其首选大小
+
 ##More information
 
 This page has explained solutions to a few common use cases. For a more in depth explanation of the auto layout system, see the UI Auto Layout page.
