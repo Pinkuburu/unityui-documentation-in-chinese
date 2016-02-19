@@ -686,3 +686,5 @@ public class GUITest : MonoBehaviour {
 
 
 GUI.changed will return true if any GUI Control placed before it was manipulated by the user.
+
+如果用户操作了放置在 GUI.changed 之前的 GUI 控件 (GUI Control)，则“GUI.changed” 将返回真。
