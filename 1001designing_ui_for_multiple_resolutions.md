@@ -70,6 +70,8 @@ The component has a property called Match which can be 0 (Width), 1 (Height) or 
 
 If the Match property is set to 0.5 instead, it will compare both the current width to the reference width and the current height to the reference height, and choose a scale factor that’s in between the two. Since in this case the landscape resolution is 1.5 times wider but also 1.5 times shorter, those two factor even out and produce a final scale factor of 1, which means the buttons keep their original size.
 
+如果 Match Width Or Height 属性设置为 0.5 ，它将比较 reference 分辨率宽度与 current 分辨率宽度和 current 当前分辨率高度与 reference 引用分辨率高度两个，并在两个之间选 择 scale 因子。因为在这种情况下的 landscape resolution 是宽出 1.5 倍，但也短了 1.5 倍， 那这两个因子综合起来出来，最终产生 scale factor 为 1，这意味着这些按钮保持其原始大 小。 
+
 At this point the layout supports all the four screen resolutions using a combination of appropriate anchoring and the Canvas Scaler component on the Canvas.
 
 在这一点上布局支持所有四个屏幕分辨率，在画布上使用适当的锚定和 Reference Resolution 组件组合
