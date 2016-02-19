@@ -50,6 +50,8 @@ Image 组件需要一个精灵，但 Raw Image 需要的是纹理 (无边界等)
 
 A Mask is not a visible UI control but rather a way to modify the appearance of a control’s child elements. The mask restricts (ie, “masks”) the child elements to the shape of the parent. So, if the child is larger than the parent then only the part of the child that fits within the parent will be visible.
 
+掩码是不可见的 UI 控件，是在修改控件的子元素的外观。掩码限制子元素的形状在父 对象内。所以，如果孩子是大于父，然后只有在父内的部分将可见。 
+
 ##Effects
 
 Visual components can also have various simple effects applied, such as a simple drop shadow or outline. See the Effects reference page for more information.
