@@ -467,6 +467,8 @@ public class GUITest : MonoBehaviour {
 
 The VerticalScrollbar Control is similar to a Slider Control, but visually similar to Scrolling elements for web browsers or word processors. This control is used to navigate the ScrollView Control.
 
+垂直滚动条 (VerticalScrollbar) 控件与 滑动条 (Slider) 控件类似，但视觉上更像网页浏览器或文字处理器的滚动元素。此控件用于导航 滚动视图 (ScrollView) 控件。
+
 ####Basic Usage
 
 Vertical Scrollbars are implemented identically to Vertical Sliders with one exception: There is an additional argument which controls the height of the Scrollbar knob itself.
