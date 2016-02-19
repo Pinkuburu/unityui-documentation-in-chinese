@@ -509,6 +509,8 @@ public class GUITest : MonoBehaviour {
 
 ScrollViews are Controls that display a viewable area of a much larger set of Controls.
 
+滚动视图 (ScrollView) 是显示较大控件组的可视区域的控件。
+
 ####Basic Usage
 
 ScrollViews require two Rects as arguments. The first Rect defines the location and size of the viewable ScrollView area on the screen. The second Rect defines the size of the space contained inside the viewable area. If the space inside the viewable area is larger than the viewable area, Scrollbars will appear as appropriate. You must also assign and provide a 2D Vector which stores the position of the viewable area that is displayed.
