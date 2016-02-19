@@ -41,6 +41,8 @@ The i tag applies italic style, so this would be presented onscreen as
 
 Note the ordering of the ending tags, which is in reverse to that of the starting tags. The reason for this is perhaps clearer when you consider that the inner tags need not span the whole text of the outermost element
 
+请注意结束标记的排序，这 和起始标签是反向的。因为内部标记不需要跨越到外部的整个文 本。 
+
    We are <b>absolutely <i>definitely</i> not</b> amused
 
 which gives
