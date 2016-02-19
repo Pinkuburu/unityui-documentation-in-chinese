@@ -116,6 +116,8 @@ Here, GUI.Button() only gets called every other second, so the button will appea
 
 As you can see, you can use any desired logic to control when GUI Controls are displayed and functional. Now we will explore the details of each Control’s declaration.
 
+正如您所见，当 GUI 控件 (Control) 显示并可用时，您可使用任何需要的逻辑进行控制。现在我们来探究每个控件 (Control) 声明的详细信息。
+
 ##Anatomy of a Control
 
 There are three key pieces of information required when declaring a GUI Control:
