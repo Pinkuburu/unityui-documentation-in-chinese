@@ -37,6 +37,8 @@ A significant difference between the Scrollbar and the similar Slider control is
 
 The Scrollbar has a single event called On Value Changed that responds as the user drags the handle. The current value is passed to the even function as a float parameter. Typical use cases for a scrollbar include:
 
+滚动条上有一个单一的事件被称为 On Value Changed 响应当用户拖动句柄的值。当前值 是作为一个 float 参数传递给偶函数。典型用例的一个滚动条，包括： 
+
 * Scrolling a piece of text vertically.
 * Scrolling a timeline horizontally.
 * Used as a pair, scrolling a large image both horizontally and vertically to view a zoomed section. The size of the handle changes to indicate the degree of zooming and therefore the available distance for scrolling.
