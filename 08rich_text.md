@@ -63,6 +63,8 @@ Note that the ending tag doesn’t include the parameter value. Optionally, the 
 
 The following list describes all the styling tags supported by Unity.
 
+下面的列表描述了统一所支持的所有 styling tags。 
+
 | **Tag** | **Description** | **Example** | **Notes** |
 | -- | -- | -- | -- |
 |**b**|Renders the text in boldface.|   We are <b>not</b> amused.|
