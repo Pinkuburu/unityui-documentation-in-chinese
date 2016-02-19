@@ -64,6 +64,8 @@ Groups are a convention available in Fixed Layout Mode. They allow you to define
 群组 (Groups) 是固定布局模式 (Fixed Layout Mode) 下可用的惯例，使您能够定义包含多个控件 (Controls) 的屏幕区域。您通过使用GUI.BeginGroup() 函数和GUI.EndGroup() 函数来定义哪些控件 (Controls) 在一个群组 (Group) 内。一个群组 (Group) 内的所有控件 (Controls) 都将基于群组 (Group) 的左上角来放置而不是按屏幕的左上角。以此方式，当您在运行时重新调整该群组的位置时，群组内所有控件 (Controls) 的相对位置保持不变。
 
 As an example, it’s very easy to center multiple Controls on-screen.
+
+例如，可以很容易地把多个控件 (Controls) 放置在屏幕中心。
 ```
 
 /* Center multiple Controls on the screen using Groups */
