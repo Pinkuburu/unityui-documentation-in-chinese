@@ -62,6 +62,8 @@ In our case, we set the Reference Resolution to be the Phone HD landscape resolu
 
 One thing to be aware of: After adding a Canvas Scaler component, it’s important to also check how the layout looks at other aspect ratios. By setting the resolution back to Phone HD landscape, we can see that the buttons now appear bigger than they should (and used to).
 
+一件事要注意： 添加一个 Reference Resolution 组件后, 很重要的还要检查看看其他的 纵横比如何布局。现在设置该分辨率为 Phone HD landscape，我们可以看到按钮现在比刚刚 大了
+
 ![](Main/UI_MultiResLandscapeWrongScaling.png)
 
 The reason for the larger buttons in landscape aspect ratio comes down to how the Reference Resolution setting works. By default it compares the width or the current resolution with the width of the reference resolution and the result is used as the scale factor to scale everything with. Since the current landscape resolution of 960 x 640 has a 1.5 times larger width than the portrait reference resolution of 640 x 960, the layout is scaled up by 1.5.
