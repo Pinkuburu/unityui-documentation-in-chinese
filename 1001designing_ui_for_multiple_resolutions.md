@@ -12,6 +12,8 @@ In this how-to we’re going to use a simple case study and look at and compare 
 
 For this how-to we’re going to consider four screen resolutions: Phone HD in portrait (640 x 960) and landscape (960 x 640) and Phone SD in portrait (320 x 480) and landscape (480 x 320). The layout is initially setup in the Phone HD Portrait resolution.
 
+这个操作对于我们要考虑四个屏幕分辨率： Phone HD in portrait 电话高清画像 (640 × 960) 和 landscape 景观 （960 × 640） 和 Phone SD in portrait 手机 SD 肖像 (320 x 480） 和 landscape 风景 (480 × 320）。布局最初是 Phone HD Portrait 电话高清肖像的分 辨率。 
+
 ##Using anchors to adapt to different aspect ratios
 
 UI elements are by default anchored to the center of the parent rectangle. This means that they keep a constant offset from the center.
