@@ -81,6 +81,8 @@ What if you want some of the children to expand to fill additional available spa
 
 A Game Object can have multiple components that each provide layout information about minimum, preferred and flexible sizes. A priority system determines which values take effect over others. The Layout Element component has a higher priority than the Text, Image, and Layout Group components, so it can be used to override any layout information values they provide.
 
+一个游戏对象可以有多个组件每个提供有关 minimum 最小的、 preferred 首选的和 flexible 灵活的大小的布局信息。优先权制度确定哪些值接管别人的影响。布局元素组件具 有更高的优先级比文本、 图像和布局组组件，所以它可以用来重写它们提供任何布局信息 值。 
+
 When the Layout Group listens to the layout information provided by the children, it will take the overridden flexible sizes into account. Then, when controlling the sizes of the children, it will not make them any bigger than their preferred sizes. However, if the Layout Group has the Child Force Expand option enabled, it will always make the flexible sizes of all the children be at least 1.
 
 ##More information
