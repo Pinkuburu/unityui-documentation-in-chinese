@@ -57,6 +57,8 @@ public class GUITest : MonoBehaviour {
 
 In this example, calling LabelSlider() and passing the correct arguments will provide a Label paired with a Horizontal Slider. When writing Compound Controls, you have to remember to return the correct value at the end of the function to make it interactive.
 
+在这个示例中，调用 LabelSlider() 并传递正确的参数将使标签 (Label) 与水平滑动条 (Horizontal Slider) 配对。编写复合控件 (Compound Controls) 时，请务必记住在函数结束时返回正确的值以使其交互
+
 ![The above Compound Control always creates this pair of Controls](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/gsg-LabelSlider.png)
 ######The above Compound Control always creates this pair of Controls
 ###Static Compound Controls
