@@ -209,6 +209,8 @@ public class GUITest : MonoBehaviour {
 
 The Toggle Control creates a checkbox with a persistent on/off state. The user can change the state by clicking on it.
 
+“切换键” (Toggle) 切换键 (Toggle) 控件创建具有持续的开/关状态的复选框。用户可通过单击复选框来改变其状态。
+
 ####Basic Usage
 
 The Toggle on/off state is represented by a true/false boolean. You must provide the boolean as a parameter to make the Toggle represent the actual state. The Toggle function will return a new boolean value if it is clicked. In order to capture this interactivity, you must assign the boolean to accept the return value of the Toggle function.
