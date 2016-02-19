@@ -119,6 +119,8 @@ When you have declared a GUIStyle, you can modify that style in the Inspector. T
 ######Styles are modified on a per-script, per-GameObject basis
 Any Control State must be assigned a Background Color before the specified Text Color will be applied.
 
+在应用指定的文本颜色 (Text Color) 之前，必须为每个控件状态 (Control State) 分配背景 (Background) 颜色。
+
 For more information about individual GUIStyles, please read the GUIStyle Component Reference page.
 
 ##Working with Skins
