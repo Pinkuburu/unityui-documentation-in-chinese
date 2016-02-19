@@ -136,6 +136,8 @@ Observe that this structure is a function with two arguments. We’ll explore th
 
 Type is the Control Type, and is declared by calling a function in Unity’s GUI class or the GUILayout class, which is discussed at length in the Layout Modes section of the Guide. For example, GUI.Label() will create a non-interactive label. All the different control types are explained later, in the Controls section of the Guide.
 
+类型 (Type) 是控件类型 (Control Type)，而且是通过调用 UnityGUI 类或 GUILayout 类 ,中的一个函数进行声明的。GUILayout 类将在指南的 布局模式 (Layout Modes) 部分进行详细讨论。例如，GUI.Label() 将创建一个非互动式的标签。所有不同的控件类型稍后会在指南的控件部分进行解释。
+
 ###Position
 
 The Position is the first argument in any GUI Control function. The argument itself is provided with a Rect() function. Rect() defines four properties: left-most position, top-most position, total width, total height. All of these values are provided in integers, which correspond to pixel values. All UnityGUI controls work in Screen Space, which is the resolution of the published player in pixels.
