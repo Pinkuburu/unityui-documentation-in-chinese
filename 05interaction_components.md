@@ -8,7 +8,7 @@ The interaction components are not visible on their own, and must be combined wi
 
 Most of the interaction components have some things in common. They are selectables, which means they have shared built-in functionality for visualising transitions between states (normal, highlighted, pressed, disabled), and for navigation to other selectables using keyboard or controller. This shared functionality is described on the Selectable page.
 
-Button
+##Button
 
 A Button has an OnClick UnityEvent to define what it will do when clicked.
 
