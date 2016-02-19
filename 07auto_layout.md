@@ -20,6 +20,8 @@ The auto layout system is based on a concept of layout elements and layout contr
 
 A layout element has properties that defines its own:
 
+一种布局元素具有定义了它自己的属性： 
+
 * Minimum width
 * Minimum height
 * Preferred width
