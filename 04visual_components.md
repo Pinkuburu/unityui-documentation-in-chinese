@@ -2,6 +2,8 @@
 
 With the introduction of the UI system, new Components have been added that will help you create GUI specific functionality. This section will cover the basics of the new Components that can be created.
 
+有新的组件和游戏对象已添加到 uGUI，允许和容易的创建 GUI 特定功能。这一节将介 绍新的游戏物体被创建的基础。 
+
 Text
 
 
