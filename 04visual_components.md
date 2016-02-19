@@ -27,6 +27,7 @@ An Image has a Rect Transform component and an **Image** component. A sprite can
 * **Sliced** - Utilises the 3x3 sprite division so that resizing does not distort corners and only the center part is stretched.
 * **Sliced 切割** - 利用 3 x 3 精灵分割，以便调整不变形的角落的大小
 * **Tiled** - Similar to Sliced, but tiles (repeats) the center part rather than stretching it. For sprites with no borders at all, the entire sprite is tiled.
+* Tiled 平铺 - 重复的精灵游戏物体的边界内。 
 * **Filled** - Shows the sprite in the same way as Simple does except that it fills in the sprite from an origin in a defined direction, method and amount.
 
 The option to Set Native Size, which is shown when Simple or Filled is selected, resets the image to the original sprite size.
