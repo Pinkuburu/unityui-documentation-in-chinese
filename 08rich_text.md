@@ -17,6 +17,8 @@ The markup system is inspired by HTML but isn’t intended to be strictly compat
 
 As the example shows, the tags are just pieces of text inside the “angle bracket” characters, < and >. The text inside the tag denotes its name (which in this case is just **b**). Note that the tag at the end of the section has the same name as the one at the start but with the slash / character added. The tags are not displayed to the user directly but are interpreted as instructions for styling the text they enclose. The b tag used in the example above applies boldface to the word “not”, so the text will appear onscreen as:-
 
+如示例所示，标签 tags 只是一张的"尖括号"字符， < 和 >。在 text 内的标签表示其名 称 （即在这种情况下只是 b）。注意 结束标记具有和开始相同的名称，但 添加斜杠 / 字符。 标签不直接显示给用户，但将被解释为关于 styling 的文本说明。在上面的示例中使用的 b 标记的黑体字单词"not"，因此文本将出现在屏幕上为：- 
+
    We are **not** amused
 
 A marked up section of text (including the tags that enclose it) is referred to as an **element**.
