@@ -431,6 +431,8 @@ The HorizontalScrollbar Control is similar to a Slider Control, but visually sim
 
 Horizontal Scrollbars are implemented identically to Horizontal Sliders with one exception: There is an additional argument which controls the width of the Scrollbar knob itself.
 
+“水平滚动条”(HorizontalScrollbar) 的执行与“水平滑动条”(Horizontal Slider) 相同，但有一个例外之处：另有一个参数控制“滚动条”(Scrollbar) 钮自身的宽度。
+
 ```
 /* Horizontal Scrollbar example */
 
