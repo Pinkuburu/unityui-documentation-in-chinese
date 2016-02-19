@@ -2,6 +2,8 @@
 
 GUISkins are a collection of GUIStyles that can be applied to your GUI. Each Control type has its own Style definition. Skins are intended to allow you to apply style to an entire UI, instead of a single Control by itself.
 
+GUISkins 是一组可以应用到 GUI 的 GUIStyles 。每个控件 (Control) 类型都有各自的样式 (Style) 定义。皮肤使您能够将一种样式应用于整个 UI，而不只是应用于单个控件 (Control)。
+
 ![A GUI Skin as seen in the Inspector](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/Inspector-GUISkin.png)
 ######A GUI Skin as seen in the Inspector
 To create a GUISkin, select Assets->Create->GUI Skin from the menubar.
