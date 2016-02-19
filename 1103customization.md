@@ -77,6 +77,8 @@ public class GUITest : MonoBehaviour {
 
 When you declare a public GUIStyle variable, all elements of the Style will show up in the Inspector. You can edit all of the different values there.
 
+当您声明一个公共 GUIStyle 变量时，该样式 (Style) 的所有元素都将在检视器 (Inspector)中显示。您可以在此编辑所有不同的值。
+
 ```
 /* Overriding the default Control Style with one you've defined yourself */
 
