@@ -18,6 +18,8 @@ In order to make a Rect Transform with a Text component on it fit the text conte
 
 What happens here is that the Text component functions as a Layout Element that can provide information about how big its minimum and preferred size is. In a manual layout this information is not used. A Content Size Fitter is a type of Layout Controller, which listens to layout information provided by Layout Elements and control the size of the Rect Transform according to this.
 
+发生了什么在这里是 Text 组件功能作为一个 Layout Element 布局元素，可以提供有关其 最小值和首选的大小是多少的信息。在手动布局中不使用此信息。Content Size Fitter 是 Layout Controller 的一种类型，它听布局信息提供的布局元素和控件的 Rect Transform 大小。 
+
 ###Remember the pivot
 
 When UI elements are automatically resized to fit their content, you should pay extra attention to the pivot of the Rect Transform. The pivot will stay in place when the element is resized, so by setting the pivot position you can control in which direaction the element will expand or shrink. For example, if the pivot is in the center, then the element will expand equally in all directions, and if the pivot is in the upper left corner, then the element will expand to the right and down.
