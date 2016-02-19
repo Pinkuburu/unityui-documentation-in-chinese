@@ -28,6 +28,8 @@ There is an Animation Clip pop-up menu to select the desired clip. Choose from �
 
 The Normal State is set by the values on button element itself and can be left empty. On all other states, the most common configuration is a single keyframe at the start of the timeline. The transition animation between states will be handled by the Animator.
 
+Normal 状态是就是按钮元素本身的值，可以留空。在所有其他状态，最常见的配置是 单个关键帧在时间线的开始。动画状态之间的转换将由 Animator 处理。 
+
 As an example, the width of the button in the Highlighted State could be changed by selecting the Highlighted state from the Animation Clip pop up menu and with the playhead at the start of the time line:
 
 * Select the record Button
