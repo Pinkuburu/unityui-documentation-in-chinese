@@ -47,6 +47,8 @@ If you want to add style to more than one control, use a GUI Skin instead of a G
 
 GUIStyles are declared from scripts and modified on a per-instance basis. If you want to use a single or few Controls with a custom Style, you can declare this custom Style in the script and provide the Style as an argument of the Control function. This will make these Controls appear with the Style that you define.
 
+GUIStyles 通过脚本声明，并在每个实例的基础上进行修改。如果想要使用一个或少量自定义样式的控件，您可以在脚本中声明该自定义样式，然后提供 该样式作为控件功能参数。这样这些控件就会以您定义的样式显示。
+
 First, you must declare a GUI Style from within a script.
 
 ```
