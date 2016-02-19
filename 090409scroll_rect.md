@@ -2,6 +2,8 @@
 
 A Scroll Rect can be used when content that takes up a lot of space needs to be displayed in a small area. The Scroll Rect provides functionality to scroll over this content.
 
+Scroll Rect 是允许用户将沿水平或垂直轴的移动的其他的 UI 元素。 
+
 Usually a Scroll Rect is combined with a Mask in order to create a scroll view, where only the scrollable content inside the Scroll Rect is visible. It can also additionally be combined with one or two Scrollbars that can be dragged to scroll horizontally or vertically.
 
 ![](Main/UI_ScrollRectExample.png)
