@@ -123,3 +123,5 @@ In some cases you want to have two of the same Control with different Styles. Fo
     }
 ```
 For more information about working with GUIStyles, please read the GUIStyle page. For more information about using UnityGUI, please read the GUI Scripting Guide.
+
+有关使用 GUIStyle 的更多信息，请参阅 GUIStyle 页面。有关使用 UnityGUI 的更多信息，请参阅 GUI Scripting Guide 。
