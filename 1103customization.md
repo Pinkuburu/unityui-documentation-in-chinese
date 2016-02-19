@@ -123,6 +123,8 @@ Any Control State must be assigned a Background Color before the specified Text 
 
 For more information about individual GUIStyles, please read the GUIStyle Component Reference page.
 
+有关各 GUIStyles 的更多信息，请参阅 GUIStyle 组件参考页面。
+
 ##Working with Skins
 
 For more complicated GUI systems, it makes sense to keep a collection of styles in one place. This is what a GUISkin does. A GUISkin contains multiple different Styles, essentially providing a complete face-lift to all GUI Controls.
