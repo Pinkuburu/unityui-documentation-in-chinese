@@ -54,6 +54,8 @@ GUI 皮肤中的所有属性都是一个独立的 GUIStyle 。有关如何使用
 
 When you are creating an entire GUI for your game, you will likely need to do a lot of customization for every different Control type. In many different game genres, like real-time strategy or role-playing, there is a need for practically every single Control type.
 
+为游戏创建整个 GUI 时，您可能需要为各种不同类型的控件 (Control) 做大量自定义。在许多不同的游戏类型中（如即时战略游戏或角色扮演游戏），几乎每种控件 (Control) 类型都需要自定义。
+
 Because each individual Control uses a particular Style, it does not make sense to create a dozen-plus individual Styles and assign them all manually. GUI Skins take care of this problem for you. By creating a GUI Skin, you have a pre-defined collection of Styles for every individual Control. You then apply the Skin with a single line of code, which eliminates the need to manually specify the Style of each individual Control.
 
 ###Creating GUISkins
