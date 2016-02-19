@@ -47,3 +47,5 @@ Unlike a Canvas set to Screen Space, a World Space Canvas can be freely position
 ##Create the UI
 
 Now you can begin setting up your UI elements and layouts the same way you would with a Screen Space Canvas.
+
+现在你可以开始设置你的 UI 元素和布局以与屏幕空间的画布同样的方式进行。 
