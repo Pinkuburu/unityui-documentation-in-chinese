@@ -45,6 +45,7 @@ Scrollbars are often used together with a Scroll Rect and a Mask to create a scr
 The Scrollbar can be either horizontal or vertical. It also has a OnValueChanged UnityEvent to define what it will do when the value is changed.
 
 ![](Main/UI_ScrollbarExample.png)
+
 See the Scrollbar page for details on using the Scrollbar component.
 
 ##Dropdown
