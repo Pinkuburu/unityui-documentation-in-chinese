@@ -2,6 +2,8 @@
 
 A Toggle Group is not a visible UI control but rather a way to modify the behavior of a set of Toggles. Toggles that belong to the same group are constrained so that only one of them can switched on at a time - pressing one of them to switch it on automatically switches the others off.
 
+开关切换组是不可见的 UI 控件而是在要修改的行为切换的一组（就是单选按钮）。属 于同一组的切换约束这样，只有一个人可以选择在时间-选择其中之一时将自动取消所有其 他选择。  
+
 ![](Main/UI_ToggleGroupExample.png)
 ######A Toggle Group
 ![](Main/UI_ToggleGroupInspector.png)
