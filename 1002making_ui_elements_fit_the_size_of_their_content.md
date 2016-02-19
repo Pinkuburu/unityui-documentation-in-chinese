@@ -59,6 +59,8 @@ Once the size of the Rect Transform has been set, the Horizontal (or Vertical) L
 
 If you have a Layout Group (horizontal or vertical) and want each of the UI elements in the group to fit their respective content, what do you do?
 
+如果你有一个布局组 （水平或垂直），想每个 UI 元素组以适合其各自的内容中，你会 做什么？
+
 You can’t put a Content Size Fitter on each child. The reason is that the Content Size Fitter wants control over its own Rect Transform, but the parent Layout Group also wants control over the child Rect Transform. This creates a conflict and the result is undefined behavior.
 
 However, it isn’t necessary either. The parent Layout Group can already make each child fit the size of the content. What you need to do is to disable the Child Force Expand toggles on the Layout Group. If the children are themselves Layout Groups too, you may need to disable the Child Force Expand toggles on those too.
