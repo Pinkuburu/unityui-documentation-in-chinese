@@ -319,6 +319,8 @@ public class GUITest : MonoBehaviour {
 
 You can also define a Tooltip in the GUIContent, and display it elsewhere in the GUI when the mouse hovers over it.
 
+您还可以在 GUIContent 中定义工具提示 (Tooltip)。当鼠标在工具提示上方悬停时，可将其显示在 GUI 中的其他地方。
+
 ```
 /* Using GUIContent to display a tooltip */
 
