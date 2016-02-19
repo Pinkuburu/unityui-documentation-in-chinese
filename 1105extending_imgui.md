@@ -2,9 +2,10 @@
 
 There are a number of ways to leverage and extend the IMGUI system to meet your needs. Controls can be mixed and created, and you have a lot of leverage in dictating how user input into the GUI is processed.
 
-Compound Controls
+##Compound Controls
 
 There might be situations in your GUI where two types of Controls always appear together. For example, maybe you are creating a Character Creation screen, with several Horizontal Sliders. All of those Sliders need a Label to identify them, so the player knows what they are adjusting. In this case, you could partner every call to GUI.Label() with a call to GUI.HorizontalSlider(), or you could create a Compound Control which includes both a Label and a Slider together.
+```
 
 /* Label and Slider Compound Control */
 
@@ -48,15 +49,17 @@ public class GUITest : MonoBehaviour {
 
 }
 
+```
 
 In this example, calling LabelSlider() and passing the correct arguments will provide a Label paired with a Horizontal Slider. When writing Compound Controls, you have to remember to return the correct value at the end of the function to make it interactive.
 
-The above Compound Control always creates this pair of Controls
-The above Compound Control always creates this pair of Controls
-Static Compound Controls
+![The above Compound Control always creates this pair of Controls](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/gsg-LabelSlider.png)
+######The above Compound Control always creates this pair of Controls
+###Static Compound Controls
 
 By using Static functions, you can create an entire collection of your own Compound Controls that are self-contained. This way, you do not have to declare your function in the same script you want to use it.
 
+```
 /* This script is called CompoundControls */
 
 
@@ -86,13 +89,15 @@ public class CompoundControls : MonoBehaviour {
     }
 
 }
+```
 
 
 By saving the above example in a script called CompoundControls, you can call the LabelSlider() function from any other script by simply typing CompoundControls.LabelSlider() and providing your arguments.
 
-Elaborate Compound Controls
+###Elaborate Compound Controls
 
 You can get very creative with Compound Controls. They can be arranged and grouped in any way you like. The following example creates a re-usable RGB Slider.
+```
 
 /* RGB Slider Compound Control */
 
@@ -141,11 +146,13 @@ public class GUITest : MonoBehaviour {
     }
 }
 
+```
 
-The RGB Slider created by the example above
-The RGB Slider created by the example above
+![The RGB Slider created by the example above](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/gsg-RGBSlider.png)
+######The RGB Slider created by the example above
 Now let’s build Compound Controls on top of each other, in order to demonstrate how Compound Controls can be used within other Compound Controls. To do this, we will create a new RGB Slider like the one above, but we will use the LabelSlider to do so. This way we’ll always have a Label telling us which slider corresponds to which color.
 
+```
 /* RGB Label Slider Compound Control */
 
 
@@ -194,7 +201,8 @@ public class GUITest : MonoBehaviour {
     }   
     
 }
+```
 
 
-The Compound RGB Label Slider created by the above code
-The Compound RGB Label Slider created by the above code
+![The Compound RGB Label Slider created by the above code](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/gsg-RGBLabelSlider.png)
+######The Compound RGB Label Slider created by the above code

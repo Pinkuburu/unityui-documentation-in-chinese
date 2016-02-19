@@ -2,29 +2,29 @@
 
 It’s fairly common the need to transition between multiple UI Screens, we will explore a simple way to create and manage those transitions. We will show how to create transitions using animation and State Machines to drive and control each screen.
 
-Overview
+##Overview
 
 The high-level idea is that each of our Screens will have an Animator Controller with two states (Open and Closed) and a boolean Parameter (Open). To transition between screens you will only need to close the currently open Screen and open the desired one. To make this process easier we will create a small Class ScreenManager that will keep track and take care of closing any already open Screen for us. The button that triggers the transition will only have to ask the ScreenManager to open the desired screen.
 
-Thinking about Navigation
+###Thinking about Navigation
 
 If you plan to support controller/keyboard navigation of UI elements, then it’s important to have a few things in mind. It’s important to avoid having Selectable elements outside the screen since that would enable players to select offscreen elements, we can do that by deactivating any off-screen hierarchy. We also need to make sure when a new screen is shown we set a element from it as selected, otherwise the player would not be able to navigate to the new screen. We will take care of all that in the ScreenManager class below.
 
-Setting up the Animator Controller
+##Setting up the Animator Controller
 
 Let’s take a look at the most common and minimal setup for the Animation Controller to do a Screen transition. The controller will need a boolean parameter (Open) and two states (Open and Closed), each state should have an animation with only one keyframe, this way we let the State Machine do the transition blending for us.
 
-The Open state and animation
-The Open state and animation
-The Closed state and animation
-The Closed state and animation
+![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_ScreenTransitionAnimatorOpen.png)
+######The Open state and animation
+![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_ScreenTransitionAnimatorClosed.png)
+######The Closed state and animation
 Now we need to create the transition between both states, let’s start with the transition from Open to Closed and let’s set the condition properly, we want to go from Open to Closed when the parameter Open is set to false. Now we create the transition from Closed to Open and set the condition to go from Closed to Open when the parameter Open is true.
 
-The Transition from Closed to Open
-The Transition from Closed to Open
-The Transition from Open to Closed
-The Transition from Open to Closed
-Managing the Screens
+![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_ScreenTransitionAnimatorTransitionToOpen.png)
+######The Transition from Closed to Open
+![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_ScreenTransitionAnimatorTransitionToClosed.png)
+######The Transition from Open to Closed
+##Managing the Screens
 
 With all the above set up, the only thing missing is for us to set the parameter Open to true on the screens Animator we want to transition to and Open to false on the currently open screens Animator. To do that we will create a small Script that will take care of that for us.
 
@@ -172,9 +172,9 @@ Let’s hook up this script, we do this by creating a new GameObject, we can ren
 
 Now for the final part, let’s make the UI buttons work. Select the button that should trigger the screen transition and add a new action under the On Click () list in the Inspector. Drag the ScreenManager GameObject we just created to the ObjectField, on the dropdown select ScreenManager->OpenPanel (Animator) and drag and drop the panel you want to open when the user clicks the button to the las ObjectField.
 
-Button Inspector
-Button Inspector
-Notes
+![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_ScreenTransitionButtonInspector.png)
+######Button Inspector
+##Notes
 
 This technique has the advantage that the only requirement for it to work is that each screen should have an AnimatorController with an Open parameter and a Closed state. It’s completely unconcerned with the details of how your Screen or your State Machine is constructed. And works nicely with nested Screens, you would just need one ScreenManager for each nested level.
 

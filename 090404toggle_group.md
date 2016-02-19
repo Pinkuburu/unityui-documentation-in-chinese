@@ -2,14 +2,16 @@
 
 A Toggle Group is not a visible UI control but rather a way to modify the behavior of a set of Toggles. Toggles that belong to the same group are constrained so that only one of them can switched on at a time - pressing one of them to switch it on automatically switches the others off.
 
-A Toggle Group
-A Toggle Group
+![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_ToggleGroupExample.png)
+######A Toggle Group
+![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_ToggleGroupInspector.png)
 
-Properties
+##Properties
 
-Property:	Function:
-Allow Switch Off	Is it allowed that no toggle is switched on? If this setting is enabled, pressing the toggle that is currently switched on will switch it off, so that no toggle is switched on. If this setting is disabled, pressing the toggle that is currently switched on will not change its state.
-Description
+| Property:	 | Function: |
+| -- | -- |
+| Allow Switch Off	 | Is it allowed that no toggle is switched on? If this setting is enabled, pressing the toggle that is currently switched on will switch it off, so that no toggle is switched on. If this setting is disabled, pressing the toggle that is currently switched on will not change its state. |
+##Description
 
 The Toggle Group is setup by dragging the Toggle Group object to the Group property of each of the Toggles in the group.
 

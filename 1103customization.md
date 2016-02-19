@@ -1,31 +1,33 @@
 # Customization
 
-Customizing your IMGUI Controls
+##Customizing your IMGUI Controls
 
 Although Unity’s IMGUI system is mainly intended for creating developer tools and debugging interfaces, you can still customize and style them in many ways. In Unity’s IMGUI system, you can fine-tune the appearance of your Controls with many details. Control appearances are dictated with GUIStyles. By default, when you create a Control without defining a GUIStyle, Unity’s default GUIStyle is applied. This style is internal in Unity and can be used in published games for quick prototyping, or if you choose not to stylize your Controls.
 
 When you have a large number of different GUIStyles to work with, you can define them all within a single GUISkin. A GUISkin is no more than a collection of GUIStyles.
 
-How Styles change the look of your GUI Controls
+###How Styles change the look of your GUI Controls
 
 GUIStyles are designed to mimic Cascading Style Sheets (CSS) for web browsers. Many different CSS methodologies have been adapted, including differentiation of individual state properties for styling, and separation between the content and the appearance.
 
 Where the Control defines the content, the Style defines the appearance. This allows you to create combinations like a functional Toggle which looks like a normal Button.
 
-Two Toggle Controls styled differently
-Two Toggle Controls styled differently
-The difference between Skins and Styles
+![Two Toggle Controls styled differently](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/gsg-ToggleStyles.png)
+######Two Toggle Controls styled differently
+###The difference between Skins and Styles
 
 As stated earlier, GUISkins are a collection of GUIStyles. Styles define the appearance of a GUI Control. You do not have to use a Skin if you want to use a Style.
 
-A single GUIStyle shown in the Inspector
-A single GUIStyle shown in the Inspector
- A single GUISkin shown in the Inspector - observe that it contains multiple GUIStyles
+![A single GUIStyle shown in the Inspector](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/GuiStyleInspector.png)
+######A single GUIStyle shown in the Inspector
+![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/Inspector-GUISkin.png)
+######A single GUISkin shown in the Inspector - observe that it contains multiple GUIStyles
 
-Working with Styles
+##Working with Styles
 
 All GUI Control functions have an optional last parameter: the GUIStyle to use for displaying the Control. If this is omitted, Unity’s default GUIStyle will be used. This works internally by applying the name of the control type as a string, so GUI.Button() uses the “button” style, GUI.Toggle() uses the “toggle” style, etc. You can override the default GUIStyle for a control by specifying it as the last parameter.
 
+```
 /* Override the default Control Style with a different style in the UnityGUI default Styles */
 
 
@@ -54,14 +56,16 @@ public class GUITest : MonoBehaviour {
     }
 
 }
+```
 
 
-The controls created by the code example above
-The controls created by the code example above
-Making a public variable GUIStyle
+![The controls created by the code example above](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/gsg-DifferentDefaultStyles.png)
+######The controls created by the code example above
+##Making a public variable GUIStyle
 
 When you declare a public GUIStyle variable, all elements of the Style will show up in the Inspector. You can edit all of the different values there.
 
+```
 /* Overriding the default Control Style with one you've defined yourself */
 
 
@@ -89,29 +93,31 @@ public class GUITest : MonoBehaviour {
     
 }
 
+```
 
-Changing the different style elements
+###Changing the different style elements
 
 When you have declared a GUIStyle, you can modify that style in the Inspector. There are a great number of States you can define, and apply to any type of Control.
 
-Styles are modified on a per-script, per-GameObject basis
-Styles are modified on a per-script, per-GameObject basis
+![Styles are modified on a per-script, per-GameObject basis](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/ModifyingStyleInInspector.png)
+######Styles are modified on a per-script, per-GameObject basis
 Any Control State must be assigned a Background Color before the specified Text Color will be applied.
 
 For more information about individual GUIStyles, please read the GUIStyle Component Reference page.
 
-Working with Skins
+##Working with Skins
 
 For more complicated GUI systems, it makes sense to keep a collection of styles in one place. This is what a GUISkin does. A GUISkin contains multiple different Styles, essentially providing a complete face-lift to all GUI Controls.
 
-Creating a new GUISkin
+###Creating a new GUISkin
 
 To create a GUISkin, select Assets->Create->GUI Skin from the menu bar. This will create a GUI Skin in your Project Folder. Select it to see all GUIStyles defined by the Skin in the Inspector.
 
-Applying the skin to a GUI
+###Applying the skin to a GUI
 
 To use a skin you’ve created, assign it to GUI.skin in your OnGUI() function.
 
+```
 /* Make a property containing a reference to the skin you want to use */
 
 
@@ -145,9 +151,11 @@ public class GUITest : MonoBehaviour {
         
 }
 
+```
 
 You can switch skins as much as you like throughout a single OnGUI() call.
 
+```
 /* Example of switching skins in the same OnGUI() call */
 
 
@@ -195,14 +203,16 @@ public class GUITest : MonoBehaviour {
     }
         
 }
+```
 
 
-Changing GUI Font Size
+###Changing GUI Font Size
 
 This example will show you how to dynamically change the font size through code.
 
 First create a new project in Unity. Then make a C# script called Fontsize.cs and paste the following code in:
 
+```
 // C# example
 using UnityEngine;
     
@@ -223,6 +233,7 @@ public class Fontsize : MonoBehaviour
     }
         
 }
+```
 Save the script and attach it to an empty GameObject, click play to see the font loop through increasing and decreasing in size over time. You may notice that the font does not smoothly change size, this is becauses there is not an infinite number of font sizes.
 
 This specific example requires that the default font (Arial) is loaded and marked as dynamic. You cannot change the size of any font that is not marked as dynamic.

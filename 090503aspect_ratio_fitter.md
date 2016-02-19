@@ -1,17 +1,18 @@
 # Aspect Ratio Fitter
 
-Properties
+##Properties
+![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_AspectRatioFitterInspector.png)
 
-
-Property:	Function:
-Aspect Mode	How the rectangle is resized to enforce the aspect ratio.
-        None	Do not make the rect fit the aspect ratio.
-        Width Controls Height	The height is automatically adjusted based on the width.
-        Height Controls Width	The width is automatically adjusted based on the height.
-        Fit In Parent	The width, height, position, and anchors are automatically adjusted to make the rect fit inside the rect of the parent while keeping the aspect ratio. The may be some space inside the parent rect which is not covered by this rect.
-        Envelope Parent	The width, height, position, and anchors are automatically adjusted to make the rect cover the entire area of the parent while keeping the aspect ratio. This rect may extend further out than the parent rect.
-Aspect Ratio	The aspect ratio to enforce. This is the width divided by the height.
-Description
+| Property:	 | Function: |
+| -- | -- |
+| Aspect Mode	 | How the rectangle is resized to enforce the aspect ratio. |
+|         None	 | Do not make the rect fit the aspect ratio. |
+|         Width Controls Height	 | The height is automatically adjusted based on the width. |
+|         Height Controls Width	 | The width is automatically adjusted based on the height. |
+|         Fit In Parent	 | The width, height, position, and anchors are automatically adjusted to make the rect fit inside the rect of the parent while keeping the aspect ratio. The may be some space inside the parent rect which is not covered by this rect. |
+|         Envelope Parent	 | The width, height, position, and anchors are automatically adjusted to make the rect cover the entire area of the parent while keeping the aspect ratio. This rect may extend further out than the parent rect. |
+| Aspect Ratio	 | The aspect ratio to enforce. This is the width divided by the height. |
+##Description
 
 The Aspect Ratio Fitter functions as a layout controller that controls the size of its own layout element. It can adjust the height to fit the width or vice versa, or it can make the element fit inside its parent or envelope its parent. The Aspect Ratio Fitter does not take layout information into account such as minimum size and preferred size.
 

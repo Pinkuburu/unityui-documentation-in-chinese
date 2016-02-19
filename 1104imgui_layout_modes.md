@@ -1,6 +1,6 @@
 # IMGUI Layout Modes
 
-Fixed Layout vs Automatic Layout
+##Fixed Layout vs Automatic Layout
 
 There are two different modes you can use to arrange and organize your UI when using the IMGUI system: Fixed and Automatic. Up until now, every IMGUI example provided in this guide has used Fixed Layout. To use Automatic Layout, write GUILayout instead of GUI when calling control functions. You do not have to use one Layout mode over the other, and you can use both modes at once in the same OnGUI() function.
 
@@ -8,8 +8,10 @@ Fixed Layout makes sense to use when you have a pre-designed interface to work f
 
 There are two key differences when using Automatic Layout:
 
-GUILayout is used instead of GUI
-No Rect() function is required for Automatic Layout Controls
+* GUILayout is used instead of GUI
+* No Rect() function is required for Automatic Layout Controls
+
+```
 /* Two key differences when using Automatic Layout */
 
 
@@ -38,17 +40,19 @@ public class GUITest : MonoBehaviour {
     }
 
 }
+```
 
 
-Arranging Controls
+##Arranging Controls
 
 Depending on which Layout Mode you’re using, there are different hooks for controlling where your Controls are positioned and how they are grouped together. In Fixed Layout, you can put different Controls into Groups. In Automatic Layout, you can put different Controls into Areas, Horizontal Groups, and Vertical Groups
 
-Fixed Layout - Groups
+###Fixed Layout - Groups
 
 Groups are a convention available in Fixed Layout Mode. They allow you to define areas of the screen that contain multiple Controls. You define which Controls are inside a Group by using the GUI.BeginGroup() and GUI.EndGroup() functions. All Controls inside a Group will be positioned based on the Group’s top-left corner instead of the screen’s top-left corner. This way, if you reposition the group at runtime, the relative positions of all Controls in the group will be maintained.
 
 As an example, it’s very easy to center multiple Controls on-screen.
+```
 
 /* Center multiple Controls on the screen using Groups */
 
@@ -88,11 +92,13 @@ public class GUITest : MonoBehaviour {
     }
 
 }
+```
 
 
-The above example centers controls regardless of the screen resolution
-The above example centers controls regardless of the screen resolution
+![The above example centers controls regardless of the screen resolution](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/gsg-GroupCenteredControls.png)
+######The above example centers controls regardless of the screen resolution
 You can also nest multiple Groups inside each other. When you do this, each group has its contents clipped to its parent’s space.
+```
 
 /* Using multiple Groups to clip the displayed Contents */
 
@@ -161,15 +167,17 @@ public class GUITest : MonoBehaviour {
 
 }
 
+```
 
-You can nest Groups together to create clipping behaviors
-You can nest Groups together to create clipping behaviors
-Automatic Layout - Areas
+![You can nest Groups together to create clipping behaviors](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/gsg-NestedGroupsClipping.png)
+######You can nest Groups together to create clipping behaviors
+###Automatic Layout - Areas
 
 Areas are used in Automatic Layout mode only. They are similar to Fixed Layout Groups in functionality, as they define a finite portion of the screen to contain GUILayout Controls. Because of the nature of Automatic Layout, you will nearly always use Areas.
 
 In Automatic Layout mode, you do not define the area of the screen where the Control will be drawn at the Control level. The Control will automatically be placed at the upper-leftmost point of its containing area. This might be the screen. You can also create manually-positioned Areas. GUILayout Controls inside an area will be placed at the upper-leftmost point of that area.
 
+```
 /* A button placed in no area, and a button placed in an area halfway across the screen. */
 
 
@@ -196,11 +204,12 @@ public class GUITest : MonoBehaviour {
     }
 
 }
+```
 
 
 Notice that inside an Area, Controls with visible elements like Buttons and Boxes will stretch their width to the full length of the Area.
 
-Automatic Layout - Horizontal and Vertical Groups
+###Automatic Layout - Horizontal and Vertical Groups
 
 When using Automatic Layout, Controls will by default appear one after another from top to bottom. There are plenty of occasions you will want finer level of control over where your Controls are placed and how they are arranged. If you are using the Automatic Layout mode, you have the option of Horizontal and Vertical Groups.
 
@@ -208,6 +217,7 @@ Like the other layout Controls, you call separate functions to start or end thes
 
 Any Controls inside a Horizontal Group will always be laid out horizontally. Any Controls inside a Vertical Group will always be laid out vertically. This sounds plain until you start nesting groups inside each other. This allows you to arrange any number of controls in any imaginable configuration.
 
+```
 /* Using nested Horizontal and Vertical Groups */
 
 
@@ -276,16 +286,18 @@ public class GUITest : MonoBehaviour {
     }
 
 }
+```
 
 
-Three Controls arranged with Horizontal & Vertical Groups
-Three Controls arranged with Horizontal & Vertical Groups
-Using GUILayoutOptions to define some controls
+![Three Controls arranged with Horizontal & Vertical Groups](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/gsg-NestedGroupsLayout.png)
+######Three Controls arranged with Horizontal & Vertical Groups
+##Using GUILayoutOptions to define some controls
 
 You can use GUILayoutOptions to override some of the Automatic Layout parameters. You do this by providing the options as the final parameters of the GUILayout Control.
 
 Remember in the Areas example above, where the button stretches its width to 100% of the Area width? We can override that if we want to.
 
+```
 /* Using GUILayoutOptions to override Automatic Layout Control properties */
 
 
@@ -313,5 +325,6 @@ public class GUITest : MonoBehaviour {
 
 }
 
+```
 
 For a full list of possible GUILayoutOptions, please read the GUILayoutOption Scripting Reference page.

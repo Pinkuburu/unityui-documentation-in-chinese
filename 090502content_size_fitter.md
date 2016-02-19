@@ -1,18 +1,19 @@
 # Content Size Fitter
 
-Properties
+##Properties
+![](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/UI_ContentSizeFitterInspector.png)
 
-
-Property:	Function:
-Horizontal Fit	How the width is controlled.
-        None	Do not drive the width based on the layout element.
-        Minimum	Drive the width based on the minimum width of the layout element.
-        Preferred	Drive the width based on the preferred width of the layout element.
-Vertical Fit	How the height is controlled.
-        None	Do not drive the height based on the layout element.
-        Minimum	Drive the height based on the minimum height of the layout element.
-        Preferred	Drive the height based on the preferred height of the layout element.
-Description
+| **Property:**	 | **Function:** |
+| -- | -- |
+| **Horizontal Fit**	 | How the width is controlled. |
+|         None	 | Do not drive the width based on the layout element. |
+|         Minimum	 | Drive the width based on the minimum width of the layout element. |
+|         Preferred	 | Drive the width based on the preferred width of the layout element. |
+| **Vertical Fit**	 | How the height is controlled. |
+|         None	 | Do not drive the height based on the layout element. |
+|         Minimum	 | Drive the height based on the minimum height of the layout element. |
+|         Preferred	 | Drive the height based on the preferred height of the layout element. |
+##Description
 
 The Content Size Fitter functions as a layout controller that controls the size of its own layout element. The size is determined by the minimum or preferred sizes provided by layout element components on the Game Object. Such layout elements can be Image or Text components, layout groups, or a Layout Element component.
 
