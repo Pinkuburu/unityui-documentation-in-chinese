@@ -241,6 +241,8 @@ void OnGUI () {
 
 Here is an example closer to a real-world scenario:
 
+这里是一个更接近真实世界场景的示例：
+
 ```
 /* Button Content examples */
 
