@@ -110,6 +110,8 @@ We are <material=2>texturally</material> amused
 
 This is only useful for text meshes and renders an image inline with the text. It takes parameters that specify the material to use for the image, the image height in pixels, and a further four that denote a rectangular area of the image to display. Unlike the other tags, quad does not surround a piece of text and so there is no ending tag - the slash character is placed at the end of the initial tag to indicate that it is “self-closing”.
 
+这只是使用文本网格并呈现图像与内联文本。它采用参数，指定 material，使用的图像， 图像的高度 （以像素为单位） 和表示要显示的图像的一个矩形区域。不同于其他标签 tags， quad 不会围绕着一段文字，所以没有结束标记-斜杠字符放在结尾，以指示它是"自闭"。 
+
 ```
 <quad material=1 size=20 x=0.1 y=0.1 width=0.5 height=0.5 />
 ```
