@@ -142,6 +142,8 @@ Type is the Control Type, and is declared by calling a function in Unity’s GUI
 
 The Position is the first argument in any GUI Control function. The argument itself is provided with a Rect() function. Rect() defines four properties: left-most position, top-most position, total width, total height. All of these values are provided in integers, which correspond to pixel values. All UnityGUI controls work in Screen Space, which is the resolution of the published player in pixels.
 
+位置 (Position) 是任何 GUI 控件 (Control) 函数中的第一个参数。参数本身设置有 Rect() 函数。Rect() 定义四种属性：最左端位置、最顶端位置、总宽度和总高度。所有这些值都是整数，这与像素值对应。所有 UnityGUI 控件都在屏幕空间 (Screen Space)中运行，该屏幕空间是以像素为单位的已发布播放器的分辨率
+
 The coordinate system is top-left based. Rect(10, 20, 300, 100) defines a Rectangle that starts at coordinates: 10,20 and ends at coordinates 310,120. It is worth repeating that the second pair of values in Rect() are total width and height, not the coordinates where the controls end. This is why the example mentioned above ends at 310,120 and not 300,100.
 
 You can use the Screen.width and Screen.height properties to get the total dimensions of the screen space available in the player. The following example may help clarify how this is done:
