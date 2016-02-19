@@ -108,112 +108,112 @@
 <tr>
 	<td style="text-align:left;">aqua (same as cyan)</td>
 	<td style="text-align:left;"><code>#00ffffff</code></td>
-	<td style="text-align:left;"><img src="Main/CyanSwatch.png" alt=""></td>
+	<td style="text-align:left;"><img src="../uploads/Main/CyanSwatch.png" alt=""></td>
 </tr>
 <tr>
 	<td style="text-align:left;">black</td>
 	<td style="text-align:left;"><code>#000000ff</code></td>
-	<td style="text-align:left;"><img src="Main/BlackSwatch.png" alt=""></td>
+	<td style="text-align:left;"><img src="../uploads/Main/BlackSwatch.png" alt=""></td>
 </tr>
 <tr>
 	<td style="text-align:left;">blue</td>
 	<td style="text-align:left;"><code>#0000ffff</code></td>
-	<td style="text-align:left;"><img src="Main/BlueSwatch.png" alt=""></td>
+	<td style="text-align:left;"><img src="../uploads/Main/BlueSwatch.png" alt=""></td>
 </tr>
 <tr>
 	<td style="text-align:left;">brown</td>
 	<td style="text-align:left;"><code>#a52a2aff</code></td>
-	<td style="text-align:left;"><img src="Main/BrownSwatch.png" alt=""></td>
+	<td style="text-align:left;"><img src="../uploads/Main/BrownSwatch.png" alt=""></td>
 </tr>
 <tr>
 	<td style="text-align:left;">cyan (same as aqua)</td>
 	<td style="text-align:left;"><code>#00ffffff</code></td>
-	<td style="text-align:left;"><img src="Main/CyanSwatch.png" alt=""></td>
+	<td style="text-align:left;"><img src="../uploads/Main/CyanSwatch.png" alt=""></td>
 </tr>
 <tr>
 	<td style="text-align:left;">darkblue</td>
 	<td style="text-align:left;"><code>#0000a0ff</code></td>
-	<td style="text-align:left;"><img src="Main/DarkblueSwatch.png" alt=""></td>
+	<td style="text-align:left;"><img src="../uploads/Main/DarkblueSwatch.png" alt=""></td>
 </tr>
 <tr>
 	<td style="text-align:left;">fuchsia (same as magenta)</td>
 	<td style="text-align:left;"><code>#ff00ffff</code></td>
-	<td style="text-align:left;"><img src="Main/MagentaSwatch.png" alt=""></td>
+	<td style="text-align:left;"><img src="../uploads/Main/MagentaSwatch.png" alt=""></td>
 </tr>
 <tr>
 	<td style="text-align:left;">green</td>
 	<td style="text-align:left;"><code>#008000ff</code></td>
-	<td style="text-align:left;"><img src="Main/GreenSwatch.png" alt=""></td>
+	<td style="text-align:left;"><img src="../uploads/Main/GreenSwatch.png" alt=""></td>
 </tr>
 <tr>
 	<td style="text-align:left;">grey</td>
 	<td style="text-align:left;"><code>#808080ff</code></td>
-	<td style="text-align:left;"><img src="Main/GreySwatch.png" alt=""></td>
+	<td style="text-align:left;"><img src="../uploads/Main/GreySwatch.png" alt=""></td>
 </tr>
 <tr>
 	<td style="text-align:left;">lightblue</td>
 	<td style="text-align:left;"><code>#add8e6ff</code></td>
-	<td style="text-align:left;"><img src="Main/LightblueSwatch.png" alt=""></td>
+	<td style="text-align:left;"><img src="../uploads/Main/LightblueSwatch.png" alt=""></td>
 </tr>
 <tr>
 	<td style="text-align:left;">lime</td>
 	<td style="text-align:left;"><code>#00ff00ff</code></td>
-	<td style="text-align:left;"><img src="Main/LimeSwatch.png" alt=""></td>
+	<td style="text-align:left;"><img src="../uploads/Main/LimeSwatch.png" alt=""></td>
 </tr>
 <tr>
 	<td style="text-align:left;">magenta (same as fuchsia)</td>
 	<td style="text-align:left;"><code>#ff00ffff</code></td>
-	<td style="text-align:left;"><img src="Main/MagentaSwatch.png" alt=""></td>
+	<td style="text-align:left;"><img src="../uploads/Main/MagentaSwatch.png" alt=""></td>
 </tr>
 <tr>
 	<td style="text-align:left;">maroon</td>
 	<td style="text-align:left;"><code>#800000ff</code></td>
-	<td style="text-align:left;"><img src="Main/MaroonSwatch.png" alt=""></td>
+	<td style="text-align:left;"><img src="../uploads/Main/MaroonSwatch.png" alt=""></td>
 </tr>
 <tr>
 	<td style="text-align:left;">navy</td>
 	<td style="text-align:left;"><code>#000080ff</code></td>
-	<td style="text-align:left;"><img src="Main/NavySwatch.png" alt=""></td>
+	<td style="text-align:left;"><img src="../uploads/Main/NavySwatch.png" alt=""></td>
 </tr>
 <tr>
 	<td style="text-align:left;">olive</td>
 	<td style="text-align:left;"><code>#808000ff</code></td>
-	<td style="text-align:left;"><img src="Main/OliveSwatch.png" alt=""></td>
+	<td style="text-align:left;"><img src="../uploads/Main/OliveSwatch.png" alt=""></td>
 </tr>
 <tr>
 	<td style="text-align:left;">orange</td>
 	<td style="text-align:left;"><code>#ffa500ff</code></td>
-	<td style="text-align:left;"><img src="Main/OrangeSwatch.png" alt=""></td>
+	<td style="text-align:left;"><img src="../uploads/Main/OrangeSwatch.png" alt=""></td>
 </tr>
 <tr>
 	<td style="text-align:left;">purple</td>
 	<td style="text-align:left;"><code>#800080ff</code></td>
-	<td style="text-align:left;"><img src="Main/PurpleSwatch.png" alt=""></td>
+	<td style="text-align:left;"><img src="../uploads/Main/PurpleSwatch.png" alt=""></td>
 </tr>
 <tr>
 	<td style="text-align:left;">red</td>
 	<td style="text-align:left;"><code>#ff0000ff</code></td>
-	<td style="text-align:left;"><img src="Main/RedSwatch.png" alt=""></td>
+	<td style="text-align:left;"><img src="../uploads/Main/RedSwatch.png" alt=""></td>
 </tr>
 <tr>
 	<td style="text-align:left;">silver</td>
 	<td style="text-align:left;"><code>#c0c0c0ff</code></td>
-	<td style="text-align:left;"><img src="Main/SilverSwatch.png" alt=""></td>
+	<td style="text-align:left;"><img src="../uploads/Main/SilverSwatch.png" alt=""></td>
 </tr>
 <tr>
 	<td style="text-align:left;">teal</td>
 	<td style="text-align:left;"><code>#008080ff</code></td>
-	<td style="text-align:left;"><img src="Main/TealSwatch.png" alt=""></td>
+	<td style="text-align:left;"><img src="../uploads/Main/TealSwatch.png" alt=""></td>
 </tr>
 <tr>
 	<td style="text-align:left;">white</td>
 	<td style="text-align:left;"><code>#ffffffff</code></td>
-	<td style="text-align:left;"><img src="Main/WhiteSwatch.png" alt=""></td>
+	<td style="text-align:left;"><img src="../uploads/Main/WhiteSwatch.png" alt=""></td>
 </tr>
 <tr>
 	<td style="text-align:left;">yellow</td>
 	<td style="text-align:left;"><code>#ffff00ff</code></td>
-	<td style="text-align:left;"><img src="../Main/YellowSwatch.png" alt=""></td>
+	<td style="text-align:left;"><img src="../uploads/Main/YellowSwatch.png" alt=""></td>
 </tr>
 </tbody>
 </table>
