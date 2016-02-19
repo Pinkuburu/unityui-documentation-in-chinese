@@ -58,6 +58,8 @@ When you are creating an entire GUI for your game, you will likely need to do a 
 
 Because each individual Control uses a particular Style, it does not make sense to create a dozen-plus individual Styles and assign them all manually. GUI Skins take care of this problem for you. By creating a GUI Skin, you have a pre-defined collection of Styles for every individual Control. You then apply the Skin with a single line of code, which eliminates the need to manually specify the Style of each individual Control.
 
+由于每个独立的控件 (Control) 都使用特殊的样式 (Style)，因此不必创建十几个不同的样式并手动指定。GUI 皮肤 (GUI Skins) 将为您解决这个问题。通过创建 GUI 皮肤 (GUI Skin)，您可以获得一组预先定义的针对每个独立控件 (Control) 的样式 (Styles)。之后，应用带有一行代码的皮肤 (Skin)，这样您就不必手动为每个独立的控件 (Control) 指定样式 (Style) 了。
+
 ###Creating GUISkins
 
 GUISkins are asset files. To create a GUI Skin, select Assets->Create->GUI Skin from the menubar. This will put a new GUISkin in your Project View.
