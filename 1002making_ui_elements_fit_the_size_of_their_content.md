@@ -48,6 +48,8 @@ Horizontal (or Vertical) Layout Group 水平 （或垂直） 布局组功能作�
 
 The Content Size Fitter listens to layout information provided by any Layout Element on the same Game Object - in this case provided by the Horizontal (or Vertical) Layout Group. Depending on its settings, it then controls the size of the Rect Transform based on this information.
 
+Content Size Fitter 听由任何布局元素相同的游戏对象提供的布局信息-在这种情况下提 供的 Horizontal (or Vertical) Layout Group。然后，根据其设置，这个控件的 Rect Transform 大 小基于此信息的。
+
 Once the size of the Rect Transform has been set, the Horizontal (or Vertical) Layout Group makes sure to position and size its children according to the available space. See the page about the Horizontal Layout Group for more information about how it controls the positions and sizes of its children.
 
 ##Make children of a Layout Group fit their respective sizes
