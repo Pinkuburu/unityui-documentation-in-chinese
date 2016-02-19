@@ -389,6 +389,8 @@ The VerticalSlider Control is a typical vertical sliding knob that can be dragge
 
 The position of the Slider knob is stored as a float. To display the position of the knob, you provide that float as one of the arguments in the function. There are two additional values that determine the minimum and maximum values. If you want the slider knob to be adjustable, assign the slider value float to be the return value of the Slider function.
 
+“滑块”(Slider) 钮的位置以浮点数形式存储。要显示该钮的位置，您需要提供 该浮点数作为函数的参数。另有两个值用于确定最小值和最大值。如果希望滑块钮是可调的，则将滑块值浮点数指定为“滑块"(Slider) 函数的返回值。
+
 ```
 /* Vertical Slider example */
 
