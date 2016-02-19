@@ -109,7 +109,7 @@ public class GUITest : MonoBehaviour {
 ```
 
 
-![The above example centers controls regardless of the screen resolution](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/gsg-GroupCenteredControls.png)
+![The above example centers controls regardless of the screen resolution](Main/gsg-GroupCenteredControls.png)
 ######The above example centers controls regardless of the screen resolution
 You can also nest multiple Groups inside each other. When you do this, each group has its contents clipped to its parent’s space.
 
@@ -185,7 +185,7 @@ public class GUITest : MonoBehaviour {
 
 ```
 
-![You can nest Groups together to create clipping behaviors](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/gsg-NestedGroupsClipping.png)
+![You can nest Groups together to create clipping behaviors](Main/gsg-NestedGroupsClipping.png)
 ######You can nest Groups together to create clipping behaviors
 ###Automatic Layout - Areas
 
@@ -316,7 +316,7 @@ public class GUITest : MonoBehaviour {
 ```
 
 
-![Three Controls arranged with Horizontal & Vertical Groups](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/gsg-NestedGroupsLayout.png)
+![Three Controls arranged with Horizontal & Vertical Groups](Main/gsg-NestedGroupsLayout.png)
 ######Three Controls arranged with Horizontal & Vertical Groups
 ##Using GUILayoutOptions to define some controls
 
