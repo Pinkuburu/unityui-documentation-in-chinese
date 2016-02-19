@@ -66,6 +66,8 @@ One thing to be aware of: After adding a Canvas Scaler component, it’s importa
 
 The reason for the larger buttons in landscape aspect ratio comes down to how the Reference Resolution setting works. By default it compares the width or the current resolution with the width of the reference resolution and the result is used as the scale factor to scale everything with. Since the current landscape resolution of 960 x 640 has a 1.5 times larger width than the portrait reference resolution of 640 x 960, the layout is scaled up by 1.5.
 
+在 landscape 纵横比下出现较大的按钮的原因归结为 Reference Resolution 组件是如何 工作。默认情况下它是比较当前分辨率的宽度和 reference resolution 的宽度，结果用作为 scale 因子来衡量一切。由于当前 landscape 的分辨率 960 × 640 比 portrait reference resolution 参考分辨率 640 × 960 有更大的宽度，布局的规模的扩大了 1.5 倍。
+
 The component has a property called Match which can be 0 (Width), 1 (Height) or a value in between. By default it’s set to 0, which compares the current screen width with the reference resolution width as described.
 
 reference resolution 参考分辨率具有一个属性称为 Match Width Or Height 值可以是 0 （宽度）、 1 （高度） 或在这两者之间的一个值。默认情况下它是设置为 0，将当前的屏 幕宽度参考分辨率宽度进行比较，如前所述。 
