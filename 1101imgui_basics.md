@@ -387,3 +387,4 @@ public class GUITest : MonoBehaviour {
 
 
 The script reference page for the GUIContent constructor has some examples of its use.
+丰富示例列表的 GUIContent 构造函数 的脚本参考页面。
