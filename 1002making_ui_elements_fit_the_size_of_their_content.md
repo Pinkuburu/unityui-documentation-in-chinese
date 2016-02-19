@@ -30,6 +30,8 @@ When UI elements are automatically resized to fit their content, you should pay 
 
 If you have a UI element, such as a Button, that has a background image and a child Game Object with a Text component on it, you probably want the whole UI element to fit the size of the text - maybe with some padding.
 
+如果您有一个用户界面元素如按钮，对它有背景图像和文本组件一个孩子的游戏对象， 你可能想要整个的 UI 元素，以适应文本-也许与一些边距的大小。 
+
 In order to do this, first add a Horizontal Layout Group to the UI element, then add a Content Size Fitter too. Set the Horizontal Fit, the Vertical Fit, ot both to the Preferred setting. You can add and tweak padding using the padding property in the Horizontal Layout Group.
 
 Why use a Horizontal Layout Group? Well, it could have been a Vertical Layout Group as well - as long as there is only a single child, they produce the same result.
