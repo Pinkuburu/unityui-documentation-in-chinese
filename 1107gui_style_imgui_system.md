@@ -4,7 +4,7 @@ GUI Styles are a collection of custom attributes for use with UnityGUI. A single
 
 GUI 样式 (GUI Style) 是一组自定义属性，用于 UnityGUI。一个 GUI 样式 (GUI Style) 定义了一个 UnityGUI 控件的外观。
 
-![A GUI Style in the Inspector](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/GuiStyleInspector.png)
+![A GUI Style in the Inspector](Main/GuiStyleInspector.png)
 ######A GUI Style in the Inspector
 If you want to add style to more than one control, use a GUI Skin instead of a GUI Style. For more information about UnityGUI, please read the GUI Scripting Guide.
 
@@ -65,7 +65,7 @@ When you attach this script to a GameObject, you will see the custom Style avail
 
 当该脚本附加到游戏对象时，您会发现在检视器 (Inspector) 中可修改自定义样式。
 
-![A Style declared in a script can be modified in each instance of the script](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/ModifyingStyleInInspector.png)
+![A Style declared in a script can be modified in each instance of the script](Main/ModifyingStyleInInspector.png)
 ######A Style declared in a script can be modified in each instance of the script
 Now, when you want to tell a particular Control to use this Style, you provide the name of the Style as the last argument in the Control function.
 
@@ -84,7 +84,7 @@ function OnGUI () {
 
 ```
 
-![Two Buttons, one with Style, as created by the code example](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/guiStyle-TwoButtonsOneIsStyled.png)
+![Two Buttons, one with Style, as created by the code example](Main/guiStyle-TwoButtonsOneIsStyled.png)
 ######Two Buttons, one with Style, as created by the code example
 For more information about using UnityGUI, please read the GUI Scripting Guide.
 
