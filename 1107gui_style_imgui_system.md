@@ -2,6 +2,8 @@
 
 GUI Styles are a collection of custom attributes for use with UnityGUI. A single GUI Style defines the appearance of a single UnityGUI Control.
 
+GUI 样式 (GUI Style) 是一组自定义属性，用于 UnityGUI。一个 GUI 样式 (GUI Style) 定义了一个 UnityGUI 控件的外观。
+
 ![A GUI Style in the Inspector](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/GuiStyleInspector.png)
 ######A GUI Style in the Inspector
 If you want to add style to more than one control, use a GUI Skin instead of a GUI Style. For more information about UnityGUI, please read the GUI Scripting Guide.
