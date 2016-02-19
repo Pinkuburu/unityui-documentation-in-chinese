@@ -289,7 +289,7 @@ public class GUITest : MonoBehaviour {
 
 ```
 
-![The Toolbar created by the example code](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/gsg-ToolbarExample.png)
+![The Toolbar created by the example code](Main/gsg-ToolbarExample.png)
 ######The Toolbar created by the example code
 ###SelectionGrid
 
@@ -335,7 +335,7 @@ public class GUITest : MonoBehaviour {
 
 ```
 
-![The SelectionGrid created by the example code](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/gsg-SelectionGridExample.png)
+![The SelectionGrid created by the example code](Main/gsg-SelectionGridExample.png)
 ######The SelectionGrid created by the example code
 ###HorizontalSlider
 
@@ -377,7 +377,7 @@ public class GUITest : MonoBehaviour {
 
 ```
 
-![The Horizontal Slider created by the example code](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/gsg-HorizontalSliderExample.png)
+![The Horizontal Slider created by the example code](Main/gsg-HorizontalSliderExample.png)
 ######The Horizontal Slider created by the example code
 ###VerticalSlider
 
@@ -419,7 +419,7 @@ public class GUITest : MonoBehaviour {
 ```
 
 
-![The Vertical Slider created by the example code](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/gsg-VerticalSliderExample.png)
+![The Vertical Slider created by the example code](Main/gsg-VerticalSliderExample.png)
 ######The Vertical Slider created by the example code
 ###HorizontalScrollbar
 
@@ -461,7 +461,7 @@ public class GUITest : MonoBehaviour {
 ```
 
 
-![The Horizontal Scrollbar created by the example code](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/gsg-HorizontalScrollbarExample.png)
+![The Horizontal Scrollbar created by the example code](Main/gsg-HorizontalScrollbarExample.png)
 ######The Horizontal Scrollbar created by the example code
 ###VerticalScrollbar
 
@@ -503,7 +503,7 @@ public class GUITest : MonoBehaviour {
 
 ```
 
-![The Vertical Scrollbar created by the example code](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/gsg-VerticalScrollbarExample.png)
+![The Vertical Scrollbar created by the example code](Main/gsg-VerticalScrollbarExample.png)
 ######The Vertical Scrollbar created by the example code
 ###ScrollView
 
@@ -561,7 +561,7 @@ public class GUITest : MonoBehaviour {
 ```
 
 
-![The ScrollView created by the example code](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/gsg-ScrollViewExample.png)
+![The ScrollView created by the example code](Main/gsg-ScrollViewExample.png)
 ######The ScrollView created by the example code
 ###Window
 
@@ -611,7 +611,7 @@ public class GUITest : MonoBehaviour {
 
 ```
 
-![The Window created by the example code](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/gsg-WindowExample.png)
+![The Window created by the example code](Main/gsg-WindowExample.png)
 ######The Window created by the example code
 ###GUI.changed
 
