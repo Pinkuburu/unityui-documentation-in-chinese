@@ -2,7 +2,9 @@
 
 The Rect Transform component is the 2D layout counterpart of the Transform component. Where Transform represents a single point, Rect Transform represent a rectangle that a UI element can be placed inside. If the parent of a Rect Transform is also a Rect Transform, the child Rect Transform can also specify how it should be positioned and sized relative to the parent rectangle.
 
-Properties
+Rect Transform 是 2D 与 3D 图形的 Transform 组件对应。它用来指定用户界面系统中的 大小、 位置和旋转的控件 
+
+##Properties
 
 | **Property:** | **Function:** |
 | -- | -- |
