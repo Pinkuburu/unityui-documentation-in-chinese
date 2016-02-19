@@ -2,6 +2,8 @@
 
 Normally when positioning a UI element with its Rect Transform, its position and size is specified manually (optionally including behavior to stretch with the parent Rect Transform).
 
+通常当 UI 元素定位到 Rect Transform 上时，其位置和大小是手动指定的 （选项包括 stretch 与父 Rect Transform）。
+
 However, sometimes you may want the rectangle to be automatically sized to fit the content of the UI element. This can be done by adding a component called Content Size Fitter.
 
 ##Fit to size of Text
