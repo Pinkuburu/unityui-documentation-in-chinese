@@ -13,6 +13,7 @@ Most of the interaction components have some things in common. They are selectab
 A Button has an **OnClick** UnityEvent to define what it will do when clicked.
 
 ![](Main/UI_ButtonExample.png)
+
 See the Button page for details on using the Button component.
 
 ##Toggle
@@ -20,6 +21,7 @@ See the Button page for details on using the Button component.
 A Toggle has an Is On checkbox that determines whether the Toggle is currently on or off. This value is flipped when the user clicks the Toggle, and a visual checkmark can be turned on or off accordingly. It also has an OnValueCHanged UnityEvent to define what it will do when the value is changed.
 
 ![](Main/UI_ToggleExample.png)
+
 See the Toggle page for details on using the Toggle component.
 
 ##Toggle Group
@@ -27,6 +29,7 @@ See the Toggle page for details on using the Toggle component.
 A Toggle Group can be used to group a set of Toggles that are mutually exclusive. Toggles that belong to the same group are constrained so that only one of them can be selected at a time - selecting one of them automatically deselects all the others.
 
 ![](Main/UI_ToggleGroupExample.png)
+
 See the Toggle Group page for details on using the Toggle Group component.
 
 ##Slider
@@ -34,6 +37,7 @@ See the Toggle Group page for details on using the Toggle Group component.
 A Slider has a decimal number Value that the user can drag between a minimum and maximum value. It can be either horizontal or vertical. It also has a OnValueChanged UnityEvent to define what it will do when the value is changed.
 
 ![](Main/UI_SliderExample.png)
+
 See the Slider page for details on using the Slider component.
 
 ##Scrollbar
