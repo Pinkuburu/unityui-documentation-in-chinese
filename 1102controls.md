@@ -131,6 +131,8 @@ The TextField Control is an interactive, editable single-line field containing a
 
 The TextField will always display a string. You must provide the string to be displayed in the TextField. When edits are made to the string, the TextField function will return the edited string.
 
+“文本框” (TextField) 始终显示字符串。您必须在“文本框” (TextField) 中提供 待显示的字符串。在编辑字符串时，“文本框” (TextField) 函数将返回已编辑的字符串。
+
 ```
 /* GUI.TextField example */
 
