@@ -12,12 +12,13 @@ The auto layout system is based on a concept of layout elements and layout contr
 
 A layout element has properties that defines its own:
 
-Minimum width
-Minimum height
-Preferred width
-Preferred height
-Flexible width
-Flexible height
+* Minimum width
+* Minimum height
+* Preferred width
+* Preferred height
+* Flexible width
+* Flexible height
+
 Examples of layout controller components that use the information provided by layout elements are Content Size Fitter and the various Layout Group components. The basic principles for how layout elements in a layout group are sized is as follows:
 
 First minimum sizes are allocated.
