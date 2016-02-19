@@ -67,6 +67,8 @@ You can’t put a Content Size Fitter on each child. The reason is that the Cont
 
 However, it isn’t necessary either. The parent Layout Group can already make each child fit the size of the content. What you need to do is to disable the Child Force Expand toggles on the Layout Group. If the children are themselves Layout Groups too, you may need to disable the Child Force Expand toggles on those too.
 
+然而，它也不必要。parent 布局组已经可以使每个 child 适合内容的大小。你需要做的 是将布局元素组件添加到每个 child，Flexible Width 和 Flexible Height 的属性设置为 0。 
+
 Once the children no longer expand with flexible width, their alignment can be specified in the Layout Group using the Child Alignment setting.
 
 What if you want some of the children to expand to fill additional available space, but not the other children? You can easily control this by adding a Layout Element component to the children you want to expand and enabling the Flexible Width or Flexible Height properties on those Layout Elements. The parent Layout Group should still have the Child Force Expand toggles disabled, otherwise all the children will expand flexibly.
