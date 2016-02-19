@@ -69,6 +69,8 @@ Let’s take a look at the details of the example code:
 
 The first GUI line, GUI.Box (Rect (10,10,100,90), “Loader Menu”); displays a Box Control with the header text “Loader Menu”. It follows the typical GUI Control declaration scheme which we’ll explore momentarily.
 
+第一行 GUI 命令行 GUI.Box (Rect (10,10,100,90), "Loader Menu"); 显示了带标题文本“Loader Menu”的盒 (Box) 控件。它遵循我们马上要讲解的典型 GUI 控件声明模式。
+
 The next GUI line is a Button Control declaration. Notice that it is slightly different from the Box Control declaration. Specifically, the entire Button declaration is placed inside an if statement. When the game is running and the Button is clicked, this if statement returns true and any code inside the if block is executed.
 
 Since the OnGUI() code gets called every frame, you don’t need to explicitly create or destroy GUI controls. The line that declares the Control is the same one that creates it. If you need to display Controls at specific times, you can use any kind of scripting logic to do so.
