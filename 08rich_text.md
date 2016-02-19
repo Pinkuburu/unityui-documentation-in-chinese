@@ -108,7 +108,7 @@
 <tr>
 	<td style="text-align:left;">aqua (same as cyan)</td>
 	<td style="text-align:left;"><code>#00ffffff</code></td>
-	<td style="text-align:left;"><img src="../uploads/Main/CyanSwatch.png" alt=""></td>
+	<td style="text-align:left;"><img src="../Main/CyanSwatch.png" alt=""></td>
 </tr>
 <tr>
 	<td style="text-align:left;">black</td>
