@@ -2,6 +2,8 @@
 
 The Rect Transform layout system is flexible enough to handle a lot of different types of layouts and it also allows placing elements in a complete freeform fashion. However, sometimes something a bit more structured can be needed.
 
+Rect Transform 布局系统是足够灵活，可以处理很多不同类型的布局，它还允许将元素 放置在完整的任意多边形。然而，有时更结构化的东西可能被需要。 
+
 The auto layout system provides ways to place elements in nested layout groups such as horizontal groups, vertical groups, or grids. It also allows elements to automatically be sized accoring to the contained content. For example a button can be dynamically resized to exactly fit its text content plus some padding.
 
 The auto layout system is a system built on top of the basic Rect Transform layout system. It can optionally be used on some or all elements.
