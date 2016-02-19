@@ -63,6 +63,8 @@ If you have a Layout Group (horizontal or vertical) and want each of the UI elem
 
 You can’t put a Content Size Fitter on each child. The reason is that the Content Size Fitter wants control over its own Rect Transform, but the parent Layout Group also wants control over the child Rect Transform. This creates a conflict and the result is undefined behavior.
 
+对每个子对象，你不能把 Content Size Fitter。原因是 Content Size Fitter 想控制控件自己 超出 Rect Transform 的内容，但父布局组想要控制超出子对象 Rect Transform。这会产生冲 突，结果是未定义的行为
+
 However, it isn’t necessary either. The parent Layout Group can already make each child fit the size of the content. What you need to do is to disable the Child Force Expand toggles on the Layout Group. If the children are themselves Layout Groups too, you may need to disable the Child Force Expand toggles on those too.
 
 Once the children no longer expand with flexible width, their alignment can be specified in the Layout Group using the Child Alignment setting.
