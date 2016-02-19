@@ -106,6 +106,8 @@ To apply a GUISkin to your GUI, you must use a simple script to read and apply t
 ```
 
 In some cases you want to have two of the same Control with different Styles. For this, it does not make sense to create a new Skin and re-assign it. Instead, you use one of the Custom Styles in the skin. Provide a Name for the custom Style, and you can use that name as the last argument of the individual Control.
+
+某些情况下，您需要两个拥有不同样式 (Style) 的同一控件 (Control)。这时，没必要创建一个新皮肤 (Skin) 并进行重新指定。相反，您可以使用皮肤中的某个自定义 (Custom) 样式 (Style)。为自定义样式 (Style) 取一个名字 (Name) ，这样您便能够将这个名字作为该独立控件 (Control) 的最后一个参数加以使用。
 ```
     // One of the custom Styles in this Skin has the name "MyCustomControl"
     var customSkin : GUISkin;
