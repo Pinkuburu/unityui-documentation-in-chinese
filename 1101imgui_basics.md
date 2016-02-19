@@ -73,6 +73,8 @@ The first GUI line, GUI.Box (Rect (10,10,100,90), “Loader Menu”); displays a
 
 The next GUI line is a Button Control declaration. Notice that it is slightly different from the Box Control declaration. Specifically, the entire Button declaration is placed inside an if statement. When the game is running and the Button is clicked, this if statement returns true and any code inside the if block is executed.
 
+下一行 GUI 是按钮 控件 (Button Control) 声明。注意它与盒控件 (Box Control) 声明有些许不同。特别是整个按钮 (Button) 声明都置于 if 语句内。如果在运行游戏时单击此按钮 (Button)，该 if 语句返回真值并执行 if 块内的任意代码。
+
 Since the OnGUI() code gets called every frame, you don’t need to explicitly create or destroy GUI controls. The line that declares the Control is the same one that creates it. If you need to display Controls at specific times, you can use any kind of scripting logic to do so.
 
 ```
