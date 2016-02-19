@@ -135,6 +135,8 @@ For more complicated GUI systems, it makes sense to keep a collection of styles 
 
 To create a GUISkin, select Assets->Create->GUI Skin from the menu bar. This will create a GUI Skin in your Project Folder. Select it to see all GUIStyles defined by the Skin in the Inspector.
 
+要创建一个 GUISkin，请从菜单栏选择资源 (Assets)->创建 (Create)->GUI 皮肤 (GUI Skin) 这将在您的“工程文件夹”(Project Folder) 里面创建一个新的“GUI 皮肤”(GUI Skin)。选择 GUI 皮肤可查看“检视器”(Inspector) 中的皮肤 (Skin) 定义的所有 GUIStyles。
+
 ###Applying the skin to a GUI
 
 To use a skin you’ve created, assign it to GUI.skin in your OnGUI() function.
