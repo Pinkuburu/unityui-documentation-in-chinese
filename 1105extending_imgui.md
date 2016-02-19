@@ -7,6 +7,8 @@ There are a number of ways to leverage and extend the IMGUI system to meet your 
 ##Compound Controls
 
 There might be situations in your GUI where two types of Controls always appear together. For example, maybe you are creating a Character Creation screen, with several Horizontal Sliders. All of those Sliders need a Label to identify them, so the player knows what they are adjusting. In this case, you could partner every call to GUI.Label() with a call to GUI.HorizontalSlider(), or you could create a Compound Control which includes both a Label and a Slider together.
+
+GUI 中可能会出现各种情况，但总是同时出现两种类型的控件。例如，您可能会使用水平滑块创建“角色创建”(Character Creation) 屏幕。所有这些滑块都需要一个标签 (Label) 来识别，这样玩家才能知道它们是调节什么的。这种情况下，您可以将 GUI.Label() 的每个调用与 GUI.HorizontalSlider() 的调用配对，或者您可以创建一个同时包含标签和滑块的复合控件 (Compound Control) 。
 ```
 
 /* Label and Slider Compound Control */
