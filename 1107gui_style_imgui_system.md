@@ -87,3 +87,5 @@ function OnGUI () {
 ![Two Buttons, one with Style, as created by the code example](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/guiStyle-TwoButtonsOneIsStyled.png)
 ######Two Buttons, one with Style, as created by the code example
 For more information about using UnityGUI, please read the GUI Scripting Guide.
+
+有关使用 UnityGUI 的更多信息，请参阅 GUI 脚本指南。
