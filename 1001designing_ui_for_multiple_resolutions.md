@@ -26,6 +26,8 @@ If the resolution is changed to a landscape aspect ratio with this setup, the bu
 
 One way to keep the buttons inside the screen is to change the layout such that the locations of the buttons are tied to their respective corners of the screen. The anchors of the top left button can be set to the upper left corner using the Anchors Preset drop down in the Inspector, or by dragging the triangular anchor handles in the Scene View. It’s best to do this while the current screen resolution set in the Game View is the one the layout is initially designed for, where the button placement looks correct. (See the UI Basic Layout page for more information on anchors.) Similarly, the anchors for the lower left and lower right buttons can be set to the lower left corner and lower right corner, respectively.
 
+有一个方法是改变布局时按钮是依然在屏幕里面的，这样按钮的位置绑在他们各自在屏 幕的角落。可以在检查器中使用 Anchors Preset （锚点预设）下拉选择一个位置把 top left （左上）的按钮的锚点可以设置到 upper left（左上）角落上，或通过拖动三角形锚柄在拖到 场景视图左上角上。它是最好这样做，而在游戏视图中设置的当前屏幕分辨率是一个初始的 设计布局，按钮的布局看起来很正确。（见更多 UI Basic Layout 页面关于更多的锚点信息）。 同样地，（ lower left ）下左和（lower right）右下按钮可以分别设置为的左下角和右下角。
+
 Once the buttons have been anchored to their respective corners, they stick to them when changing the resolution to a different aspect ratio.
 
 ![](Main/UI_MultiResCorners.png)
