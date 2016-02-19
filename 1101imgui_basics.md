@@ -112,6 +112,8 @@ public class GUITest : MonoBehaviour {
 
 Here, GUI.Button() only gets called every other second, so the button will appear and disappear. Naturally, the user can only click it when the button is visible.
 
+此处，GUI.Button() 仅每隔一秒获得调用，因此此按钮会出现然后消失。因此，只有在按钮可见时用户才能单击它。
+
 As you can see, you can use any desired logic to control when GUI Controls are displayed and functional. Now we will explore the details of each Control’s declaration.
 
 ##Anatomy of a Control
