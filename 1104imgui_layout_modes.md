@@ -229,6 +229,7 @@ public class GUITest : MonoBehaviour {
 
 Notice that inside an Area, Controls with visible elements like Buttons and Boxes will stretch their width to the full length of the Area.
 
+注意，在一个区域 (Area) 内，带按钮 (Buttons)、框 (Boxes) 等可见元素的控件都会将其宽度拉伸至区域 (Area) 的全长。
 ###Automatic Layout - Horizontal and Vertical Groups
 
 When using Automatic Layout, Controls will by default appear one after another from top to bottom. There are plenty of occasions you will want finer level of control over where your Controls are placed and how they are arranged. If you are using the Automatic Layout mode, you have the option of Horizontal and Vertical Groups.
