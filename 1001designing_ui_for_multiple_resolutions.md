@@ -6,6 +6,8 @@ Modern games and applications often need to support a wide variety of different 
 
 In this how-to we’re going to use a simple case study and look at and compare the different tools in the context of that. In our case study we have three buttons in the corners of the screen as shown below, and the goal is to adapt this layout to various resolutions.
 
+在这个操作中我们要使用一个简单的案例研究，看着比较不同的工具在这个 context 上 下文。在我们的案例研究中，我们有三个按钮，如下所示，在屏幕的角落中，目标是要适应 这种布局的各中分辨率。 
+
 ![](Main/UI_MultiResBase.png)
 
 For this how-to we’re going to consider four screen resolutions: Phone HD in portrait (640 x 960) and landscape (960 x 640) and Phone SD in portrait (320 x 480) and landscape (480 x 320). The layout is initially setup in the Phone HD Portrait resolution.
