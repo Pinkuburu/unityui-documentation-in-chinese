@@ -6,6 +6,8 @@ This section will explain the bare necessities for scripting Controls with Unity
 
 Unity’s IMGUI controls make use of a special function called OnGUI(). The OnGUI() function gets called every frame as long as the containing script is enabled - just like the Update() function.
 
+UnityGUI 控件使用一种称为 OnGUI() 的特殊函数。只要包含的脚本已启用，每帧OnGUI() 函数都会被调用 - 正如 Update() 函数。
+
 IMGUI controls themselves are very simple in structure. This structure is evident in the following example.
 
 GUI 控件本身结构很简单。此结构在以下示例中较为清楚。
