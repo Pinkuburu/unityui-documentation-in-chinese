@@ -9,6 +9,8 @@ Text
 
 The Text component, which is also known as a Label, has a Text area for entering the text that will be displayed. It is possible to set the font, font style, font size and whether or not the text has rich text capability.
 
+该 Text 组件，也被称为是一个标签，有一个 Text 区域用于输入将显示的文本。它是可 以设置的字体、 字体样式、 字体大小和是否使用 Rich Text 的能力。 
+
 There are options to set the alignment of the text, settings for horizontal and vertical overflow which control what happens if the text is larger than the width or height of the rectangle, and a Best Fit option that makes the text resize to fit the available space.
 
 Image
