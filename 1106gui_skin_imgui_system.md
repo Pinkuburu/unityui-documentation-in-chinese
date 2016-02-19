@@ -4,7 +4,7 @@ GUISkins are a collection of GUIStyles that can be applied to your GUI. Each Con
 
 GUISkins 是一组可以应用到 GUI 的 GUIStyles 。每个控件 (Control) 类型都有各自的样式 (Style) 定义。皮肤使您能够将一种样式应用于整个 UI，而不只是应用于单个控件 (Control)。
 
-![A GUI Skin as seen in the Inspector](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/Inspector-GUISkin.png)
+![A GUI Skin as seen in the Inspector](Main/Inspector-GUISkin.png)
 ######A GUI Skin as seen in the Inspector
 To create a GUISkin, select Assets->Create->GUI Skin from the menubar.
 
@@ -66,7 +66,7 @@ GUISkins are asset files. To create a GUI Skin, select Assets->Create->GUI Skin 
 
 GUISkin 是资源文件。如需创建 GUI 皮肤 (GUI Skin)，请从菜单栏选择资源 (Assets) -> 创建 (Create) -> GUI 皮肤 (GUI Skin) 。您的工程视图 (Project View中会出现新的 GUISkin。
 
-![A new GUISkin file in the Project View](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/GUISkin-ProjectView.png)
+![A new GUISkin file in the Project View](Main/GUISkin-ProjectView.png)
 ######A new GUISkin file in the Project View
 ###Editing GUISkins
 
@@ -74,7 +74,7 @@ After you have created a GUISkin, you can edit all of the Styles it contains in 
 
 创建 GUISkin 后，您可以编辑检视器 (Inspector) 中包含的所有样式 。例如，文本框 (Text Field) 样式将会应用于所有文本框控件 (Text Field Controls)。
 
-![Editing the Text Field Style in a GUISkin](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/GUISkin-EditingTextField.png)
+![Editing the Text Field Style in a GUISkin](Main/GUISkin-EditingTextField.png)
 ######Editing the Text Field Style in a GUISkin
 No matter how many Text Fields you create in your script, they will all use this Style. Of course, you have control over changing the styles of one Text Field over the other if you wish. We’ll discuss how that is done next.
 
