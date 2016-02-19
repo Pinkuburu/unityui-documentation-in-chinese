@@ -187,6 +187,8 @@ public class GUITest : MonoBehaviour {
 
 The second argument for a GUI Control is the actual content to be displayed with the Control. Most often you will want to display some text or an image on your Control. To display text, pass a string as the Content argument like this:
 
+用于 GUI 控件 (Control) 的第二个参数是用控件 (Control) 显示的实际内容。很多时候您需要在控件 (Control) 上显示某个文本或图像。如需显示文本，请将字符串作为内容 (Content) 参数进行传递，如下所示：
+
 ```
 /* String Content example */
 
