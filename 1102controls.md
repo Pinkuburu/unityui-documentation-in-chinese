@@ -4,6 +4,7 @@
 
 There are a number of different IMGUI Controls that you can create. This section lists all of the available display and interactive Controls. There are other IMGUI functions that affect layout of Controls, which are described in the Layout section of the Guide.
 
+您可以创建多种不同的 GUI 控件 (Control) 。本节列出了所有的可用显示控件和交互式控件。本指南的布局一节还描述了影响控件 (Control) 布局的其他 GUI 功能。
 ###Label
 
 The Label is non-interactive. It is for display only. It cannot be clicked or otherwise moved. It is best for displaying information only.
