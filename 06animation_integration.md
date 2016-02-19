@@ -23,6 +23,7 @@ As an example, the width of the button in the Highlighted State could be changed
 * Select the record Button
 * Change the width of the Button in the inspector
 * Exit the record mode.
+
 Change to play mode to see how the button grows when highlighted.
 
 Any number of properties can have their parameters set in this one keyframe.
