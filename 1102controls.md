@@ -621,6 +621,8 @@ To detect if the user did any action in the GUI (clicked a button, dragged a sli
 
 A common scenario would be for a Toolbar, where you want to change a specific value based on which Button in the Toolbar was clicked. You don’t want to assign the value in every call to OnGUI(), only when one of the Buttons has been clicked.
 
+对于“工具栏”(Toolbar) 可能会出现这种情况，即您想根据“工具栏”(Toolbar) 中点击的“按钮”(Button) 时都分配该值，而是仅在点击其中一个“按钮”(Button) 时进行分配。
+
 ```
 /* GUI.changed example */
 
