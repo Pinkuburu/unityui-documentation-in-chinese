@@ -54,6 +54,8 @@ This means that the buttons should become smaller by the same percentage as the 
 
 The Canvas Scaler component can be added to a root Canvas - a Game Object with a Canvas component on it, which all the UI elements are children of. It is also added by default when creating a new Canvas through the GameObject menu.
 
+Reference Resolution 组件可以添加到 root Canvas 画布--一个游戏对象的画布组件上， 它将所有 UI 元素作为自己的子对象
+
 In the Canvas Scaler component, you can set its UI Scale Mode to Scale With Screen Size. With this scale mode you can specify a resolution to use as reference. If the current screen resolution is smaller or larger than this reference resolution, the scale factor of the Canvas is set accordingly, so all the UI elements are scaled up or down together with the screen resolution.
 
 Reference Resolution 组件中您可以指定一个分辨率作为参考。如果当前的屏幕分辨率 小于或大于此 reference resolution，画布上的 scale 因子设置 accordingly 相应地，所以所有 的 UI 元素与屏幕分辨率一起缩放。 
