@@ -28,7 +28,7 @@ See the Toggle page for details on using the Toggle component.
 
 A Toggle Group can be used to group a set of Toggles that are mutually exclusive. Toggles that belong to the same group are constrained so that only one of them can be selected at a time - selecting one of them automatically deselects all the others.
 
-
+![](Main/UI_ToggleGroupExample.png)
 See the Toggle Group page for details on using the Toggle Group component.
 
 ##Slider
