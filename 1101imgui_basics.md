@@ -150,6 +150,8 @@ The coordinate system is top-left based. Rect(10, 20, 300, 100) defines a Rectan
 
 You can use the Screen.width and Screen.height properties to get the total dimensions of the screen space available in the player. The following example may help clarify how this is done:
 
+使用Screen.width 和 Screen.height 属性可使屏幕空间的总尺寸在播放器中可用。以下示例可能有助于阐明其完成方式：
+
 ```
 /* Screen.width & Screen.height example */
 
