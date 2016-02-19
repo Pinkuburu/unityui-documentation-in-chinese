@@ -112,6 +112,8 @@ public class GUITest : MonoBehaviour {
 ![The above example centers controls regardless of the screen resolution](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/gsg-GroupCenteredControls.png)
 ######The above example centers controls regardless of the screen resolution
 You can also nest multiple Groups inside each other. When you do this, each group has its contents clipped to its parent’s space.
+
+您也可以将多个群组 (Group) 嵌套进彼此内部。进行嵌套后，每个群组的内容都被剪切到其父级空间。
 ```
 
 /* Using multiple Groups to clip the displayed Contents */
