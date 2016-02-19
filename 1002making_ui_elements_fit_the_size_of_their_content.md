@@ -12,6 +12,8 @@ However, sometimes you may want the rectangle to be automatically sized to fit t
 
 In order to make a Rect Transform with a Text component on it fit the text content, add a Content Size Fitter component to the same Game Object which has the Text component. Then set both the Horizontal Fit and Vertical Fit dropdowns to the Preferred setting.
 
+为了使 Rect Transform 与 Text 文本组件适合它的的文本内容，添加 Content Size Fitter 组件到具有 Text 文本组件的同一游戏对象上。然后设置 Horizontal Fit、Vertical Fit，或者两个 都预先设置
+
 ###How does it work?
 
 What happens here is that the Text component functions as a Layout Element that can provide information about how big its minimum and preferred size is. In a manual layout this information is not used. A Content Size Fitter is a type of Layout Controller, which listens to layout information provided by Layout Elements and control the size of the Rect Transform according to this.
