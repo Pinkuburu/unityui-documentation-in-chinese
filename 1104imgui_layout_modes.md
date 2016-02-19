@@ -15,6 +15,7 @@ There are two key differences when using Automatic Layout:
 使用自动布局 (Automatic Layout) 时，存在两个关键的不同之处：
 
 * GUILayout is used instead of GUI
+* 使用 GUILayout，而非 GUI
 * No Rect() function is required for Automatic Layout Controls
 
 ```
