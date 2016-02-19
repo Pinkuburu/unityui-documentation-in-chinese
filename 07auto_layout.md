@@ -21,9 +21,10 @@ A layout element has properties that defines its own:
 
 Examples of layout controller components that use the information provided by layout elements are Content Size Fitter and the various Layout Group components. The basic principles for how layout elements in a layout group are sized is as follows:
 
-First minimum sizes are allocated.
-If there is sufficient available space, preferred sizes are allocated.
-If there is additional available space, flexible size is allocated.
+* First minimum sizes are allocated.
+* If there is sufficient available space, preferred sizes are allocated.
+* If there is additional available space, flexible size is allocated.
+
 Any Game Object with a Rect Transform on it can function as a layout element. They will by default have minimum, preferred, and flexible sizes of 0. Certain components will change these layout properties when added to the Game Object.
 
 The Image and Text components are two examples of components that provide layout element properties. They change the preferred width and height to match the sprite or text content.
