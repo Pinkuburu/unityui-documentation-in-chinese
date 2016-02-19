@@ -72,6 +72,8 @@ If the Match property is set to 0.5 instead, it will compare both the current wi
 
 At this point the layout supports all the four screen resolutions using a combination of appropriate anchoring and the Canvas Scaler component on the Canvas.
 
+在这一点上布局支持所有四个屏幕分辨率，在画布上使用适当的锚定和 Reference Resolution 组件组合
+
 ![](Main/UI_MultiResAllResolutions.png)
 
 See the Canvas Scaler reference page for more information on different ways to scale UI elements in relation to different screen sizes.
