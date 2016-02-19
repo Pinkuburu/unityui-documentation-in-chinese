@@ -195,6 +195,8 @@ Areas are used in Automatic Layout mode only. They are similar to Fixed Layout G
 
 In Automatic Layout mode, you do not define the area of the screen where the Control will be drawn at the Control level. The Control will automatically be placed at the upper-leftmost point of its containing area. This might be the screen. You can also create manually-positioned Areas. GUILayout Controls inside an area will be placed at the upper-leftmost point of that area.
 
+在自动布局 (Automatic Layout) 模式中，不必在控件层 (Control level) 定义要绘制控件的屏幕区域。控件 (Control) 将被自动放置到容纳区域的最左上角。这有可能是屏幕。您也可以创建手动放置区域 (Areas)。区域内的 GUILayout 控件 (GUILayout Control) 将被放置到该区域的最左上角。
+
 ```
 /* A button placed in no area, and a button placed in an area halfway across the screen. */
 
