@@ -287,6 +287,8 @@ public class GUITest : MonoBehaviour {
 ######The Buttons created by the above example
 There is a third option which allows you to display images and text together in a GUI Control. You can provide a GUIContent object as the Content argument, and define the string and image to be displayed within the GUIContent.
 
+如需让图像和文本在 GUI 控件 (Control) 上一并显示，还有第三种选择。提供 一个GUIContent 对象作为内容 (Content) 参数，并定义显示在 GUIContent 中的字符串和图像。
+
 ```
 /* Using GUIContent to display an image and a string */
 
