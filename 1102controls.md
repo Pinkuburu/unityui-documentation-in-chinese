@@ -125,6 +125,8 @@ public class GUITest : MonoBehaviour {
 
 The TextField Control is an interactive, editable single-line field containing a text string.
 
+文本框 (TextField 控件是一种互动式、可编辑的单行字段，含有文本字符串。
+
 ####Basic Usage
 
 The TextField will always display a string. You must provide the string to be displayed in the TextField. When edits are made to the string, the TextField function will return the edited string.
