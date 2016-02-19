@@ -46,4 +46,6 @@ For a stretching Rect Transform, it can be simpler to set the position using the
 
 If you are instantiating multiple UI elements dynamically, it’s unlikely that you’ll want them all to look the same and do the same. Whether it’s buttons in a menu, items in an inventory, or something else, you’ll likely want the individual items to have different text or images and to do different things when interacted with.
 
+如果你动态地实例化多个 UI 元素，你就会希望他们都看起来一样不太可能，这样做。 无论是在菜单中的按钮，库存或别的东西的条目，你可能想要的个别项目有不同的文本或图 像，当互动时做不同的事情。
+
 This is done by getting the various components and changing their properties. See the scripting reference for the Image and Text components, and for how to work with UnityEvents from scripting.
