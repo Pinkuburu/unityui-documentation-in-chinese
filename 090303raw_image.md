@@ -2,6 +2,8 @@
 
 The Raw Image control displays a non-interactive image to the user. This can be used for decoration, icons, etc, and the image can also be changed from a script to reflect changes in other controls. The control is similar to the Image control but does not have the same set of options for animating the image and accurately filing the control rectangle. However, the Raw Image can display any texture whilst the Image can only show a Sprite texture.
 
+Raw Image 控件向用户显示一个非交互式的图像。这可以用于装饰、 图标等，图像也可 以从一个脚本来反映在其他控件中的更改。Raw Image 控件是类似于 image 控件，但并没有 关于图片动画的选项和准确地归档控制矩形。但是，Raw Image 可以显示任何纹理，image 只能显示一个精灵纹理
+
 ![](Main/RawImageCtrlExample.png)
 ######A Raw Image control
 ##Properties
