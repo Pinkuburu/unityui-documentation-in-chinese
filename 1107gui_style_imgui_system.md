@@ -8,6 +8,8 @@ GUI 样式 (GUI Style) 是一组自定义属性，用于 UnityGUI。一个 GUI �
 ######A GUI Style in the Inspector
 If you want to add style to more than one control, use a GUI Skin instead of a GUI Style. For more information about UnityGUI, please read the GUI Scripting Guide.
 
+如需向一个以上的控件添加样式，请使用 GUI 皮肤 代替 GUI 样式 (GUI Style)。有关 UnityGUI 的更多信息，请参阅 GUI 脚本指南。
+
 **Please Note: **This page refers to part of the IMGUI system, which is a scripting-only UI system. Unity has a full GameObject-based UI system which you may prefer to use. It allows you to design and edit user interface elements as visible objects in the scene view. See the UI System Manual for more information.
 
 ##Properties
