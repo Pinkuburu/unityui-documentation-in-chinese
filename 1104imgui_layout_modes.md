@@ -326,6 +326,8 @@ You can use GUILayoutOptions to override some of the Automatic Layout parameters
 
 Remember in the Areas example above, where the button stretches its width to 100% of the Area width? We can override that if we want to.
 
+可否记得在上面的区域 (Areas) 示例中，按钮将其宽度延伸到区域宽度的 100%？若有需要随时可以将其覆盖。
+
 ```
 /* Using GUILayoutOptions to override Automatic Layout Control properties */
 
