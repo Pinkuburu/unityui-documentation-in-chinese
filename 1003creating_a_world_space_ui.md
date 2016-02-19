@@ -12,6 +12,8 @@ Start by creating a UI element (such as an Image) if you don’t already have on
 
 Select your Canvas and change the Render Mode to World Space.
 
+选择你的画布，改变 Render Mode 渲染模式为 World Space 世界空间。 
+
 Now your Canvas is already positioned in the World and can be seen by all cameras if they are pointed at it, but it is probably huge compared to other objects in your Scene. We’ll get back to that.
 
 现在你的画布已经位于世界空间中，所有相机都可以被看到，如果他们都指着它，但它 可能是巨大的和你的场景中的其他对象相比。 
