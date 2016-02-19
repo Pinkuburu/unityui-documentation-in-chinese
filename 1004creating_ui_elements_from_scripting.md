@@ -8,6 +8,8 @@ If you are creating a dynamic UI where UI elements appear, disappear, or change 
 
 In order to be able to easily instantiate UI elements dynamically, the first step is to create a prefab for the type of UI element that you want to be able to instantiate. Set up the UI element the way you want it to look in the Scene, and then drag the element into the Project View to make it into a prefab.
 
+为了能轻松地动态地实例化 UI 元素，第一步是创建一个 UI 元素的类型的预置体，是 你想要能够实例化的。设置用户界面元素，你想要它在场景中，看起来的方式，然后将该元 素拖到 Project View 项目视图，使它变成一个预置体。 
+
 For example, a prefab for a button could be a Game Object with a Image component and a Button component, and a child Game Object with a Text component. Your setup might be different depending on your needs.
 
 You might wonder why we don’t have a API methods to create the various types of controls, including visuals and everything. The reason is that there are an infinite number of way e.g. a button could be setup. Does it use an image, text, or both? Maybe even multiple images? What is the text font, color, font size, and alignment? What sprite or sprites should the image use? By letting you make a prefab and instantiate that, you can set it up exactly the way you want. And if you later want to change the look and feel of your UI you can just change the prefab and then it will be reflected in your UI, including the dynamically created UI.
