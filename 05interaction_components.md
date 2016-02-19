@@ -64,6 +64,7 @@ See the Dropdown page for details on using the Dropdown component.
 
 An Input Field is used to make the text of a Text Element editable by the user. It has a UnityEvent to define what it will do when the text content is changed, and an another to define what it will do when the user has finished editing it.
 
+![](Main/UI_DropdownExample.png)
 
 See the Input Field page for details on using the Input Field component.
 
