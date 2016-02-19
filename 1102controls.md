@@ -300,6 +300,8 @@ The SelectionGrid Control is a multi-row Toolbar. You can determine the number o
 ####Basic Usage
 
 The active Button in the SelectionGrid is tracked through an integer. You must provide the integer as an argument in the function. To make the SelectionGrid interactive, you must assign the integer to the return value of the function. The number of elements in the content array that you provide will determine the number of Buttons that are shown in the SelectionGrid. You also can dictate the number of columns through the function arguments.
+
+通过一个整数可跟踪“栅格选择”(SelectionGrid) 中激活的“按钮”(Button)。您必须提供 该整数作为此函数的参数。要使“栅格选择”(SelectionGrid) 变为互动式的，则必须指定该整数为函数的返回值。您提供 的内容数组中的元素数目将决定“栅格选择”(SelectionGrid) 中显示的“按钮” (Button) 的数目。您可以通过函数参数确定列数。
 ```
 
 /* GUI.SelectionGrid example */
