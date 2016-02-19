@@ -47,6 +47,8 @@ The Button is a typical interactive button. It will respond a single time when c
 
 In UnityGUI, Buttons will return true when they are clicked. To execute some code when a Button is clicked, you wrap the the GUI.Button function in an if statement. Inside the if statement is the code that will be executed when the Button is clicked.
 
+在 UnityGUI 中，单击“按钮” (Button) 后，它将返回真。如需在单击“按钮” (Button) 后执行代码，您可以将 GUI.Button 函数放入 if 语句中。在单击“按钮” (Button) 后将执行存在于if 语句中的代码。
+
 ```
 /* GUI.Button example */
 
