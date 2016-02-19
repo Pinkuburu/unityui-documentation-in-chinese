@@ -383,6 +383,8 @@ public class GUITest : MonoBehaviour {
 
 The VerticalSlider Control is a typical vertical sliding knob that can be dragged to change a value between predetermined min and max values.
 
+垂直滑块 (VerticalSlider) 控件是典型的垂直滑动钮，可通过拖动在预定最小值和最大值之间改变值的大小。
+
 ####Basic Usage
 
 The position of the Slider knob is stored as a float. To display the position of the knob, you provide that float as one of the arguments in the function. There are two additional values that determine the minimum and maximum values. If you want the slider knob to be adjustable, assign the slider value float to be the return value of the Slider function.
