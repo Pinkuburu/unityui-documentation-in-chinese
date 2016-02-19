@@ -1,6 +1,7 @@
 # Animation Integration
 
 Animation allows for each transition between control states to be fully animated using Unity’s animation system. This is the most powerful of the transition modes due the the number of properties that can be animated simultaneously.
+动画允许控件的所有状态之间相互转换，充分使用 unity 的动画系统。这是最强大的的 转换模式的在处理很多属性的同时可以进行动画
 
 ![](Main/GUI_ButtonInspectorAnimation.png)
 
