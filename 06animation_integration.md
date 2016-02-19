@@ -2,6 +2,7 @@
 
 Animation allows for each transition between control states to be fully animated using Unity’s animation system. This is the most powerful of the transition modes due the the number of properties that can be animated simultaneously.
 
+![](Main/GUI_ButtonInspectorAnimation.png)
 
 To use the Animation transition mode, an Animator Component needs to be attached to the controller element. This can be done automatically by clicking “Auto Generate Animation”. This also generates an Animator Controller with states already set up, which will need to be saved.
 
