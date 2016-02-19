@@ -49,6 +49,7 @@ A component that functions as a layout controller may also itself function as a 
 
 The Content Size Fitter functions as a layout controller that controls the size of its own layout element. The simplest way to see the auto layout system in action is to add a Content Size Fitter component to a Game Object with a Text component.
 
+![](Main/UI_ContentSizeFitterInspector.png)
 
 If you set either the Horizontal Fit or Vertical Fit to Preferred, the Rect Transform will adjust its width and/or height to fit the Text content.
 
