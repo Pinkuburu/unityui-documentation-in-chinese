@@ -18,6 +18,8 @@ For this how-to we’re going to consider four screen resolutions: Phone HD in p
 
 UI elements are by default anchored to the center of the parent rectangle. This means that they keep a constant offset from the center.
 
+UI 元素是默认定位到父矩形的中心。这意味着他们保持一个常数，到中心的偏移量。 如果更改安装程序该分辨率 landscape 景观长宽比，按钮可能不在矩形的屏幕里面了。 
+
 If the resolution is changed to a landscape aspect ratio with this setup, the buttons may not even be inside the rectangle of the screen anymore.
 
 ![](Main/UI_MultiResCenter.png)
