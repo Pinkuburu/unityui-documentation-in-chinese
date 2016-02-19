@@ -14,6 +14,8 @@ Select your Canvas and change the Render Mode to World Space.
 
 Now your Canvas is already positioned in the World and can be seen by all cameras if they are pointed at it, but it is probably huge compared to other objects in your Scene. We’ll get back to that.
 
+现在你的画布已经位于世界空间中，所有相机都可以被看到，如果他们都指着它，但它 可能是巨大的和你的场景中的其他对象相比。 
+
 ##Decide on a resolution
 
 First you need to decide what the resolution of the Canvas should be. If it was an image, what should the pixel resolution of the image be? Something like 800x600 might be a good starting point. You enter the resolution in the Width and Height values of the Rect Transform of the Canvas. It’s probably a good idea to set the position to 0,0 at the same time.
