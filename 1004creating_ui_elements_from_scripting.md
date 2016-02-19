@@ -22,6 +22,8 @@ You might wonder why we don’t have a API methods to create the various types o
 
 Prefabs of UI elements are instantiated as normal using the Instantiate method. When setting the parent of the instantiated UI element, it’s recommended to do it using the Transform.SetParent method with the worldPositionStays parameter set to false.
 
+UI 元素的预置体都作为正常使用 Instantiate 方法来进行实例化。在实例化时设置 UI 元 素的父对象是什么，它建议使用 Transform.SetParent 方法设置和 worldPositionStays 参数设 置为 false。 
+
 ##Positioning the UI element
 
 A UI Element is normally positioned using its Rect Transform. If the UI Element is a child of a Layout Group it will be automatically positioned and the positioning step can be skipped.
