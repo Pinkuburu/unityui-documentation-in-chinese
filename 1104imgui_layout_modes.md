@@ -4,6 +4,8 @@
 
 There are two different modes you can use to arrange and organize your UI when using the IMGUI system: Fixed and Automatic. Up until now, every IMGUI example provided in this guide has used Fixed Layout. To use Automatic Layout, write GUILayout instead of GUI when calling control functions. You do not have to use one Layout mode over the other, and you can use both modes at once in the same OnGUI() function.
 
+可以采用两种不同的模式来安排组织您的 GUI：固定模式和自动模式。目前为止，本指南中所提供 的所有 UnityGUI 示例都采用固定布局 (Fixed Layout)。要使用自动布局 (Automatic Layout) 模式，在调用控制函数时,写入 GUILayout 来代替 GUI。您不必逐个设置布局模式，并且还可以在同一 OnGUI() 函数中同时使用两种模式。
+
 Fixed Layout makes sense to use when you have a pre-designed interface to work from. Automatic Layout makes sense to use when you don’t know how many elements you need up front, or don’t want to worry about hand-positioning each Control. For example, if you are creating a number of different buttons based on Save Game files, you don’t know exactly how many buttons will be drawn. In this case Automatic Layout might make more sense. It is really dependent on the design of your game and how you want to present your interface.
 
 There are two key differences when using Automatic Layout:
