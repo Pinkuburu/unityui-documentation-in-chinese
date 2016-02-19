@@ -18,6 +18,8 @@ GUIStyles 模仿网页浏览器的层叠样式表 (CSS)。很多 CSS 方法得�
 
 Where the Control defines the content, the Style defines the appearance. This allows you to create combinations like a functional Toggle which looks like a normal Button.
 
+其中，控件 (Control) 定义内容，而样式 (Style) 定义外观。这样您就可以创建组合，比如看起来像常规 按钮 (Button) 的功能切换键 (Toggle)。
+
 ![Two Toggle Controls styled differently](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/gsg-ToggleStyles.png)
 ######Two Toggle Controls styled differently
 ###The difference between Skins and Styles
