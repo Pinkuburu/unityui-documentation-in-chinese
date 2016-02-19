@@ -40,6 +40,8 @@ For a non-stretching Rect Transform, the position is set most easily by setting 
 
 For a stretching Rect Transform, it can be simpler to set the position using the offsetMin and offsetMax properties. The offsetMin property specifies the corner of the lower left corner of the rect relative to the lower left anchor. The offsetMax property specifies the corner of the upper right corner of the rect relative to the upper right anchor.
 
+对于伸展的 Rect Transform，它可以是简单设置使用的 offsetMin 和 offsetMax 的属性 的位置。OffsetMin 属性指定的角的相对较低的左锚点矩形的左下角。OffsetMax 属性指定 的角的相对上部右锚点矩形的右上角。 
+
 ##Customizing the UI Element
 
 If you are instantiating multiple UI elements dynamically, it’s unlikely that you’ll want them all to look the same and do the same. Whether it’s buttons in a menu, items in an inventory, or something else, you’ll likely want the individual items to have different text or images and to do different things when interacted with.
