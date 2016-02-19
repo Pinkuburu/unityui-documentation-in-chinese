@@ -19,26 +19,48 @@ If you want to add style to more than one control, use a GUI Skin instead of a G
 | **Name**	 | The text string that can be used to refer to this specific Style |
 | **Name**	 | 用于指代特定样式的文本字符串 |
 | **Normal**	 | Background image & Text Color of the Control in default state |
+| **Normal**	 | Background image & Text Color of the Control in default state |
+| **Hover**	 | Background image & Text Color when the mouse is positioned over the Control |
 | **Hover**	 | Background image & Text Color when the mouse is positioned over the Control |
 | **Active**	 | Background image & Text Color when the mouse is actively clicking the Control |
+| **Active**	 | Background image & Text Color when the mouse is actively clicking the Control |
+| **Focused**	 | Background image & Text Color when the Control has keyboard focus |
 | **Focused**	 | Background image & Text Color when the Control has keyboard focus |
 | **On Normal**	 | Background image & Text Color of the Control in enabled state |
+| **On Normal**	 | Background image & Text Color of the Control in enabled state |
+| **On Hover**	 | Background image & Text Color when the mouse is positioned over the enabled Control |
 | **On Hover**	 | Background image & Text Color when the mouse is positioned over the enabled Control |
 | **On Active**	 | Properties when the mouse is actively clicking the enabled Control |
+| **On Active**	 | Properties when the mouse is actively clicking the enabled Control |
+| **On Focused**	 | Background image & Text Color when the enabled Control has keyboard focus |
 | **On Focused**	 | Background image & Text Color when the enabled Control has keyboard focus |
 | **Border**	 | Number of pixels on each side of the Background image that are not affected by the scale of the Control’ shape |
+| **Border**	 | Number of pixels on each side of the Background image that are not affected by the scale of the Control’ shape |
+| **Padding**	 | Space in pixels from each edge of the Control to the start of its contents. |
 | **Padding**	 | Space in pixels from each edge of the Control to the start of its contents. |
 |** Margin**	 | The margins between elements rendered in this style and any other GUI Controls. |
+|** Margin**	 | The margins between elements rendered in this style and any other GUI Controls. |
+| **Overflow**	 | Extra space to be added to the background image. |
 | **Overflow**	 | Extra space to be added to the background image. |
 | **Font**	 | The Font used for all text in this style |
+| **Font**	 | The Font used for all text in this style |
+| **Image Position**	 | The way the background image and text are combined. |
 | **Image Position**	 | The way the background image and text are combined. |
 | **Alignment**	 | Standard text alignment options. |
+| **Alignment**	 | Standard text alignment options. |
+|** Word Wrap**	 | If enabled, text that reaches the boundaries of the Control will wrap around to the next line |
 |** Word Wrap**	 | If enabled, text that reaches the boundaries of the Control will wrap around to the next line |
 |** Text Clipping**	 | If Word Wrap is enabled, choose how to handle text that exceeds the boundaries of the Control |
+|** Text Clipping**	 | If Word Wrap is enabled, choose how to handle text that exceeds the boundaries of the Control |
+|         Overflow	 | Any text that exceeds the Control boundaries will continue beyond the boundaries |
 |         Overflow	 | Any text that exceeds the Control boundaries will continue beyond the boundaries |
 |         Clip	 | Any text that exceeds the Control boundaries will be hidden |
+|         Clip	 | Any text that exceeds the Control boundaries will be hidden |
+| **Content Offset**	 | Number of pixels along X and Y axes that the Content will be displaced in addition to all other properties |
 | **Content Offset**	 | Number of pixels along X and Y axes that the Content will be displaced in addition to all other properties |
 |         X	 | Left/Right Offset |
+|         X	 | Left/Right Offset |
+|         Y	 | Up/Down Offset |
 |         Y	 | Up/Down Offset |
 | **Fixed Width**	 | Number of pixels for the width of the Control, which will override any provided Rect() value |
 | **Fixed Height**	 | Number of pixels for the height of the Control, which will override any provided Rect() value |
