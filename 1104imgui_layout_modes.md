@@ -242,6 +242,8 @@ Like the other layout Controls, you call separate functions to start or end thes
 
 Any Controls inside a Horizontal Group will always be laid out horizontally. Any Controls inside a Vertical Group will always be laid out vertically. This sounds plain until you start nesting groups inside each other. This allows you to arrange any number of controls in any imaginable configuration.
 
+水平群组 (Horizontal Group) 内的所有控件 (Control) 都会水平排列。垂直群组 (Horizontal Group) 内的所有控件 (Control) 都会垂直排列。这听起来很罗嗦，但在您开始进行群组内部的嵌套时才会发现其实不然。这使您能够将任何数量的控件以任何可以想象到的配置来安排。
+
 ```
 /* Using nested Horizontal and Vertical Groups */
 
