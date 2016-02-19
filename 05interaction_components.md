@@ -2,7 +2,7 @@
 
 This section covers components in the UI system that handles interaction, such as mouse or touch events and interaction using a keyboard or controller.
 
-本节涵盖了处理交互，例如鼠标或触摸事件和使用键盘或控制器交互的 UI 系统中的组件
+
 
 The interaction components are not visible on their own, and must be combined with one or more visual elements in order to work correctly.
 
@@ -10,8 +10,7 @@ The interaction components are not visible on their own, and must be combined wi
 
 Most of the interaction components have some things in common. They are selectables, which means they have shared built-in functionality for visualising transitions between states (normal, highlighted, pressed, disabled), and for navigation to other selectables using keyboard or controller. This shared functionality is described on the Selectable page.
 
-所有交互组件都有一些共同点。selectables 是他们所有的控件的基类，这意味着他们都 有共享状态，之间的前瞻转换和导航到其他使用键盘或控制器的 selectables 的内置功能。 此处介绍的这种共享的功能。 在一个 selectable 组件内有几个 transition 选项可选择目前是在哪一状态。不同的状态 有： normal 正常、 highlighted 突出显示、 pressed 按下和 disabled 禁用。 这里是 transition 过渡选项： · Color Tint -，是根据按钮处于什么状态改变颜色，每个状态可以对应一种颜色。它也是 可能在不同的状态之间设置的 Fade Duration。数值越高，淡入淡出颜色之间将会越慢。 · SpriteSwap -根据按钮处于什么状态改变图片，精灵可以定制显示。 · 动画-根据按钮处于什么状态执行不同的动画，animator 组件必须存在才能使用的动画 过渡。它是重要的是确保根运动处于禁用状态。若要创建 animation controller 单击生成 动画 （或您自己创建），并确保动画控制器已被添加到按钮的动画组件。有关详细信息， 请参见 Animation Integration。 · None-此选项是按钮根本就没有状态的影响。  
-Navigation 导航选项是指在播放模式中的 uGUI 元素的将如何导航控制。 
+
 
 ##Button
 
