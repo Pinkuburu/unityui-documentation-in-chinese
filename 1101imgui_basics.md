@@ -354,6 +354,8 @@ public class GUITest : MonoBehaviour {
 
 If you’re daring you can also use GUIContent to display a string, an icon, and a tooltip!
 
+如果您有足够胆量，还可以使用 GUIContent 显示字符串、图标和工具提示!
+
 ```
 /* Using GUIContent to display an image, a string, and a tooltip */
 
