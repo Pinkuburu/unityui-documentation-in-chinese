@@ -4,7 +4,7 @@ With the introduction of the UI system, new Components have been added that will
 
 有新的组件和游戏对象已添加到 uGUI，允许和容易的创建 GUI 特定功能。这一节将介 绍新的游戏物体被创建的基础。 
 
-Text
+##Text
 ![](Main/UI_TextInspector.png)
 
 The Text component, which is also known as a Label, has a Text area for entering the text that will be displayed. It is possible to set the font, font style, font size and whether or not the text has rich text capability.
