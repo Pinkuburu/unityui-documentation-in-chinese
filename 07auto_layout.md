@@ -41,6 +41,8 @@ Any Game Object with a Rect Transform on it can function as a layout element. Th
 
 The Image and Text components are two examples of components that provide layout element properties. They change the preferred width and height to match the sprite or text content.
 
+布局元素不直接设置他们自己的大小，但其他组件可以使用它们提供的信息来计算要使 用它们的大小。例如像组件的 Content Size Fitter 和各种各样的布局组组件
+
 ##Layout Element Component
 
 If you want to override the minimum, preferred, or flexible size, you can do that by adding a Layout Element component to the Game Object.
