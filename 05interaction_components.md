@@ -74,6 +74,6 @@ A Scroll Rect can be used when content that takes up a lot of space needs to be 
 
 Usually a Scroll Rect is combined with a Mask in order to create a scroll view, where only the scrollable content inside the Scroll Rect is visible. It can also additionally be combined with one or two Scrollbars that can be dragged to scroll horizontally or vertically.
 
-![](MMain/UI_ScrollRectExample.png)
+![](Main/UI_ScrollRectExample.png)
 
 See the Scroll Rect page for details on using the Scroll Rect component.
