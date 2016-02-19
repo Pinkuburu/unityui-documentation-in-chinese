@@ -41,6 +41,8 @@ public class GUITest : MonoBehaviour {
 
 The Button is a typical interactive button. It will respond a single time when clicked, no matter how long the mouse remains depressed. The response occurs as soon as the mouse button is released.
 
+按钮 (Button) 是典型的互动式按钮。无论按住鼠标多久，单击按钮 (Button) 后，它都将响应一次。只要一松开鼠标按钮就会发生响应。
+
 ####Basic Usage
 
 In UnityGUI, Buttons will return true when they are clicked. To execute some code when a Button is clicked, you wrap the the GUI.Button function in an if statement. Inside the if statement is the code that will be executed when the Button is clicked.
