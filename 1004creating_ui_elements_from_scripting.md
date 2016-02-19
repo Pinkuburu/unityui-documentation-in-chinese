@@ -32,6 +32,8 @@ A UI Element is normally positioned using its Rect Transform. If the UI Element 
 
 When positioning a Rect Transform it’s useful to first determine it has or should have any stretching behavior or not. Stretching behavior happens when the anchorMin and anchorMax properties are not identical.
 
+定位一个 Rect Transform 时很有用，首先确定它已经或应该有拉伸的任何行为不。 anchorMin 和 anchorMax 的属性并不相同时会发生拉伸行为。 
+
 For a non-stretching Rect Transform, the position is set most easily by setting the anchoredPosition and the sizeDelta properties. The anchoredPosition specifies the position of the pivot relative to the anchors. The sizeDelta is just the same as the size when there’s no stretching.
 
 For a stretching Rect Transform, it can be simpler to set the position using the offsetMin and offsetMax properties. The offsetMin property specifies the corner of the lower left corner of the rect relative to the lower left anchor. The offsetMax property specifies the corner of the upper right corner of the rect relative to the upper right anchor.
