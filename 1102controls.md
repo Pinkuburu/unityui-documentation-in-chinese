@@ -567,6 +567,8 @@ public class GUITest : MonoBehaviour {
 
 Windows are drag-able containers of Controls. They can receive and lose focus when clicked. Because of this, they are implemented slightly differently from the other Controls. Each Window has an id number, and its contents are declared inside a separate function that is called when the Window has focus.
 
+窗口 (Window) 是控件的可拖动容器。点击时，窗口会获得焦点或失去焦点。因此，它们的执行与其他控件略有不同。每个“窗口”(Window) 都有一个id 号，当“窗口”(Window) 获得焦点时，其内容在调用的独立函数内声明。
+
 ####Basic Usage
 
 Windows are the only Control that require an additional function to work properly. You must provide an id number and a function name to be executed for the Window. Inside the Window function, you create your actual behaviors or contained Controls.
