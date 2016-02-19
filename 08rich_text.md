@@ -11,6 +11,8 @@ UI 元素和文本网格的文本可以合并多个字体样式和大小。对 U
 
 The markup system is inspired by HTML but isn’t intended to be strictly compatible with standard HTML. The basic idea is that a section of text can be enclosed inside a pair of matching tags:-
 
+标记 markup 系统由 HTML 启发，但也不打算成为严格地符合标准的 HTML。其基本思 想是可以里面一对匹配的标记 tags 括起来的一段文本：- 
+
    We are <b>not</b> amused
 
 As the example shows, the tags are just pieces of text inside the “angle bracket” characters, < and >. The text inside the tag denotes its name (which in this case is just **b**). Note that the tag at the end of the section has the same name as the one at the start but with the slash / character added. The tags are not displayed to the user directly but are interpreted as instructions for styling the text they enclose. The b tag used in the example above applies boldface to the word “not”, so the text will appear onscreen as:-
