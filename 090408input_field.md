@@ -53,6 +53,8 @@ Input Field 输入字段中的脚本可以从菜单中添加到任何现有的 T
 
 The Text property of the Text control itself will change as the user types and the value can be retrieved from a script after editing. Note that Rich Text is intentionally not supported for editable Text controls; the field will apply any Rich Text markup instantly when typed but the markup essentially “disappears” and there is no subsequent way to change or remove the styling.
 
+文本控件本身的 Text 属性会改变作为用户类型，可以在编辑后从脚本检索值。请注意 富文本故意不支持文本的可编辑控件 ；field 将适用任何富文本标记，键入时，但标记基本 上是“disappears”，没有后续的方式要更改或删除样式。
+
 ##Hints
 
 * To obtains the text of the Input Field, use the text property on the InputField component itself, not the text property of the Text component that displays the text. The text property of the Text component may be cropped or may consist of asterisks for passwords.
