@@ -167,6 +167,8 @@ public class GUITest : MonoBehaviour {
 
 The TextArea Control is an interactive, editable multi-line area containing a text string.
 
+文本区 (TextArea) 控件是一种互动式、可编辑的多行区域，含有文本字符串。
+
 ####Basic Usage
 
 The TextArea will always display a string. You must provide the string to be displayed in the TextArea. When edits are made to the string, the TextArea function will return the edited string.
