@@ -72,6 +72,8 @@ GUISkin 是资源文件。如需创建 GUI 皮肤 (GUI Skin)，请从菜单栏�
 
 After you have created a GUISkin, you can edit all of the Styles it contains in the Inspector. For example, the Text Field Style will be applied to all Text Field Controls.
 
+创建 GUISkin 后，您可以编辑检视器 (Inspector) 中包含的所有样式 。例如，文本框 (Text Field) 样式将会应用于所有文本框控件 (Text Field Controls)。
+
 ![Editing the Text Field Style in a GUISkin](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/GUISkin-EditingTextField.png)
 ######Editing the Text Field Style in a GUISkin
 No matter how many Text Fields you create in your script, they will all use this Style. Of course, you have control over changing the styles of one Text Field over the other if you wish. We’ll discuss how that is done next.
