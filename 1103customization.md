@@ -37,6 +37,8 @@ As stated earlier, GUISkins are a collection of GUIStyles. Styles define the app
 
 All GUI Control functions have an optional last parameter: the GUIStyle to use for displaying the Control. If this is omitted, Unity’s default GUIStyle will be used. This works internally by applying the name of the control type as a string, so GUI.Button() uses the “button” style, GUI.Toggle() uses the “toggle” style, etc. You can override the default GUIStyle for a control by specifying it as the last parameter.
 
+所有“GUI 控件”(GUI Control) 都具有一个可选的最后参数：用于显示控件的 GUIStyle。如果将其忽略，则使用 Unity 的默认 GUIStyle。样式处理通过将控件类型名称作为字符串应用而在内部进行，因此 GUI.Button() 使用 "按钮" 样式，GUI.Toggle() 使用 "toggle" 样式，等等。但您可以通过将控件的默认 GUIStyle 指定为最后参数来覆盖默认 GUIStyle。
+
 ```
 /* Override the default Control Style with a different style in the UnityGUI default Styles */
 
