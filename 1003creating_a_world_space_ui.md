@@ -42,6 +42,8 @@ Another way to think of it is that you are controlling the size of one pixel in 
 
 Unlike a Canvas set to Screen Space, a World Space Canvas can be freely positioned and rotated in the Scene. You can put a Canvas on any wall, floor, ceiling, or slanted surface (or hanging freely in the air of course). Just use the normal Translate and Rotate tools in the toolbar.
 
+与画布设置为 Screen Space 不同，World Space 画布可以自由地定位和旋转在场景中。 你可以把一个画布上任何 wall 墙壁、 floor 地板、 ceiling 天花板、 或 slanted surface 倾斜 的表面 （或挂在课程的空气中自由地）。只是在工具栏中使用正常的 Translate 翻译和 Rotate 旋转工具。 
+
 ##Create the UI
 
 Now you can begin setting up your UI elements and layouts the same way you would with a Screen Space Canvas.
