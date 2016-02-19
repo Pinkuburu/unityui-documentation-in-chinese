@@ -49,3 +49,5 @@ If you are instantiating multiple UI elements dynamically, it’s unlikely that 
 如果你动态地实例化多个 UI 元素，你就会希望他们都看起来一样不太可能，这样做。 无论是在菜单中的按钮，库存或别的东西的条目，你可能想要的个别项目有不同的文本或图 像，当互动时做不同的事情。
 
 This is done by getting the various components and changing their properties. See the scripting reference for the Image and Text components, and for how to work with UnityEvents from scripting.
+
+这是通过获得各种组件和改变它们的属性。从脚本中如何使用 UnityEvents 工作，看看 关于图像和文本组件的脚本引用
