@@ -234,6 +234,8 @@ Notice that inside an Area, Controls with visible elements like Buttons and Boxe
 
 When using Automatic Layout, Controls will by default appear one after another from top to bottom. There are plenty of occasions you will want finer level of control over where your Controls are placed and how they are arranged. If you are using the Automatic Layout mode, you have the option of Horizontal and Vertical Groups.
 
+使用自动布局 (Automatic Layout) 时，在默认情况下控件从上到下依次出现。在很多情况下，您想要更精细地控制控件的位置和排布方式。如果您使用自动布局 (Automatic Layout) 模式，就可以选择水平群组和垂直群组。
+
 Like the other layout Controls, you call separate functions to start or end these groups. The specific functions are GUILayout.BeginHoriztontal(), GUILayout.EndHorizontal(), GUILayout.BeginVertical(), and GUILayout.EndVertical().
 
 Any Controls inside a Horizontal Group will always be laid out horizontally. Any Controls inside a Vertical Group will always be laid out vertically. This sounds plain until you start nesting groups inside each other. This allows you to arrange any number of controls in any imaginable configuration.
