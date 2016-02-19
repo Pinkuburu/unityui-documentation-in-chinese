@@ -24,6 +24,8 @@ What happens here is that the Text component functions as a Layout Element that 
 
 When UI elements are automatically resized to fit their content, you should pay extra attention to the pivot of the Rect Transform. The pivot will stay in place when the element is resized, so by setting the pivot position you can control in which direaction the element will expand or shrink. For example, if the pivot is in the center, then the element will expand equally in all directions, and if the pivot is in the upper left corner, then the element will expand to the right and down.
 
+当 UI 元素将自动调整大小以适合其内容时，你要额外留意到 pivot 的 Rect Transform。 pivot 留在的地方，当调整元素大小，所以通过设置 pivot 的位置你可以控制哪些内件中元素 将会扩展或收缩。例如，如果 pivot 是在中心，然后该元素将展开同样在所有方向上，如果 pivot 是在左上角，然后该元素将展开向右和向下。
+
 ##Fit to size of UI element with child Text
 
 If you have a UI element, such as a Button, that has a background image and a child Game Object with a Text component on it, you probably want the whole UI element to fit the size of the text - maybe with some padding.
