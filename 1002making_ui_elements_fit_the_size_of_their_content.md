@@ -75,6 +75,8 @@ Once the children no longer expand with flexible width, their alignment can be s
 
 What if you want some of the children to expand to fill additional available space, but not the other children? You can easily control this by adding a Layout Element component to the children you want to expand and enabling the Flexible Width or Flexible Height properties on those Layout Elements. The parent Layout Group should still have the Child Force Expand toggles disabled, otherwise all the children will expand flexibly.
 
+一旦子对象不再扩大与 flexible width，可以使用的 Child Alignment 子对齐方式设置的布 局组中指定其对齐方式。
+
 ###How does it work?
 
 A Game Object can have multiple components that each provide layout information about minimum, preferred and flexible sizes. A priority system determines which values take effect over others. The Layout Element component has a higher priority than the Text, Image, and Layout Group components, so it can be used to override any layout information values they provide.
