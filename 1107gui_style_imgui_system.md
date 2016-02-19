@@ -23,7 +23,7 @@ If you want to add style to more than one control, use a GUI Skin instead of a G
 | **Hover**	 | Background image & Text Color when the mouse is positioned over the Control |
 | **Hover**	 | 鼠标停留在控件上时的背景图像和文本颜色 |
 | **Active**	 | Background image & Text Color when the mouse is actively clicking the Control |
-| **Active**	 | Background image & Text Color when the mouse is actively clicking the Control |
+| **Active**	 | 鼠标主动点击控件时的背景图像和文本颜色 |
 | **Focused**	 | Background image & Text Color when the Control has keyboard focus |
 | **Focused**	 | Background image & Text Color when the Control has keyboard focus |
 | **On Normal**	 | Background image & Text Color of the Control in enabled state |
