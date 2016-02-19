@@ -34,6 +34,8 @@ If you have a UI element, such as a Button, that has a background image and a ch
 
 In order to do this, first add a Horizontal Layout Group to the UI element, then add a Content Size Fitter too. Set the Horizontal Fit, the Vertical Fit, ot both to the Preferred setting. You can add and tweak padding using the padding property in the Horizontal Layout Group.
 
+为了做到这一点，首先 Horizontal Layout Group 水平布局组添加到 UI 元素，然后也添 加 Content Size Fitter。设置水平适合、垂直适合，这两个的首选设置。您可以添加和调整填 充使用 padding 属性 Horizontal Layout Group 水平的布局组中
+
 Why use a Horizontal Layout Group? Well, it could have been a Vertical Layout Group as well - as long as there is only a single child, they produce the same result.
 
 ###How does it work?
