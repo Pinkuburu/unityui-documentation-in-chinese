@@ -77,6 +77,8 @@ The next GUI line is a Button Control declaration. Notice that it is slightly di
 
 Since the OnGUI() code gets called every frame, you don’t need to explicitly create or destroy GUI controls. The line that declares the Control is the same one that creates it. If you need to display Controls at specific times, you can use any kind of scripting logic to do so.
 
+由于 OnGUI() 代码在每一帧获得调用，因此您不必明确创建或破坏 GUI 控件。声明该控件 (Control) 的行与创建它的行是同一行。如果您需要在特定时间显示控件 (Control)，可使用任何一种脚本逻辑来操作。
+
 ```
 /* Flashing button example */
 
