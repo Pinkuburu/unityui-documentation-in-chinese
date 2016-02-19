@@ -2,6 +2,8 @@
 
 This section covers components in the UI system that handles interaction, such as mouse or touch events and interaction using a keyboard or controller.
 
+本节涵盖了处理交互，例如鼠标或触摸事件和使用键盘或控制器交互的 UI 系统中的组件
+
 The interaction components are not visible on their own, and must be combined with one or more visual elements in order to work correctly.
 
 ##Common Functionality
