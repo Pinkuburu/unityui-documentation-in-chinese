@@ -44,6 +44,8 @@ When the screen size is changed to a larger or smaller resolution, the buttons w
 
 In this how-to, we know that the smaller resolutions of Phone SD Portrait and Landscape don’t correspond to screens that are physically smaller, but rather just screens with a lower pixel density. On these lower-density screens the buttons shouldn’t appear larger than on the high-density screens - they should instead appear with the same size.
 
+在这个操作中，我们知道较小的分辨率 Phone SD Portrait 和 Landscape 不对应的物质 上较小的屏幕，但是较低的像素密度的屏幕。在这些低密度屏幕上的按钮应该显示比高密度 的屏幕上的内容大-----显示具有相同的大小他们应该相反。
+
 This means that the buttons should become smaller by the same percentage as the screen is smaller. In other words, the scale of the buttons should follow the screen size. This is where the Canvas Scaler component can help.
 
 ##Scaling with Screen Size
