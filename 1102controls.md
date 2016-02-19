@@ -90,6 +90,8 @@ RepeatButton is a variation of the regular Button. The difference is, RepeatButt
 
 In UnityGUI, RepeatButtons will return true for every frame that they are clicked. To execute some code while the Button is being clicked, you wrap the the GUI.RepeatButton function in an if statement. Inside the if statement is the code that will be executed while the RepeatButton remains clicked.
 
+在 UnityGUI 中，“重复按钮” (RepeatButton) 将对点击它们时的每个帧返回 true 。如需在点击“按钮” (Button) 时执行代码，您可以将 GUI.RepeatButton 函数放入 if语句中。在保持点击“重复按钮” (RepeatButton) 期间将执行 if 语句中的代码。
+
 ```
 /* GUI.RepeatButton example */
 
