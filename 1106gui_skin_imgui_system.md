@@ -64,6 +64,8 @@ Because each individual Control uses a particular Style, it does not make sense 
 
 GUISkins are asset files. To create a GUI Skin, select Assets->Create->GUI Skin from the menubar. This will put a new GUISkin in your Project View.
 
+GUISkin 是资源文件。如需创建 GUI 皮肤 (GUI Skin)，请从菜单栏选择资源 (Assets) -> 创建 (Create) -> GUI 皮肤 (GUI Skin) 。您的工程视图 (Project View中会出现新的 GUISkin。
+
 ![A new GUISkin file in the Project View](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/GUISkin-ProjectView.png)
 ######A new GUISkin file in the Project View
 ###Editing GUISkins
