@@ -37,6 +37,8 @@ Examples of layout controller components that use the information provided by la
 
 Any Game Object with a Rect Transform on it can function as a layout element. They will by default have minimum, preferred, and flexible sizes of 0. Certain components will change these layout properties when added to the Game Object.
 
+图像和文本组件是两个例子的功能作为布局元素的组件。他们有一个最小 minimum 宽 度和高度为零，和首选 preferred 的宽度和高度相匹配的雪碧或文本的内容。他们灵活 flexible 的宽度和高度是 1。
+
 The Image and Text components are two examples of components that provide layout element properties. They change the preferred width and height to match the sprite or text content.
 
 ##Layout Element Component
