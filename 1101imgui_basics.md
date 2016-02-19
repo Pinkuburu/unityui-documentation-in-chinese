@@ -59,6 +59,8 @@ public class GUITest : MonoBehaviour {
 
 This example is a complete, functional level loader. If you copy/paste this script and attach it a GameObject, you’ll see the following menu appear in when you enter Play Mode:
 
+此示例是一个完整的功能性等级加载器。如果您复制/粘贴此脚本并将其贴到游戏对象 (GameObject) 上，则进入播放模式 (Play Mode) 时会看到以下菜单：
+
 ![](Main/guiScripting-BasicsLoaderMenuExample.png)
 ######The Loader Menu created by the example code
 Let’s take a look at the details of the example code:
