@@ -54,11 +54,11 @@ Take care when using Unrestricted scrolling movement as it is possible to lose c
 
 Optionally, the Scroll Rect can be linked to a horizontal and/or a vertical Scrollbar. These are typically placed in the hierarchy as siblings to the viewport, and when present, should be dragged into the Horizontal Scrollbar and Vertical Scrollbar properties of the Scroll Rect, respectively. Note that the Direction property on such a horizontal Scrollbar should be set to Left To Right, and on the vertical Scrollbar to Bottom To Top.
 
-Scroll Rect 通常用于滚动一个较大的图像或面板中的其他 UI 元素，如列表中的按钮或 大块文本。Scroll Rect 与 mask 掩码元素最常用，旨在与滚动条无缝地工作。 
-
 The scrollbars can optionally have auto-hiding behaviour that hides the scrollbars if the content doesn’t need to scroll because it isn’t larger than the viewport. Note that the auto-hiding only ever happens in Play Mode. In Edit Mode the scrollbars are always shown. This prevents marking the scene as dirty when it shouldn’t be, and also help authoring content with proportions that there’s room for even when the scrollbars are shown.
 
 If one or both scrollbars have their visibility behaviour set to Auto Hide And Expand View, the viewport is automatically expanded when the scrollbars are hidden in order to take up the extra room where the scrollbars would otherwise have been. With this setup, the position and size of the view is driven by the Scroll Rect, and the width of the horizontal scrollbar as well as the height of the vertical scrollbar is driven as well. With this setup the viewport as well as the scrollbars must be children to the Scroll Rect root GameObject.
+
+Scroll Rect 通常用于滚动一个较大的图像或面板中的其他 UI 元素，如列表中的按钮或 大块文本。Scroll Rect 与 mask 掩码元素最常用，旨在与滚动条无缝地工作。 要滚动的内容，输入必须在 ScrollRect 编筐内收到，而不在于内容本身。 Scroll Rect 常用的与 mask 掩码元素。添加 image 脚本的掩码要使用，然后再添加蒙版 的脚本。掩码元素将使用图像来创建其掩码。在图像脚本上不需要特定的图像，但一个可以 添加附加控制蒙版的形状为。 考虑到当使用不受限制的滚动运动，它可能失去对内容的控制，是 一种不可挽回的方式。 当采用 Elastic 弹性或 Constrained 限制的运动最好是内容的定位，使它开始在 ScrollRect 的 范围内或不良行为可能会发生，因为 RectTransform 会尝试将内容背在其边界内。
 
 ##Hints
 
