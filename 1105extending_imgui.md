@@ -65,6 +65,8 @@ In this example, calling LabelSlider() and passing the correct arguments will pr
 
 By using Static functions, you can create an entire collection of your own Compound Controls that are self-contained. This way, you do not have to declare your function in the same script you want to use it.
 
+使用静态 (Static) 函数，您可以为自己创建完备的复合控件集。这样您就不需要在同一脚本中使用函数时声明此函数。
+
 ```
 /* This script is called CompoundControls */
 
