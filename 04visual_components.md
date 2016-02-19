@@ -7,7 +7,7 @@ With the introduction of the UI system, new Components have been added that will
 ##Text
 ![](Main/UI_TextInspector.png)
 
-The Text component, which is also known as a Label, has a Text area for entering the text that will be displayed. It is possible to set the font, font style, font size and whether or not the text has rich text capability.
+The **Text** component, which is also known as a Label, has a Text area for entering the text that will be displayed. It is possible to set the font, font style, font size and whether or not the text has rich text capability.
 
 该 Text 组件，也被称为是一个标签，有一个 Text 区域用于输入将显示的文本。它是可 以设置的字体、 字体样式、 字体大小和是否使用 Rich Text 的能力。 
 
