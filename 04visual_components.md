@@ -34,7 +34,7 @@ Images can be imported as **UI sprites** by selecting Sprite( 2D / UI) from the 
 
 ##Raw Image
 
-The Image component takes a sprite but Raw Image takes a texture (no borders etc). Raw Image should only be used if necessary otherwise Image will be suitable in the majority of cases.
+The Image component takes a sprite but **Raw Image** takes a texture (no borders etc). Raw Image should only be used if necessary otherwise Image will be suitable in the majority of cases.
 
 ##Mask
 
