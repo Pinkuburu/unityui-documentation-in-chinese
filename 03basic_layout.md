@@ -38,13 +38,14 @@ Rect Transform和普通的Transform一样，有位置，旋转和大小，但是
 
 When the Rect Tool is used to change the size of an object, normally for Sprites in the 2D system and for 3D objects it will change the local scale of the object. However, when it’s used on an object with a Rect Transform on it, it will instead change the width and the height, keeping the local scale unchanged. This resizing will not affect font sizes, border on sliced images, and so on.
 
-当使用矩形工具来改变对象的大小，通常用来改变2D系统中的精灵和3D对象会改变对象的本地缩放。但是，当作用于一个有Rect Transform的对象时，他将改变宽度和高度，保持本地缩放不变。这个调整将不影响字体字号，sliced模式图片的边缘等等。
+当使用矩形工具来改变对象的大小，通常用来改变2D系统中的精灵和3D对象会改变对象的本地缩放。但是，当作用于一个有Rect Transform的对象时，他将改变宽度和高度，保持本地缩放不变。这个调整将不影响字体字号，切片模式图片的边缘等等。
 
 ###Pivot
 
 Rotations, size, and scale modifications occur around the pivot so the position of the pivot affects the outcome of a rotation, resizing, or scaling. When the toolbar Pivot button is set to Pivot mode, the pivot of a Rect Transform can be moved in the Scene View.
 
-旋转，大小和缩放修改在Pivot周围发生，所以Pivot的位置影响到旋转、跳转大小或者缩放的效果。当工具条的Pivot按钮被设定为Pivot模式，Rect Transform的pivot可以在Scene视图中移动。
+旋转 Rotations、 大小 size 和规模 scale 的修改都是围绕着这个轴 pivot，所以这个轴的位 置，就会影响旋转、 调整大小或缩放的效果了。当工具栏 Pivot 按钮设置到 Pivot mode 时， 在场景视图中就可以移动一个 Rect Transform 的枢纽 Pivot 了，来设置 Pivot 的位置。   如 图篮圈： 
+  
 
 ![](Main/UI_PivotRotate.png)
 
