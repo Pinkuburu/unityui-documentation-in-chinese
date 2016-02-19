@@ -14,6 +14,8 @@ When you have a large number of different GUIStyles to work with, you can define
 
 GUIStyles are designed to mimic Cascading Style Sheets (CSS) for web browsers. Many different CSS methodologies have been adapted, including differentiation of individual state properties for styling, and separation between the content and the appearance.
 
+GUIStyles 模仿网页浏览器的层叠样式表 (CSS)。很多 CSS 方法得到调整，包括样式的个体状态属性的差异化和内容与外观的分离。
+
 Where the Control defines the content, the Style defines the appearance. This allows you to create combinations like a functional Toggle which looks like a normal Button.
 
 ![Two Toggle Controls styled differently](file:///C:/Program%20Files/Unity/Editor/Data/Documentation/en/uploads/Main/gsg-ToggleStyles.png)
