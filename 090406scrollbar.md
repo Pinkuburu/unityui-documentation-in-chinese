@@ -2,6 +2,8 @@
 
 The Scrollbar control allows the user to scroll an image or other view that is too large to see completely. Note that the similar Slider control is used for selecting numeric values rather than scrolling. Familiar examples include the vertical Scrollbar at the side of a text editor and the vertical and horizontal pair of bars for viewing a section of a large image or map.
 
+滚动条控件允许用户滚动图像或其他太大的，可以完全看到的视图。请注意类似的滑块 控件用于选择数字值，而不是滚动。熟悉的例子包括在一个文本编辑器的一侧和垂直和水平 两竖线用于查看较大的图像或地图的一个部分的垂直滚动条。 
+
 ![](Main/UI_ScrollbarExample.png)
 ######A Scrollbar.
 ![](Main/UI_ScrollBarInspector.png)
