@@ -23,6 +23,8 @@ As the example shows, the tags are just pieces of text inside the “angle brack
 
 A marked up section of text (including the tags that enclose it) is referred to as an **element**.
 
+一个标记 marked 的文本字段 （包括括起来的标记 tags） 节称为元素。 
+
 ### Nested elements
 
 It is possible to apply more than one style to a section of text by “nesting” one element inside another
