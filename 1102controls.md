@@ -9,6 +9,8 @@ There are a number of different IMGUI Controls that you can create. This section
 
 The Label is non-interactive. It is for display only. It cannot be clicked or otherwise moved. It is best for displaying information only.
 
+标签 (Label) 是非互动式的。其仅用于显示。不能点击或移动标签 (Label)。标签 (Label) 仅适合用于显示信息。
+
 ```
 /* GUI.Label example */
 
