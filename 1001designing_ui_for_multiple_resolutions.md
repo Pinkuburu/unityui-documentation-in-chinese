@@ -38,6 +38,8 @@ Once the buttons have been anchored to their respective corners, they stick to t
 
 When the screen size is changed to a larger or smaller resolution, the buttons will also remain anchored to their respective corners. However, since they keep their original size as specified in pixels, they may take up a larger or smaller proportion of the screen. This may or may not be desirable, depending on how you would like your layout to behave on screens of different resolutions.
 
+当屏幕大小更改为更大或更小的分辨率时，按钮将也仍将锚定到其各自的角落。然而， 由于他们保持其原来的大小作为以像素为单位指定，他们可能会占用更大或更小的屏幕比例 （就是按钮的大小完全没有缩放）。这可能会或可能不可取的，依赖于你想要你的布局在不 同的分辨率的屏幕上的行为。 
+
 ![](Main/UI_MultiResSizeChange.png)
 
 In this how-to, we know that the smaller resolutions of Phone SD Portrait and Landscape don’t correspond to screens that are physically smaller, but rather just screens with a lower pixel density. On these lower-density screens the buttons shouldn’t appear larger than on the high-density screens - they should instead appear with the same size.
