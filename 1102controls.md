@@ -214,6 +214,8 @@ The Toggle Control creates a checkbox with a persistent on/off state. The user c
 ####Basic Usage
 
 The Toggle on/off state is represented by a true/false boolean. You must provide the boolean as a parameter to make the Toggle represent the actual state. The Toggle function will return a new boolean value if it is clicked. In order to capture this interactivity, you must assign the boolean to accept the return value of the Toggle function.
+
+“切换键” (Toggle) 的开/关状态由真/假布尔值表示。您必须提供 布尔值作为参数，使“切换键” (Toggle) 代表实际状态。点击“切换键”(Toggle) 时，切换键函数将返回一个新的布尔值。要获得此互动性，您必须指定布尔型变量接受“切换键” (Toggle) 函数的返回值。
 ```
 
 /* GUI.Toggle example */
