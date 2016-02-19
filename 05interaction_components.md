@@ -33,7 +33,7 @@ See the Toggle Group page for details on using the Toggle Group component.
 
 A Slider has a decimal number Value that the user can drag between a minimum and maximum value. It can be either horizontal or vertical. It also has a OnValueChanged UnityEvent to define what it will do when the value is changed.
 
-
+![](Main/UI_ToggleGroupExample.png)
 See the Slider page for details on using the Slider component.
 
 ##Scrollbar
