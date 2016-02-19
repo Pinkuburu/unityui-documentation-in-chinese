@@ -33,6 +33,8 @@ The value of a Scrollbar is determined by the position of the handle along its l
 
 A significant difference between the Scrollbar and the similar Slider control is that the Scrollbar’s handle can change in size to represent the distance of scrolling available; when the view can scroll only a short way, the handle will fill up most of the bar and only allow a slight shift either direction.
 
+滚动条和类似的滑块控件之间的差异就是滚动条上的手柄可以改变的大小来表示距离 的滚动可用 ；当视图可以滚动，只有一小段路，该句柄将填补了大多数 bar 和一个轻微的 转变两个方向。 
+
 The Scrollbar has a single event called On Value Changed that responds as the user drags the handle. The current value is passed to the even function as a float parameter. Typical use cases for a scrollbar include:
 
 * Scrolling a piece of text vertically.
