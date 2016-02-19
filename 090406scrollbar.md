@@ -44,3 +44,4 @@ The Scrollbar has a single event called On Value Changed that responds as the us
 * Scrolling a timeline horizontally.
 * 水平滚动时间轴。 
 * Used as a pair, scrolling a large image both horizontally and vertically to view a zoomed section. The size of the handle changes to indicate the degree of zooming and therefore the available distance for scrolling.
+* 使用一对，水平滚动大图像和垂直查看放大后的一段。句柄发生变化，表示程度的缩放和 滚动的可用距离的大小。
