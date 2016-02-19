@@ -19,6 +19,8 @@ The Toggle Group is setup by dragging the Toggle Group object to the Group prope
 
 Toggle Groups are useful anywhere the user must make a choice from a mutually exclusive set of options. Common examples include selecting player character types, speed settings (slow, medium, fast, etc), preset colors and days of the week. You can have more than one Toggle Group object in the scene at a time, so you can create several separate groups if necessary.
 
+Toggle Groups 切换组应用在任何地方， 用户必须作出一个选择从一组互斥的选项中。 常见的例子包括选择玩家性别类型、 速度设置 （慢，中等，速度快，等）、 预设的颜色和 星期几。
+
 Unlike other UI elements, an object with a Toggle Group component does not need to be a child of a Canvas object, although the Toggles themselves still do.
 
 Note that the Toggle Group will not enforce its constraint right away if multiple toggles in the group are switched on when the scene is loaded or when the group is instantiated. Only when a new toggle is swicthed on are the others switched off. This means it’s up to you to ensure that only one toggle is switched on from the beginning.
