@@ -10,7 +10,7 @@ The interaction components are not visible on their own, and must be combined wi
 
 Most of the interaction components have some things in common. They are selectables, which means they have shared built-in functionality for visualising transitions between states (normal, highlighted, pressed, disabled), and for navigation to other selectables using keyboard or controller. This shared functionality is described on the Selectable page.
 
-
+所有交互组件都有一些共同点。selectables 是他们所有的控件的基类，这意味着他们都 有共享状态，之间的前瞻转换和导航到其他使用键盘或控制器的 selectables 的内置功能。 此处介绍的这种共享的功能。
 
 ##Button
 
