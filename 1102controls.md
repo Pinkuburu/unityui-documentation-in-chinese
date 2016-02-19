@@ -572,6 +572,8 @@ Windows are drag-able containers of Controls. They can receive and lose focus wh
 ####Basic Usage
 
 Windows are the only Control that require an additional function to work properly. You must provide an id number and a function name to be executed for the Window. Inside the Window function, you create your actual behaviors or contained Controls.
+
+“窗口”(Window) 是唯一一个需要附加函数来实现正确运行的控件。您必须提供 一个 id 号和对该“窗口”(Window) 执行的函数名。在“窗口”(Window) 函数中，您可以创建您的实际行为或包含的控件。
 ```
 
 /* Window example */
