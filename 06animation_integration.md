@@ -8,6 +8,7 @@ To use the Animation transition mode, an Animator Component needs to be attached
 
 The new Animator controller is ready to use straight away. Unlike most Animator Controllers, this controller also stores the animations for the controller’s transitions and these can be customised, if desired.
 
+![](Main/GUI_ButtonAnimator.png)
 
 For example, if a Button element with an Animator controller attached is selected, the animations for each of the button’s states can be edited by opening the Animation window (Window>Animation).
 
