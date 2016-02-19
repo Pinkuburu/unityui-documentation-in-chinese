@@ -51,6 +51,8 @@ GUIStyles 通过脚本声明，并在每个实例的基础上进行修改。如�
 
 First, you must declare a GUI Style from within a script.
 
+首先，必须在脚本中声明一个 GUI 样式 (GUI Style)。
+
 ```
 /* Declare a GUI Style */
 var customGuiStyle : GUIStyle;
