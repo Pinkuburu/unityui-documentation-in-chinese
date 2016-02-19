@@ -32,6 +32,8 @@ Now you should consider how big the Canvas should be in the world. You can use t
 
 If you want it to have a specific width in meters, you can can calculate the needed scale by using meter_size / canvas_width. For example, if you want it to be 2 meters wide and the Canvas width is 800, you would have 2 / 800 = 0.0025. You then set the Scale property of the Rect Transform on the Canvas to 0.0025 for both X, Y, and Z in order to ensure that it’s uniformly scaled.
 
+如果你想要它在米有一个特定的宽度，你可以计算所需的 scale 通过公式：  meter_size / canvas_width。例如，如果你想要它是宽 2 米的画布宽度是 800，你将会有 2 / 800 = 0.0025。 你然后设置 Rect Transform 的 Scale 属性到 X、 Y 和 Z 为 0.0025 画布上以确保它均匀地进 行缩放。
+
 Another way to think of it is that you are controlling the size of one pixel in the Canvas. If the Canvas is scaled by 0.0025, then that is also the size in the world of each pixel in the Canvas.
 
 ##Position the Canvas
