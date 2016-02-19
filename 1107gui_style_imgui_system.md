@@ -17,7 +17,7 @@ If you want to add style to more than one control, use a GUI Skin instead of a G
 | **Property:	** | **Function:** |
 | -- | -- |
 | **Name**	 | The text string that can be used to refer to this specific Style |
-| **Name**	 | The text string that can be used to refer to this specific Style |
+| **Name**	 | 用于指代特定样式的文本字符串 |
 | **Normal**	 | Background image & Text Color of the Control in default state |
 | **Hover**	 | Background image & Text Color when the mouse is positioned over the Control |
 | **Active**	 | Background image & Text Color when the mouse is actively clicking the Control |
