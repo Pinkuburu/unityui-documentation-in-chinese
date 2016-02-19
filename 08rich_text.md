@@ -5,6 +5,8 @@
 
 The text for UI elements and text meshes can incorporate multiple font styles and sizes. Rich text is supported both for the UI System and the legacy GUI system. The Text, GUIStyle, GUIText and TextMesh classes have a <span class="doc-keyword">Rich Text</span> setting which instructs Unity to look for markup tags within the text. The [Debug.Log](../ScriptReference/Debug.Log.html) function can also use these markup tags to enhance error reports from code. The tags are not displayed but indicate style changes to be applied to the text.
 
+UI 元素和文本网格的文本可以合并多个字体样式和大小。对 UI 系统和传统的 GUI 系 统都支持富文本。Text、 GUIStyle、 GUIText 和 TextMesh 的类有丰富文本设置指导 unity 寻 找 tags 标记的文本。Debug.Log 函数也可以使用这些标记来提高代码的错误报告。tags 不会 显示，但显示样式的更改会应用于文本
+
 ## Markup format
 
 The markup system is inspired by HTML but isn’t intended to be strictly compatible with standard HTML. The basic idea is that a section of text can be enclosed inside a pair of matching tags:-
