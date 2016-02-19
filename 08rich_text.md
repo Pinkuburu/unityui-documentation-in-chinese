@@ -118,6 +118,8 @@ This is only useful for text meshes and renders an image inline with the text. I
 
 This selects the material at position in the renderer’s material array and sets the height of the image to 20 pixels. The rectangular area of image starts at given by the x, y, width and height values, which are all given as a fraction of the unscaled width and height of the texture.
 
+这选择材料在 renderer’s material 数组中的位置，并将图像的高度设置为 20 像素。矩形区 域的图像开始得到的 x、 y、 宽度和高度值，都被赋予了作为未缩放宽度的一小部分和纹 理的高度。  
+
 ##Editor GUI
 
 Rich text is disabled by default in the editor GUI system but it can be enabled explicitly using a custom GUIStyle. The richText property should be set to true and the style passed to the GUI function in question:-
