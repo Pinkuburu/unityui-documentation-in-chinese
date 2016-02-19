@@ -102,6 +102,8 @@ public class CompoundControls : MonoBehaviour {
 
 By saving the above example in a script called CompoundControls, you can call the LabelSlider() function from any other script by simply typing CompoundControls.LabelSlider() and providing your arguments.
 
+通过将上述示例保存至 CompoundControls 脚本，您只需简单地键入 CompoundControls.LabelSlider() 并提供 变量，就可以从其他任何脚本中调用 LabelSlider()。
+
 ###Elaborate Compound Controls
 
 You can get very creative with Compound Controls. They can be arranged and grouped in any way you like. The following example creates a re-usable RGB Slider.
