@@ -84,6 +84,8 @@ No matter how many Text Fields you create in your script, they will all use this
 
 To apply a GUISkin to your GUI, you must use a simple script to read and apply the Skin to your Controls.
 
+要将 GUISkin 应用到 GUI，您必须用简单的脚本来读取皮肤 (Skin) 并将其应用于控件 (Control)。
+
 ```
     // Create a public variable where we can assign the GUISkin
     var customSkin : GUISkin;
