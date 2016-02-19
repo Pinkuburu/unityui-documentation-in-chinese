@@ -29,6 +29,8 @@ A marked up section of text (including the tags that enclose it) is referred to 
 
 It is possible to apply more than one style to a section of text by “nesting” one element inside another
 
+对于一段文本它可能应用不止一种样式，通过“nesting”
+
    We are <b><i>definitely not</i></b> amused
 
 The i tag applies italic style, so this would be presented onscreen as
