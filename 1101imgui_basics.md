@@ -215,6 +215,8 @@ public class GUITest : MonoBehaviour {
 
 To display an image, declare a Texture2D public variable, and pass the variable name as the content argument like this:
 
+如需显示图像，请声明二维纹理 (Texture2D) 公共变量，并将变量名称作为内容参数进行传递，如下所示：
+
 ```
 /* Texture2D Content example */
 
