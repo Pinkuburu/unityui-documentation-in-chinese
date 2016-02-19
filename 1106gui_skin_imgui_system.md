@@ -18,6 +18,8 @@ GUISkin 是 UnityGUI 系统的一部分。有关 UnityGUI 的更多详细信息�
 
 All of the properties within a GUI Skin are an individual GUIStyle. Please read the GUIStyle page for more information about how to use Styles.
 
+GUI 皮肤中的所有属性都是一个独立的 GUIStyle 。有关如何使用样式 (Style) 的更多信息，请参阅GUIStyle 页。
+
 | Property:	 | Function: |
 | -- | -- |
 | **Font**	 | The global Font to use for every Control in the GUI |
