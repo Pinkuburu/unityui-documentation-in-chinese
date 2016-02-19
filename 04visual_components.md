@@ -20,6 +20,8 @@ Image
 
 An Image has a Rect Transform component and an Image component. A sprite can be applied to the Image component under the Target Graphic field, and its colour can be set in the Color field. A material can also be applied to the Image component. The Image Type field defines how the applied sprite will appear, the options are:
 
+切换到一个有  Rect Transform 组件和 Image 组件的对象上。一个精灵 sprite 可以应用于 Image 组件下 Source Image 字段，Color 字段中设置主颜色。一种材料还可以用于 Image 组 件。图像类型字段定义了如何显示应用的精灵，选项有： 
+
 Simple - Scales the whole sprite equally.
 Sliced - Utilises the 3x3 sprite division so that resizing does not distort corners and only the center part is stretched.
 Tiled - Similar to Sliced, but tiles (repeats) the center part rather than stretching it. For sprites with no borders at all, the entire sprite is tiled.
