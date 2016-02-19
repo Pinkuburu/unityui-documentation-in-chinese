@@ -6,6 +6,8 @@ Normally when positioning a UI element with its Rect Transform, its position and
 
 However, sometimes you may want the rectangle to be automatically sized to fit the content of the UI element. This can be done by adding a component called Content Size Fitter.
 
+然而，有时你可能想要矩形可以自动调整大小来适应 UI 元素的内容。这可以通过添加 一个称为 Content Size Fitter 的组件。
+
 ##Fit to size of Text
 
 In order to make a Rect Transform with a Text component on it fit the text content, add a Content Size Fitter component to the same Game Object which has the Text component. Then set both the Horizontal Fit and Vertical Fit dropdowns to the Preferred setting.
