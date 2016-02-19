@@ -4,6 +4,8 @@
 
 Although Unity’s IMGUI system is mainly intended for creating developer tools and debugging interfaces, you can still customize and style them in many ways. In Unity’s IMGUI system, you can fine-tune the appearance of your Controls with many details. Control appearances are dictated with GUIStyles. By default, when you create a Control without defining a GUIStyle, Unity’s default GUIStyle is applied. This style is internal in Unity and can be used in published games for quick prototyping, or if you choose not to stylize your Controls.
 
+功能控件 (Functional Control) 是游戏必要的，而这些控件的外观对游戏的美感非常重要。在 UnityGUI 中，您可以微调控件 (Control) 外观的很多细节。控件外观在 GUIStyles 中详述。默认情况下，当你在未定义 GUIStyle 时创建一个控件 (Control)，将应用 Unity 的默认 GUIStyle。这种样式内置于 Unity 中，且可用于对已发布的游戏进行快速原型设计，您也可以选择不对控件 (Control) 进行样式化。
+
 When you have a large number of different GUIStyles to work with, you can define them all within a single GUISkin. A GUISkin is no more than a collection of GUIStyles.
 
 ###How Styles change the look of your GUI Controls
