@@ -213,7 +213,7 @@
 <tr>
 	<td style="text-align:left;">yellow</td>
 	<td style="text-align:left;"><code>#ffff00ff</code></td>
-	<td style="text-align:left;"><img src="..Main/YellowSwatch.png" alt=""></td>
+	<td style="text-align:left;"><img src="../Main/YellowSwatch.png" alt=""></td>
 </tr>
 </tbody>
 </table>
