@@ -514,6 +514,8 @@ ScrollViews are Controls that display a viewable area of a much larger set of Co
 ####Basic Usage
 
 ScrollViews require two Rects as arguments. The first Rect defines the location and size of the viewable ScrollView area on the screen. The second Rect defines the size of the space contained inside the viewable area. If the space inside the viewable area is larger than the viewable area, Scrollbars will appear as appropriate. You must also assign and provide a 2D Vector which stores the position of the viewable area that is displayed.
+
+“滚动视图”(ScrollView) 需要两个 Rects作为参数。第一个 Rect 定义屏幕上的可视“滚动视图”(ScrollView) 区域的位置和大小。第二个 Rect 定义该可视区域内部的空间大小。如果该可视区域内部的空间大于该可视区域，“滚动条”(Scrollbar) 根据情况适当地显示出来。您还必须分配并提供 一个存储所显示的可视区域位置的二维向量 (2D Vector)。
 ```
 
 /* ScrollView example */
