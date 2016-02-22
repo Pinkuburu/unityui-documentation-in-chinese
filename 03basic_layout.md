@@ -44,7 +44,7 @@ When the Rect Tool is used to change the size of an object, normally for Sprites
 
 Rotations, size, and scale modifications occur around the pivot so the position of the pivot affects the outcome of a rotation, resizing, or scaling. When the toolbar Pivot button is set to Pivot mode, the pivot of a Rect Transform can be moved in the Scene View.
 
-围绕pivot修改旋转，大小和缩放，结果会影响旋转，调整大小和。当工具栏Pivot按钮设置为Pivot模式下，一个矩形的支点变换，可以在场景视图移动。
+围绕pivot修改旋转，大小和缩放，结果会影响旋转，调整大小和缩放。当工具栏Pivot按钮设置为Pivot模式下，Rect Transform的pivot可以在场景视图移动。
   
 
 ![](Main/UI_PivotRotate.png)
