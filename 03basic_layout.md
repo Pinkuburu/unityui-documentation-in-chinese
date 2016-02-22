@@ -62,8 +62,7 @@ If the parent of a Rect Transform is also a Rect Transform, the child Rect Trans
 
 ![](Main/UI_Anchored1.gif)
 ######UI element anchored to the center of the parent. The element maintains a fixed offset to the center.
-
-UI元素被锚定到父对象的中心，这个元素相对中心保持了一个固定的偏移
+######UI元素被锚定到父对象的中心，这个元素相对中心保持了一个固定的偏移
 
 ![](Main/UI_Anchored2.gif)
 ######UI element anchored to the lower right corner of the parent. The element maintains a fixed offset to the lower right corner.
